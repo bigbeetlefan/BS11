@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="catalog_ui_policy_action">
+    <catalog_ui_policy_action action="INSERT_OR_UPDATE">
+        <catalog_item display_value="BS11 Assessment">a84bcbd61b036c14533e0dc8ec4bcb52</catalog_item>
+        <catalog_variable>IO:0b75e3361b1b2418533e0dc8ec4bcb24</catalog_variable>
+        <cleared>false</cleared>
+        <disabled>ignore</disabled>
+        <field/>
+        <mandatory>true</mandatory>
+        <order>100</order>
+        <sys_class_name>catalog_ui_policy_action</sys_class_name>
+        <sys_created_by>Bing.Liu@kiwibank.co.nz</sys_created_by>
+        <sys_created_on>2021-04-07 22:39:09</sys_created_on>
+        <sys_id>3657efba1b1b2418533e0dc8ec4bcbc8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>daily_settlement_description</sys_name>
+        <sys_package display_value="BS11 Assessment" source="x_kiwib_bs11_asses">af07b2731bfae890533e0dc8ec4bcbb7</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="BS11 Assessment">af07b2731bfae890533e0dc8ec4bcbb7</sys_scope>
+        <sys_update_name>catalog_ui_policy_action_3657efba1b1b2418533e0dc8ec4bcbc8</sys_update_name>
+        <sys_updated_by>Bing.Liu@kiwibank.co.nz</sys_updated_by>
+        <sys_updated_on>2021-04-07 22:39:09</sys_updated_on>
+        <table/>
+        <ui_policy display_value="(KB) Daily settlement description">812723ba1b1b2418533e0dc8ec4bcbaa</ui_policy>
+        <variable>daily_settlement_description</variable>
+        <variable_set/>
+        <visible>true</visible>
+    </catalog_ui_policy_action>
+</record_update>

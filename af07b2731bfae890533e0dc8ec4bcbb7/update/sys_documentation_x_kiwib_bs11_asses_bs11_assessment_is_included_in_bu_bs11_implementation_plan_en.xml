@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="is_included_in_bu_bs11_implementation_plan" label="Is this contract still included in your BUs BS11 Implementation Plan?" language="en" table="x_kiwib_bs11_asses_bs11_assessment">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>is_included_in_bu_bs11_implementation_plan</element>
+            <help/>
+            <hint/>
+            <label>Is this contract still included in your BUs BS11 Implementation Plan?</label>
+            <language>en</language>
+            <name>x_kiwib_bs11_asses_bs11_assessment</name>
+            <plural>Is this contract still included in your BUs BS11 Implementation Plan?s</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>Bing.Liu@kiwibank.co.nz</sys_created_by>
+            <sys_created_on>2021-03-24 01:19:51</sys_created_on>
+            <sys_id>315cb64adb83641422483a83e2961931</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Is this contract still included in your BUs BS11 Implementation Plan?</sys_name>
+            <sys_package display_value="BS11 Assessment" source="x_kiwib_bs11_asses">af07b2731bfae890533e0dc8ec4bcbb7</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="BS11 Assessment">af07b2731bfae890533e0dc8ec4bcbb7</sys_scope>
+            <sys_update_name>sys_documentation_x_kiwib_bs11_asses_bs11_assessment_is_included_in_bu_bs11_implementation_plan_en</sys_update_name>
+            <sys_updated_by>Bing.Liu@kiwibank.co.nz</sys_updated_by>
+            <sys_updated_on>2021-03-24 01:19:51</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

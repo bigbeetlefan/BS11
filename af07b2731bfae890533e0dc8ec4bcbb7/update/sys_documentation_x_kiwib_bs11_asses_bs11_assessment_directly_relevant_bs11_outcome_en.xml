@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="directly_relevant_bs11_outcome" label="Directly relevant to a BS11 Outcome" language="en" table="x_kiwib_bs11_asses_bs11_assessment">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>directly_relevant_bs11_outcome</element>
+            <help/>
+            <hint/>
+            <label>Directly relevant to a BS11 Outcome</label>
+            <language>en</language>
+            <name>x_kiwib_bs11_asses_bs11_assessment</name>
+            <plural>Directly relevant to a BS11 Outcomes</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>Bing.Liu@kiwibank.co.nz</sys_created_by>
+            <sys_created_on>2021-03-19 01:10:16</sys_created_on>
+            <sys_id>303a4da8dbc3a0d022483a83e296196c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Directly relevant to a BS11 Outcome</sys_name>
+            <sys_package display_value="BS11 Assessment" source="x_kiwib_bs11_asses">af07b2731bfae890533e0dc8ec4bcbb7</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="BS11 Assessment">af07b2731bfae890533e0dc8ec4bcbb7</sys_scope>
+            <sys_update_name>sys_documentation_x_kiwib_bs11_asses_bs11_assessment_directly_relevant_bs11_outcome_en</sys_update_name>
+            <sys_updated_by>Bing.Liu@kiwibank.co.nz</sys_updated_by>
+            <sys_updated_on>2021-03-19 01:10:16</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

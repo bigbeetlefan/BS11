@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="basic_banking" label="Basic banking" language="en" table="x_kiwib_bs11_asses_bs11_assessment">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>basic_banking</element>
+            <help/>
+            <hint/>
+            <label>Basic banking</label>
+            <language>en</language>
+            <name>x_kiwib_bs11_asses_bs11_assessment</name>
+            <plural>Basic bankings</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>Bing.Liu@kiwibank.co.nz</sys_created_by>
+            <sys_created_on>2021-03-19 01:22:46</sys_created_on>
+            <sys_id>ff0d41a0db07a0d022483a83e296193e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Basic banking</sys_name>
+            <sys_package display_value="BS11 Assessment" source="x_kiwib_bs11_asses">af07b2731bfae890533e0dc8ec4bcbb7</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="BS11 Assessment">af07b2731bfae890533e0dc8ec4bcbb7</sys_scope>
+            <sys_update_name>sys_documentation_x_kiwib_bs11_asses_bs11_assessment_basic_banking_en</sys_update_name>
+            <sys_updated_by>Bing.Liu@kiwibank.co.nz</sys_updated_by>
+            <sys_updated_on>2021-03-19 01:22:46</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

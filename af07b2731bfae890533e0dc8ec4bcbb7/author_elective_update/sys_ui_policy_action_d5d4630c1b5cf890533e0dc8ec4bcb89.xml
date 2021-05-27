@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action">
+    <sys_ui_policy_action action="DELETE">
+        <cleared>true</cleared>
+        <disabled>ignore</disabled>
+        <field>white_list_reference_number</field>
+        <mandatory>ignore</mandatory>
+        <sys_class_name>sys_ui_policy_action</sys_class_name>
+        <sys_created_by>Bing.Liu@kiwibank.co.nz</sys_created_by>
+        <sys_created_on>2021-05-19 02:28:04</sys_created_on>
+        <sys_id>d5d4630c1b5cf890533e0dc8ec4bcb89</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>white_list_reference_number</sys_name>
+        <sys_package display_value="BS11 Assessment" source="x_kiwib_bs11_asses">af07b2731bfae890533e0dc8ec4bcbb7</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="BS11 Assessment">af07b2731bfae890533e0dc8ec4bcbb7</sys_scope>
+        <sys_update_name>sys_ui_policy_action_d5d4630c1b5cf890533e0dc8ec4bcb89</sys_update_name>
+        <sys_updated_by>Bing.Liu@kiwibank.co.nz</sys_updated_by>
+        <sys_updated_on>2021-05-19 02:28:04</sys_updated_on>
+        <table>x_kiwib_bs11_asses_bs11_assessment</table>
+        <ui_policy display_value="(KB) Function fall within exempt list">d584a3c81b5cf890533e0dc8ec4bcb72</ui_policy>
+        <visible>true</visible>
+    </sys_ui_policy_action>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="BS11 Assessment">af07b2731bfae890533e0dc8ec4bcbb7</application>
+        <file_path/>
+        <instance_id>5eff1e92db012f4c0e785d00cf961905</instance_id>
+        <instance_name>kiwibankdev</instance_name>
+        <name>sys_ui_policy_action_d5d4630c1b5cf890533e0dc8ec4bcb89</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action"><sys_ui_policy_action action="INSERT_OR_UPDATE"><cleared>true</cleared><disabled>ignore</disabled><field>white_list_reference_number</field><mandatory>ignore</mandatory><sys_class_name>sys_ui_policy_action</sys_class_name><sys_created_by>Bing.Liu@kiwibank.co.nz</sys_created_by><sys_created_on>2021-05-19 02:28:04</sys_created_on><sys_id>d5d4630c1b5cf890533e0dc8ec4bcb89</sys_id><sys_mod_count>0</sys_mod_count><sys_name>white_list_reference_number</sys_name><sys_package display_value="BS11 Assessment" source="x_kiwib_bs11_asses">af07b2731bfae890533e0dc8ec4bcbb7</sys_package><sys_policy/><sys_scope display_value="BS11 Assessment">af07b2731bfae890533e0dc8ec4bcbb7</sys_scope><sys_update_name>sys_ui_policy_action_d5d4630c1b5cf890533e0dc8ec4bcb89</sys_update_name><sys_updated_by>Bing.Liu@kiwibank.co.nz</sys_updated_by><sys_updated_on>2021-05-19 02:28:04</sys_updated_on><table>x_kiwib_bs11_asses_bs11_assessment</table><ui_policy display_value="(KB) Function fall within exempt list">d584a3c81b5cf890533e0dc8ec4bcb72</ui_policy><visible>true</visible></sys_ui_policy_action></record_update>]]></payload>
+        <payload_hash>-1845129229</payload_hash>
+        <record_name>white_list_reference_number</record_name>
+        <reverted_from/>
+        <source>2f07b2731bfae890533e0dc8ec4bcbba</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>Bing.Liu@kiwibank.co.nz</sys_created_by>
+        <sys_created_on>2021-05-19 02:28:04</sys_created_on>
+        <sys_id>8ff42b0c1b5cf890533e0dc8ec4bcb6e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>179827399390000001</sys_recorded_at>
+        <sys_updated_by>Bing.Liu@kiwibank.co.nz</sys_updated_by>
+        <sys_updated_on>2021-05-19 02:28:04</sys_updated_on>
+        <type>UI Policy Action</type>
+        <update_guid>87f4e3c4655cf89023835555505bd5b3</update_guid>
+        <update_guid_history>87f4e3c4655cf89023835555505bd5b3:-1845129229</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>Bing.Liu@kiwibank.co.nz</sys_created_by>
+        <sys_created_on>2021-05-24 21:08:40</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_policy_action">sys_ui_policy_action</sys_db_object>
+        <sys_id>6fdcb8e372b1442b8da010d59f1d1e21</sys_id>
+        <sys_metadata>d5d4630c1b5cf890533e0dc8ec4bcb89</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>white_list_reference_number</sys_name>
+        <sys_package display_value="BS11 Assessment" source="x_kiwib_bs11_asses">af07b2731bfae890533e0dc8ec4bcbb7</sys_package>
+        <sys_parent display_value="(KB) Function fall within exempt list">d584a3c81b5cf890533e0dc8ec4bcb72</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="BS11 Assessment">af07b2731bfae890533e0dc8ec4bcbb7</sys_scope>
+        <sys_scope_delete display_value="">0ee22e54a71348948a0c910e8eb2a990</sys_scope_delete>
+        <sys_update_name>sys_ui_policy_action_d5d4630c1b5cf890533e0dc8ec4bcb89</sys_update_name>
+        <sys_update_version display_value="sys_ui_policy_action_d5d4630c1b5cf890533e0dc8ec4bcb89">8ff42b0c1b5cf890533e0dc8ec4bcb6e</sys_update_version>
+        <sys_updated_by>Bing.Liu@kiwibank.co.nz</sys_updated_by>
+        <sys_updated_on>2021-05-24 21:08:40</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

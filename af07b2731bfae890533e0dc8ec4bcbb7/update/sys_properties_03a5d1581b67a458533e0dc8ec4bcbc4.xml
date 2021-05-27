@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_properties">
+    <sys_properties action="INSERT_OR_UPDATE">
+        <choices/>
+        <description>BS11 Assessment activity formatter fields</description>
+        <ignore_cache>false</ignore_cache>
+        <is_private>false</is_private>
+        <name>glide.ui.x_kiwib_bs11_asses_bs11_assessment_activity.fields</name>
+        <read_roles/>
+        <suffix>x_kiwib_bs11_asses</suffix>
+        <sys_class_name>sys_properties</sys_class_name>
+        <sys_created_by>Bing.Liu@kiwibank.co.nz</sys_created_by>
+        <sys_created_on>2021-04-12 03:53:19</sys_created_on>
+        <sys_id>03a5d1581b67a458533e0dc8ec4bcbc4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>glide.ui.x_kiwib_bs11_asses_bs11_assessment_activity.fields</sys_name>
+        <sys_package display_value="BS11 Assessment" source="x_kiwib_bs11_asses">af07b2731bfae890533e0dc8ec4bcbb7</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="BS11 Assessment">af07b2731bfae890533e0dc8ec4bcbb7</sys_scope>
+        <sys_update_name>sys_properties_03a5d1581b67a458533e0dc8ec4bcbc4</sys_update_name>
+        <sys_updated_by>Bing.Liu@kiwibank.co.nz</sys_updated_by>
+        <sys_updated_on>2021-04-12 03:53:19</sys_updated_on>
+        <type>string</type>
+        <value>assigned_to,cmdb_ci,state,impact,priority,opened_by,work_notes,comments,*Attachments*,able_close_wind_down,action_status,active,sn_hr_le_activity,activity_due,work_end,work_start,additional_assignee_list,supplier_address_for_service,application_service_description_function,application_service_name,apply_to_reserve_bank_for_exemption_addition,approval,approval_history,approval_set,involving_related_party_in_outsourcing,outcome,assignment_group,bs11_compliance_need,bs11_outside_within_scope,basic_banking,basic_banking_description,business_unit,business_contact,business_duration,business_owner,closed_at,closed_by,comments_and_work_notes,company,confirm_function_is_on_reapproved_list,contact_type,contract,contract_number,correlation_id,correlation_display,sys_created_on,sys_created_by,currency_of_contract,daily_settlement,daily_settlement_description,date_last_updated,delivery_plan,delivery_task,describe_termination_outsourcing_arrangement,describe_supplier_bcp_function,describe_relevant_outcome_met,describe_timeframes_for_supplier_bcp,describe_supplier_dr_timeframes_met,description,directly_relevant_bs11_outcome,contract_contains_standard_pcts,number_on_preapproval_list,sys_domain,sys_domain_path,due_date,calendar_duration,sn_esign_document,sn_esign_esignature_configuration,task_effective_number,escalation,expected_start,expiry_date,fma_licensed_activities_requirement,financial_positions,financial_positions_description,follow_up,formula_basis_of_estimate,function_service_falls_within_whitelist,dr_categorisation_of_function,legal_name_of_the_related_party,group_list,iso_22301_bcp_certificate,confirm_documented_external_legal_view_meet_requirements,confirm_documented_internal_legal_view,confirm_bcp_appropriate,confirm_dr_adequate_for_continuation_of_services,confirm_dr_approperiate_adequate,confirm_legal_view_meet_bs11_jurisdiction,manage_wind_down,is_risk_acceptance_required,is_arrangement_with_related_party,is_service_reliant,supplier_only_provide_bcp_dr,is_this_startup_supplier,is_included_in_bu_bs11_implementation_plan,kiwibuy_id,knowledge,relied_on_assessing_supplier_bcp,list_evidence_supplier_dr_capability,location,made_sla,my_arrangement_is_outside_scope,needs_attention,contract_type,number,op_risk_person,ongoing_expenses,opened_at,operational_risk_compliance_specialist,order,other_operational_description,other_operational_or_customer_impact,pcts_included,pcts_included_directly_from_supplier,parent,pcidss_provisions,reassignment_count,renewal_date,x_reml_dec_rules_resolution_sla_duration,close_notes,x_reml_dec_rules_response_sla_duration,route_reason,sla_due,business_service,service_offering,short_description,skills,stage,supplier,supplier_name,supplier_contract_details,supplier_legal_name,supplier_physical_address,systems_and_financial_data,systems_financial_data_description,sys_tags,sys_class_name,time_worked,total_contract_value,universal_request,sys_updated_on,sys_updated_by,sys_mod_count,upfront_cost,upfront_costs,upon_approval,upon_reject,urgency,user_input,watch_list,country_of_law_governs_pcts,white_list_related_function_reference,white_list_reference_number,whose_business_continuity_arrangements,work_notes_list,*Email*,*Relations*</value>
+        <write_roles/>
+    </sys_properties>
+    <sys_translated_text action="delete_multiple" query="documentkey=03a5d1581b67a458533e0dc8ec4bcbc4"/>
+</record_update>

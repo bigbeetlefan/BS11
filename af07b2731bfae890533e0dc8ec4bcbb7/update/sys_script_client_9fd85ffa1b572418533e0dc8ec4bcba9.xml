@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field>date_last_updated</field>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>(BL) Expiry date validation</name>
+        <order/>
+        <script><![CDATA[function onSubmit() {
+	//Type appropriate comment here, and begin script below
+
+	//Only run when it's exception condition
+	if(g_form.getValue('outcome') == 2 ){
+		var start = g_form.getValue('expiry_date');
+		var today = new Date().getTime();
+		var selectedDateNum = getDateFromFormat(start, g_user_date_format);	
+
+		if (selectedDateNum <= today){
+			g_form.addErrorMessage("Expiry date cannot be in past.");
+			g_form.showFieldMsg('expiry_date','Expiry date cannot be in past.','error');
+			g_form.setMandatory('expiry_date', true);
+			return false;
+		}
+	}
+
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>Bing.Liu@kiwibank.co.nz</sys_created_by>
+        <sys_created_on>2021-04-07 21:35:36</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>9fd85ffa1b572418533e0dc8ec4bcba9</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>(BL) Expiry date validation</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="BS11 Assessment" source="x_kiwib_bs11_asses">af07b2731bfae890533e0dc8ec4bcbb7</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="BS11 Assessment">af07b2731bfae890533e0dc8ec4bcbb7</sys_scope>
+        <sys_update_name>sys_script_client_9fd85ffa1b572418533e0dc8ec4bcba9</sys_update_name>
+        <sys_updated_by>Bing.Liu@kiwibank.co.nz</sys_updated_by>
+        <sys_updated_on>2021-04-12 20:41:44</sys_updated_on>
+        <table>x_kiwib_bs11_asses_bs11_assessment</table>
+        <type>onSubmit</type>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>

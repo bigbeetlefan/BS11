@@ -1,0 +1,1309 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="Form 2" section_id="40cc9282db4f241422483a83e2961909" sys_domain="global" table="x_kiwib_bs11_asses_bs11_assessment" version="3" view="">
+        <sys_ui_annotation action="INSERT_OR_UPDATE">
+            <is_plain_text>false</is_plain_text>
+            <sys_created_by>Bing.Liu@kiwibank.co.nz</sys_created_by>
+            <sys_created_on>2021-05-24 21:09:57</sys_created_on>
+            <sys_id>adb55d8adbd0341422483a83e2961950</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>Bing.Liu@kiwibank.co.nz</sys_updated_by>
+            <sys_updated_on>2021-05-24 21:09:57</sys_updated_on>
+            <text>Supplier Details</text>
+            <type display_value="Section header with top line">ce125bb4db63205822483a83e296193f</type>
+        </sys_ui_annotation>
+        <sys_ui_annotation action="INSERT_OR_UPDATE">
+            <is_plain_text>false</is_plain_text>
+            <sys_created_by>Bing.Liu@kiwibank.co.nz</sys_created_by>
+            <sys_created_on>2021-05-24 21:09:57</sys_created_on>
+            <sys_id>61b55d8adbd0341422483a83e2961951</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>Bing.Liu@kiwibank.co.nz</sys_updated_by>
+            <sys_updated_on>2021-05-24 21:09:57</sys_updated_on>
+            <text>Financial Details</text>
+            <type display_value="Section header with top line">ce125bb4db63205822483a83e296193f</type>
+        </sys_ui_annotation>
+        <sys_ui_annotation action="INSERT_OR_UPDATE">
+            <is_plain_text>false</is_plain_text>
+            <sys_created_by>Bing.Liu@kiwibank.co.nz</sys_created_by>
+            <sys_created_on>2021-05-24 21:09:57</sys_created_on>
+            <sys_id>25b55d8adbd0341422483a83e2961951</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>Bing.Liu@kiwibank.co.nz</sys_updated_by>
+            <sys_updated_on>2021-05-24 21:09:57</sys_updated_on>
+            <text>Please enter cost to 'buy in'. Excludes annual costs paid up front.</text>
+            <type display_value="Section sub header with top line">0a27a344dbc3ac9022483a83e2961985</type>
+        </sys_ui_annotation>
+        <sys_ui_annotation action="INSERT_OR_UPDATE">
+            <is_plain_text>false</is_plain_text>
+            <sys_created_by>Bing.Liu@kiwibank.co.nz</sys_created_by>
+            <sys_created_on>2021-05-24 21:09:57</sys_created_on>
+            <sys_id>e5b55d8adbd0341422483a83e2961951</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>Bing.Liu@kiwibank.co.nz</sys_updated_by>
+            <sys_updated_on>2021-05-24 21:09:57</sys_updated_on>
+            <text>For contracts that do not state a specific amount for ongoing costs, please summarise the formula or basis of estimate</text>
+            <type display_value="Section sub header with top line">0a27a344dbc3ac9022483a83e2961985</type>
+        </sys_ui_annotation>
+        <sys_ui_annotation action="INSERT_OR_UPDATE">
+            <is_plain_text>false</is_plain_text>
+            <sys_created_by>Bing.Liu@kiwibank.co.nz</sys_created_by>
+            <sys_created_on>2021-05-24 21:09:57</sys_created_on>
+            <sys_id>a9b55d8adbd0341422483a83e2961951</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>Bing.Liu@kiwibank.co.nz</sys_updated_by>
+            <sys_updated_on>2021-05-24 21:09:57</sys_updated_on>
+            <text>Please enter cost per annum. This can be an estimate.</text>
+            <type display_value="Section sub header with top line">0a27a344dbc3ac9022483a83e2961985</type>
+        </sys_ui_annotation>
+        <sys_ui_annotation action="INSERT_OR_UPDATE">
+            <is_plain_text>false</is_plain_text>
+            <sys_created_by>Bing.Liu@kiwibank.co.nz</sys_created_by>
+            <sys_created_on>2021-05-24 21:09:57</sys_created_on>
+            <sys_id>6db55d8adbd0341422483a83e2961951</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>Bing.Liu@kiwibank.co.nz</sys_updated_by>
+            <sys_updated_on>2021-05-24 21:09:57</sys_updated_on>
+            <text>Please enter the date the above costs are valid as at.</text>
+            <type display_value="Section sub header with top line">0a27a344dbc3ac9022483a83e2961985</type>
+        </sys_ui_annotation>
+        <sys_ui_annotation action="INSERT_OR_UPDATE">
+            <is_plain_text>false</is_plain_text>
+            <sys_created_by>Bing.Liu@kiwibank.co.nz</sys_created_by>
+            <sys_created_on>2021-05-24 21:09:57</sys_created_on>
+            <sys_id>21b55d8adbd0341422483a83e2961952</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>Bing.Liu@kiwibank.co.nz</sys_updated_by>
+            <sys_updated_on>2021-05-24 21:09:57</sys_updated_on>
+            <text>If contract is perpetual, please enter dummy expiry date 31/12/2099</text>
+            <type display_value="Section sub header with top line">0a27a344dbc3ac9022483a83e2961985</type>
+        </sys_ui_annotation>
+        <sys_ui_annotation action="INSERT_OR_UPDATE">
+            <is_plain_text>false</is_plain_text>
+            <sys_created_by>Bing.Liu@kiwibank.co.nz</sys_created_by>
+            <sys_created_on>2021-05-24 21:09:57</sys_created_on>
+            <sys_id>e1b55d8adbd0341422483a83e2961952</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>Bing.Liu@kiwibank.co.nz</sys_updated_by>
+            <sys_updated_on>2021-05-24 21:09:57</sys_updated_on>
+            <text>Impact of Disruption on Outcomes</text>
+            <type display_value="Section header with top line">ce125bb4db63205822483a83e296193f</type>
+        </sys_ui_annotation>
+        <sys_ui_annotation action="INSERT_OR_UPDATE">
+            <is_plain_text>false</is_plain_text>
+            <sys_created_by>Bing.Liu@kiwibank.co.nz</sys_created_by>
+            <sys_created_on>2021-05-24 21:09:57</sys_created_on>
+            <sys_id>a5b55d8adbd0341422483a83e2961952</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>Bing.Liu@kiwibank.co.nz</sys_updated_by>
+            <sys_updated_on>2021-05-24 21:09:57</sys_updated_on>
+            <text>Business Continuity Planning (BCP)</text>
+            <type display_value="Section Separator">443e806c0fd30000b12e6903cfe01281</type>
+        </sys_ui_annotation>
+        <sys_ui_annotation action="INSERT_OR_UPDATE">
+            <is_plain_text>false</is_plain_text>
+            <sys_created_by>Bing.Liu@kiwibank.co.nz</sys_created_by>
+            <sys_created_on>2021-05-24 21:09:57</sys_created_on>
+            <sys_id>69b55d8adbd0341422483a83e2961952</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>Bing.Liu@kiwibank.co.nz</sys_updated_by>
+            <sys_updated_on>2021-05-24 21:09:57</sys_updated_on>
+            <text>This is expected to include evidence of the timeframes to be achieved and testing of the BCP. Be specific – eg document name, date and relevant pages.</text>
+            <type display_value="Section sub header with top line">0a27a344dbc3ac9022483a83e2961985</type>
+        </sys_ui_annotation>
+        <sys_ui_annotation action="INSERT_OR_UPDATE">
+            <is_plain_text>false</is_plain_text>
+            <sys_created_by>Bing.Liu@kiwibank.co.nz</sys_created_by>
+            <sys_created_on>2021-05-24 21:09:57</sys_created_on>
+            <sys_id>2db55d8adbd0341422483a83e2961952</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>Bing.Liu@kiwibank.co.nz</sys_updated_by>
+            <sys_updated_on>2021-05-24 21:09:57</sys_updated_on>
+            <text>Provide references to evidence. Ensure it covers all aspects of the service.
+
+If the supplier refuses to provide evidence of their BCP/DR, we will need to consider whether we will engage the supplier.  We will need to apply to the Reserve Bank to use the supplier (Bronze standard application) and will need an ExCo member to approve.  Contact your Operational Risk and Compliance Specialist.</text>
+            <type display_value="Section sub header with top line">0a27a344dbc3ac9022483a83e2961985</type>
+        </sys_ui_annotation>
+        <sys_ui_annotation action="INSERT_OR_UPDATE">
+            <is_plain_text>false</is_plain_text>
+            <sys_created_by>Bing.Liu@kiwibank.co.nz</sys_created_by>
+            <sys_created_on>2021-05-24 21:09:57</sys_created_on>
+            <sys_id>edb55d8adbd0341422483a83e2961952</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>Bing.Liu@kiwibank.co.nz</sys_updated_by>
+            <sys_updated_on>2021-05-24 21:09:57</sys_updated_on>
+            <text>Be specific, include Recovery Time Objective (RTO) and compare to Kiwibank’s expected RTO</text>
+            <type display_value="Section sub header with top line">0a27a344dbc3ac9022483a83e2961985</type>
+        </sys_ui_annotation>
+        <sys_ui_annotation action="INSERT_OR_UPDATE">
+            <is_plain_text>false</is_plain_text>
+            <sys_created_by>Bing.Liu@kiwibank.co.nz</sys_created_by>
+            <sys_created_on>2021-05-24 21:09:57</sys_created_on>
+            <sys_id>a1b55d8adbd0341422483a83e2961953</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>Bing.Liu@kiwibank.co.nz</sys_updated_by>
+            <sys_updated_on>2021-05-24 21:09:57</sys_updated_on>
+            <text>Disaster Recovery (DR)</text>
+            <type display_value="Section header with top line">ce125bb4db63205822483a83e296193f</type>
+        </sys_ui_annotation>
+        <sys_ui_annotation action="INSERT_OR_UPDATE">
+            <is_plain_text>false</is_plain_text>
+            <sys_created_by>Bing.Liu@kiwibank.co.nz</sys_created_by>
+            <sys_created_on>2021-05-24 21:09:57</sys_created_on>
+            <sys_id>65b55d8adbd0341422483a83e2961953</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>Bing.Liu@kiwibank.co.nz</sys_updated_by>
+            <sys_updated_on>2021-05-24 21:09:57</sys_updated_on>
+            <text>If you are unsure refer to the IT Service Catalogue [link] for a classification (Platinum/Gold/Silver/Bronze/Plastic) and state the related RPO and RTO.  If there is no categorisation, please state N/A</text>
+            <type display_value="Section sub header with top line">0a27a344dbc3ac9022483a83e2961985</type>
+        </sys_ui_annotation>
+        <sys_ui_annotation action="INSERT_OR_UPDATE">
+            <is_plain_text>false</is_plain_text>
+            <sys_created_by>Bing.Liu@kiwibank.co.nz</sys_created_by>
+            <sys_created_on>2021-05-24 21:09:57</sys_created_on>
+            <sys_id>29b55d8adbd0341422483a83e2961953</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>Bing.Liu@kiwibank.co.nz</sys_updated_by>
+            <sys_updated_on>2021-05-24 21:09:57</sys_updated_on>
+            <text>This is expected to include evidence of the timeframes to be achieved and testing of the DR. Be specific – eg document name, date and relevant pages</text>
+            <type display_value="Section sub header with top line">0a27a344dbc3ac9022483a83e2961985</type>
+        </sys_ui_annotation>
+        <sys_ui_annotation action="INSERT_OR_UPDATE">
+            <is_plain_text>false</is_plain_text>
+            <sys_created_by>Bing.Liu@kiwibank.co.nz</sys_created_by>
+            <sys_created_on>2021-05-24 21:09:57</sys_created_on>
+            <sys_id>e9b55d8adbd0341422483a83e2961953</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>Bing.Liu@kiwibank.co.nz</sys_updated_by>
+            <sys_updated_on>2021-05-24 21:09:57</sys_updated_on>
+            <text>If the supplier refuses to provide evidence of their BCP/DR, we will need to consider whether we will engage the supplier.  We will need to apply to the Reserve Bank to use the supplier (Bronze standard application) and will need an ExCo member to approve.  Contact your Operational Risk and Compliance Specialist.</text>
+            <type display_value="Section sub header with top line">0a27a344dbc3ac9022483a83e2961985</type>
+        </sys_ui_annotation>
+        <sys_ui_annotation action="INSERT_OR_UPDATE">
+            <is_plain_text>false</is_plain_text>
+            <sys_created_by>Bing.Liu@kiwibank.co.nz</sys_created_by>
+            <sys_created_on>2021-05-24 21:09:57</sys_created_on>
+            <sys_id>adb55d8adbd0341422483a83e2961953</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>Bing.Liu@kiwibank.co.nz</sys_updated_by>
+            <sys_updated_on>2021-05-24 21:09:57</sys_updated_on>
+            <text>Be specific, include Recovery Point Objective (RPO) and Recovery Time Objective (RTO) and compare to Kiwibank’s expected RPO and RTO</text>
+            <type display_value="Section sub header with top line">0a27a344dbc3ac9022483a83e2961985</type>
+        </sys_ui_annotation>
+        <sys_ui_annotation action="INSERT_OR_UPDATE">
+            <is_plain_text>false</is_plain_text>
+            <sys_created_by>Bing.Liu@kiwibank.co.nz</sys_created_by>
+            <sys_created_on>2021-05-24 21:09:57</sys_created_on>
+            <sys_id>61b55d8adbd0341422483a83e2961954</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>Bing.Liu@kiwibank.co.nz</sys_updated_by>
+            <sys_updated_on>2021-05-24 21:09:57</sys_updated_on>
+            <text>Gaps in the BCP/DR Arrangements</text>
+            <type display_value="Section header with top line">ce125bb4db63205822483a83e296193f</type>
+        </sys_ui_annotation>
+        <sys_ui_annotation action="INSERT_OR_UPDATE">
+            <is_plain_text>false</is_plain_text>
+            <sys_created_by>Bing.Liu@kiwibank.co.nz</sys_created_by>
+            <sys_created_on>2021-05-24 21:09:57</sys_created_on>
+            <sys_id>25b55d8adbd0341422483a83e2961954</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>Bing.Liu@kiwibank.co.nz</sys_updated_by>
+            <sys_updated_on>2021-05-24 21:09:57</sys_updated_on>
+            <text>Complete this section if there are gaps in the supplier's BCP/DR arrangements</text>
+            <type display_value="Section header ">d85b6b80db07ac9022483a83e29619eb</type>
+        </sys_ui_annotation>
+        <sys_ui_annotation action="INSERT_OR_UPDATE">
+            <is_plain_text>false</is_plain_text>
+            <sys_created_by>Bing.Liu@kiwibank.co.nz</sys_created_by>
+            <sys_created_on>2021-05-24 21:09:57</sys_created_on>
+            <sys_id>e5b55d8adbd0341422483a83e2961954</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>Bing.Liu@kiwibank.co.nz</sys_updated_by>
+            <sys_updated_on>2021-05-24 21:09:57</sys_updated_on>
+            <text>If it is not feasible for the BCP/DR to be in place and tested before the contract is signed, satisfactory BCP/DR evidence may be put in place after signing but before the service is implemented. You will need to monitor accordingly.</text>
+            <type display_value="Section sub header with top line">0a27a344dbc3ac9022483a83e2961985</type>
+        </sys_ui_annotation>
+        <sys_ui_annotation action="INSERT_OR_UPDATE">
+            <is_plain_text>false</is_plain_text>
+            <sys_created_by>Bing.Liu@kiwibank.co.nz</sys_created_by>
+            <sys_created_on>2021-05-24 21:09:57</sys_created_on>
+            <sys_id>a9b55d8adbd0341422483a83e2961954</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>Bing.Liu@kiwibank.co.nz</sys_updated_by>
+            <sys_updated_on>2021-05-24 21:09:57</sys_updated_on>
+            <text>Prescribed Contractual Terms (PCTS)</text>
+            <type display_value="Section header with top line">ce125bb4db63205822483a83e296193f</type>
+        </sys_ui_annotation>
+        <sys_ui_annotation action="INSERT_OR_UPDATE">
+            <is_plain_text>false</is_plain_text>
+            <sys_created_by>Bing.Liu@kiwibank.co.nz</sys_created_by>
+            <sys_created_on>2021-05-24 21:09:57</sys_created_on>
+            <sys_id>6db55d8adbd0341422483a83e2961954</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>Bing.Liu@kiwibank.co.nz</sys_updated_by>
+            <sys_updated_on>2021-05-24 21:09:57</sys_updated_on>
+            <text>Give section refs in the Master Services Agreement (MSA) or in this Agreement (eg Stand-Alone Agreement (SAA), Service Delivery Agreement (SDA) or Statement of Work (SoW).</text>
+            <type display_value="Section header ">d85b6b80db07ac9022483a83e29619eb</type>
+        </sys_ui_annotation>
+        <sys_ui_annotation action="INSERT_OR_UPDATE">
+            <is_plain_text>false</is_plain_text>
+            <sys_created_by>Bing.Liu@kiwibank.co.nz</sys_created_by>
+            <sys_created_on>2021-05-24 21:09:57</sys_created_on>
+            <sys_id>21b55d8adbd0341422483a83e2961955</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>Bing.Liu@kiwibank.co.nz</sys_updated_by>
+            <sys_updated_on>2021-05-24 21:09:57</sys_updated_on>
+            <text>Please provide applicable section reference in the MSA, SAA SDA or SoW</text>
+            <type display_value="Section sub header with top line">0a27a344dbc3ac9022483a83e2961985</type>
+        </sys_ui_annotation>
+        <sys_ui_annotation action="INSERT_OR_UPDATE">
+            <is_plain_text>false</is_plain_text>
+            <sys_created_by>Bing.Liu@kiwibank.co.nz</sys_created_by>
+            <sys_created_on>2021-05-24 21:09:57</sys_created_on>
+            <sys_id>e1b55d8adbd0341422483a83e2961955</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>Bing.Liu@kiwibank.co.nz</sys_updated_by>
+            <sys_updated_on>2021-05-24 21:09:57</sys_updated_on>
+            <text>For contracts not governed by NZ law, you must have an external legal opinion from a lawyer in that jurisdiction that the PCTs achieve the requirements of BS11.
+Consult the Legal team to obtain. They will know whether an opinion already exists or a suitable firm has already been identified.</text>
+            <type display_value="Section sub header with top line">0a27a344dbc3ac9022483a83e2961985</type>
+        </sys_ui_annotation>
+        <sys_ui_annotation action="INSERT_OR_UPDATE">
+            <is_plain_text>false</is_plain_text>
+            <sys_created_by>Bing.Liu@kiwibank.co.nz</sys_created_by>
+            <sys_created_on>2021-05-24 21:09:57</sys_created_on>
+            <sys_id>a5b55d8adbd0341422483a83e2961955</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>Bing.Liu@kiwibank.co.nz</sys_updated_by>
+            <sys_updated_on>2021-05-24 21:09:57</sys_updated_on>
+            <text>Related Parties</text>
+            <type display_value="Section header with top line">ce125bb4db63205822483a83e296193f</type>
+        </sys_ui_annotation>
+        <sys_ui_annotation action="INSERT_OR_UPDATE">
+            <is_plain_text>false</is_plain_text>
+            <sys_created_by>Bing.Liu@kiwibank.co.nz</sys_created_by>
+            <sys_created_on>2021-05-24 21:09:57</sys_created_on>
+            <sys_id>69b55d8adbd0341422483a83e2961955</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>Bing.Liu@kiwibank.co.nz</sys_updated_by>
+            <sys_updated_on>2021-05-24 21:09:57</sys_updated_on>
+            <text>Please enter date non-objection received OR pre-approval list number</text>
+            <type display_value="Section sub header with top line">0a27a344dbc3ac9022483a83e2961985</type>
+        </sys_ui_annotation>
+        <sys_ui_annotation action="INSERT_OR_UPDATE">
+            <is_plain_text>false</is_plain_text>
+            <sys_created_by>Bing.Liu@kiwibank.co.nz</sys_created_by>
+            <sys_created_on>2021-05-24 21:09:57</sys_created_on>
+            <sys_id>2db55d8adbd0341422483a83e2961955</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>Bing.Liu@kiwibank.co.nz</sys_updated_by>
+            <sys_updated_on>2021-05-24 21:09:57</sys_updated_on>
+            <text>Confirmation and Stakeholders</text>
+            <type display_value="Section header with top line">ce125bb4db63205822483a83e296193f</type>
+        </sys_ui_annotation>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>adb55d8adbd0341422483a83e2961950</element>
+            <position>0</position>
+            <sys_created_by>Bing.Liu@kiwibank.co.nz</sys_created_by>
+            <sys_created_on>2021-05-24 21:09:57</sys_created_on>
+            <sys_id>31b55d8adbd0341422483a83e29619f5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Form 2" display_value="Form 2" name="x_kiwib_bs11_asses_bs11_assessment" sys_domain="global" view="Default view">40cc9282db4f241422483a83e2961909</sys_ui_section>
+            <sys_updated_by>Bing.Liu@kiwibank.co.nz</sys_updated_by>
+            <sys_updated_on>2021-05-24 21:09:57</sys_updated_on>
+            <sys_user/>
+            <type>annotation</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>supplier</element>
+            <position>1</position>
+            <sys_created_by>Bing.Liu@kiwibank.co.nz</sys_created_by>
+            <sys_created_on>2021-05-24 21:09:57</sys_created_on>
+            <sys_id>b5b55d8adbd0341422483a83e29619f5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Form 2" display_value="Form 2" name="x_kiwib_bs11_asses_bs11_assessment" sys_domain="global" view="Default view">40cc9282db4f241422483a83e2961909</sys_ui_section>
+            <sys_updated_by>Bing.Liu@kiwibank.co.nz</sys_updated_by>
+            <sys_updated_on>2021-05-24 21:09:57</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>supplier_legal_name</element>
+            <position>2</position>
+            <sys_created_by>Bing.Liu@kiwibank.co.nz</sys_created_by>
+            <sys_created_on>2021-05-24 21:09:57</sys_created_on>
+            <sys_id>3db55d8adbd0341422483a83e29619f5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Form 2" display_value="Form 2" name="x_kiwib_bs11_asses_bs11_assessment" sys_domain="global" view="Default view">40cc9282db4f241422483a83e2961909</sys_ui_section>
+            <sys_updated_by>Bing.Liu@kiwibank.co.nz</sys_updated_by>
+            <sys_updated_on>2021-05-24 21:09:57</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>supplier_contract_details</element>
+            <position>3</position>
+            <sys_created_by>Bing.Liu@kiwibank.co.nz</sys_created_by>
+            <sys_created_on>2021-05-24 21:09:57</sys_created_on>
+            <sys_id>b1b55d8adbd0341422483a83e29619f6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Form 2" display_value="Form 2" name="x_kiwib_bs11_asses_bs11_assessment" sys_domain="global" view="Default view">40cc9282db4f241422483a83e2961909</sys_ui_section>
+            <sys_updated_by>Bing.Liu@kiwibank.co.nz</sys_updated_by>
+            <sys_updated_on>2021-05-24 21:09:57</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>supplier_physical_address</element>
+            <position>4</position>
+            <sys_created_by>Bing.Liu@kiwibank.co.nz</sys_created_by>
+            <sys_created_on>2021-05-24 21:09:57</sys_created_on>
+            <sys_id>39b55d8adbd0341422483a83e29619f6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Form 2" display_value="Form 2" name="x_kiwib_bs11_asses_bs11_assessment" sys_domain="global" view="Default view">40cc9282db4f241422483a83e2961909</sys_ui_section>
+            <sys_updated_by>Bing.Liu@kiwibank.co.nz</sys_updated_by>
+            <sys_updated_on>2021-05-24 21:09:57</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>supplier_address_for_service</element>
+            <position>5</position>
+            <sys_created_by>Bing.Liu@kiwibank.co.nz</sys_created_by>
+            <sys_created_on>2021-05-24 21:09:57</sys_created_on>
+            <sys_id>bdb55d8adbd0341422483a83e29619f6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Form 2" display_value="Form 2" name="x_kiwib_bs11_asses_bs11_assessment" sys_domain="global" view="Default view">40cc9282db4f241422483a83e2961909</sys_ui_section>
+            <sys_updated_by>Bing.Liu@kiwibank.co.nz</sys_updated_by>
+            <sys_updated_on>2021-05-24 21:09:57</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>61b55d8adbd0341422483a83e2961951</element>
+            <position>6</position>
+            <sys_created_by>Bing.Liu@kiwibank.co.nz</sys_created_by>
+            <sys_created_on>2021-05-24 21:09:57</sys_created_on>
+            <sys_id>35b55d8adbd0341422483a83e29619f7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Form 2" display_value="Form 2" name="x_kiwib_bs11_asses_bs11_assessment" sys_domain="global" view="Default view">40cc9282db4f241422483a83e2961909</sys_ui_section>
+            <sys_updated_by>Bing.Liu@kiwibank.co.nz</sys_updated_by>
+            <sys_updated_on>2021-05-24 21:09:57</sys_updated_on>
+            <sys_user/>
+            <type>annotation</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>total_contract_value</element>
+            <position>7</position>
+            <sys_created_by>Bing.Liu@kiwibank.co.nz</sys_created_by>
+            <sys_created_on>2021-05-24 21:09:57</sys_created_on>
+            <sys_id>b9b55d8adbd0341422483a83e29619f7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Form 2" display_value="Form 2" name="x_kiwib_bs11_asses_bs11_assessment" sys_domain="global" view="Default view">40cc9282db4f241422483a83e2961909</sys_ui_section>
+            <sys_updated_by>Bing.Liu@kiwibank.co.nz</sys_updated_by>
+            <sys_updated_on>2021-05-24 21:09:57</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>25b55d8adbd0341422483a83e2961951</element>
+            <position>8</position>
+            <sys_created_by>Bing.Liu@kiwibank.co.nz</sys_created_by>
+            <sys_created_on>2021-05-24 21:09:57</sys_created_on>
+            <sys_id>31b55d8adbd0341422483a83e29619f8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Form 2" display_value="Form 2" name="x_kiwib_bs11_asses_bs11_assessment" sys_domain="global" view="Default view">40cc9282db4f241422483a83e2961909</sys_ui_section>
+            <sys_updated_by>Bing.Liu@kiwibank.co.nz</sys_updated_by>
+            <sys_updated_on>2021-05-24 21:09:57</sys_updated_on>
+            <sys_user/>
+            <type>annotation</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>upfront_costs</element>
+            <position>9</position>
+            <sys_created_by>Bing.Liu@kiwibank.co.nz</sys_created_by>
+            <sys_created_on>2021-05-24 21:09:57</sys_created_on>
+            <sys_id>b5b55d8adbd0341422483a83e29619f8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Form 2" display_value="Form 2" name="x_kiwib_bs11_asses_bs11_assessment" sys_domain="global" view="Default view">40cc9282db4f241422483a83e2961909</sys_ui_section>
+            <sys_updated_by>Bing.Liu@kiwibank.co.nz</sys_updated_by>
+            <sys_updated_on>2021-05-24 21:09:57</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>e5b55d8adbd0341422483a83e2961951</element>
+            <position>10</position>
+            <sys_created_by>Bing.Liu@kiwibank.co.nz</sys_created_by>
+            <sys_created_on>2021-05-24 21:09:57</sys_created_on>
+            <sys_id>3db55d8adbd0341422483a83e29619f8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Form 2" display_value="Form 2" name="x_kiwib_bs11_asses_bs11_assessment" sys_domain="global" view="Default view">40cc9282db4f241422483a83e2961909</sys_ui_section>
+            <sys_updated_by>Bing.Liu@kiwibank.co.nz</sys_updated_by>
+            <sys_updated_on>2021-05-24 21:09:57</sys_updated_on>
+            <sys_user/>
+            <type>annotation</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>formula_basis_of_estimate</element>
+            <position>11</position>
+            <sys_created_by>Bing.Liu@kiwibank.co.nz</sys_created_by>
+            <sys_created_on>2021-05-24 21:09:57</sys_created_on>
+            <sys_id>b1b55d8adbd0341422483a83e29619f9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Form 2" display_value="Form 2" name="x_kiwib_bs11_asses_bs11_assessment" sys_domain="global" view="Default view">40cc9282db4f241422483a83e2961909</sys_ui_section>
+            <sys_updated_by>Bing.Liu@kiwibank.co.nz</sys_updated_by>
+            <sys_updated_on>2021-05-24 21:09:57</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>a9b55d8adbd0341422483a83e2961951</element>
+            <position>12</position>
+            <sys_created_by>Bing.Liu@kiwibank.co.nz</sys_created_by>
+            <sys_created_on>2021-05-24 21:09:57</sys_created_on>
+            <sys_id>39b55d8adbd0341422483a83e29619f9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Form 2" display_value="Form 2" name="x_kiwib_bs11_asses_bs11_assessment" sys_domain="global" view="Default view">40cc9282db4f241422483a83e2961909</sys_ui_section>
+            <sys_updated_by>Bing.Liu@kiwibank.co.nz</sys_updated_by>
+            <sys_updated_on>2021-05-24 21:09:57</sys_updated_on>
+            <sys_user/>
+            <type>annotation</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>ongoing_expenses</element>
+            <position>13</position>
+            <sys_created_by>Bing.Liu@kiwibank.co.nz</sys_created_by>
+            <sys_created_on>2021-05-24 21:09:57</sys_created_on>
+            <sys_id>bdb55d8adbd0341422483a83e29619f9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Form 2" display_value="Form 2" name="x_kiwib_bs11_asses_bs11_assessment" sys_domain="global" view="Default view">40cc9282db4f241422483a83e2961909</sys_ui_section>
+            <sys_updated_by>Bing.Liu@kiwibank.co.nz</sys_updated_by>
+            <sys_updated_on>2021-05-24 21:09:57</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>6db55d8adbd0341422483a83e2961951</element>
+            <position>14</position>
+            <sys_created_by>Bing.Liu@kiwibank.co.nz</sys_created_by>
+            <sys_created_on>2021-05-24 21:09:57</sys_created_on>
+            <sys_id>35b55d8adbd0341422483a83e29619fa</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Form 2" display_value="Form 2" name="x_kiwib_bs11_asses_bs11_assessment" sys_domain="global" view="Default view">40cc9282db4f241422483a83e2961909</sys_ui_section>
+            <sys_updated_by>Bing.Liu@kiwibank.co.nz</sys_updated_by>
+            <sys_updated_on>2021-05-24 21:09:57</sys_updated_on>
+            <sys_user/>
+            <type>annotation</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>date_last_updated</element>
+            <position>15</position>
+            <sys_created_by>Bing.Liu@kiwibank.co.nz</sys_created_by>
+            <sys_created_on>2021-05-24 21:09:57</sys_created_on>
+            <sys_id>b9b55d8adbd0341422483a83e29619fa</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Form 2" display_value="Form 2" name="x_kiwib_bs11_asses_bs11_assessment" sys_domain="global" view="Default view">40cc9282db4f241422483a83e2961909</sys_ui_section>
+            <sys_updated_by>Bing.Liu@kiwibank.co.nz</sys_updated_by>
+            <sys_updated_on>2021-05-24 21:09:57</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>21b55d8adbd0341422483a83e2961952</element>
+            <position>16</position>
+            <sys_created_by>Bing.Liu@kiwibank.co.nz</sys_created_by>
+            <sys_created_on>2021-05-24 21:09:57</sys_created_on>
+            <sys_id>31b55d8adbd0341422483a83e29619fb</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Form 2" display_value="Form 2" name="x_kiwib_bs11_asses_bs11_assessment" sys_domain="global" view="Default view">40cc9282db4f241422483a83e2961909</sys_ui_section>
+            <sys_updated_by>Bing.Liu@kiwibank.co.nz</sys_updated_by>
+            <sys_updated_on>2021-05-24 21:09:57</sys_updated_on>
+            <sys_user/>
+            <type>annotation</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>expiry_date</element>
+            <position>17</position>
+            <sys_created_by>Bing.Liu@kiwibank.co.nz</sys_created_by>
+            <sys_created_on>2021-05-24 21:09:57</sys_created_on>
+            <sys_id>b5b55d8adbd0341422483a83e29619fb</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Form 2" display_value="Form 2" name="x_kiwib_bs11_asses_bs11_assessment" sys_domain="global" view="Default view">40cc9282db4f241422483a83e2961909</sys_ui_section>
+            <sys_updated_by>Bing.Liu@kiwibank.co.nz</sys_updated_by>
+            <sys_updated_on>2021-05-24 21:09:57</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>renewal_date</element>
+            <position>18</position>
+            <sys_created_by>Bing.Liu@kiwibank.co.nz</sys_created_by>
+            <sys_created_on>2021-05-24 21:09:57</sys_created_on>
+            <sys_id>3db55d8adbd0341422483a83e29619fb</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Form 2" display_value="Form 2" name="x_kiwib_bs11_asses_bs11_assessment" sys_domain="global" view="Default view">40cc9282db4f241422483a83e2961909</sys_ui_section>
+            <sys_updated_by>Bing.Liu@kiwibank.co.nz</sys_updated_by>
+            <sys_updated_on>2021-05-24 21:09:57</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>e1b55d8adbd0341422483a83e2961952</element>
+            <position>19</position>
+            <sys_created_by>Bing.Liu@kiwibank.co.nz</sys_created_by>
+            <sys_created_on>2021-05-24 21:09:57</sys_created_on>
+            <sys_id>b1b55d8adbd0341422483a83e29619fc</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Form 2" display_value="Form 2" name="x_kiwib_bs11_asses_bs11_assessment" sys_domain="global" view="Default view">40cc9282db4f241422483a83e2961909</sys_ui_section>
+            <sys_updated_by>Bing.Liu@kiwibank.co.nz</sys_updated_by>
+            <sys_updated_on>2021-05-24 21:09:57</sys_updated_on>
+            <sys_user/>
+            <type>annotation</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>able_close_wind_down</element>
+            <position>20</position>
+            <sys_created_by>Bing.Liu@kiwibank.co.nz</sys_created_by>
+            <sys_created_on>2021-05-24 21:09:57</sys_created_on>
+            <sys_id>39b55d8adbd0341422483a83e29619fc</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Form 2" display_value="Form 2" name="x_kiwib_bs11_asses_bs11_assessment" sys_domain="global" view="Default view">40cc9282db4f241422483a83e2961909</sys_ui_section>
+            <sys_updated_by>Bing.Liu@kiwibank.co.nz</sys_updated_by>
+            <sys_updated_on>2021-05-24 21:09:57</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>a5b55d8adbd0341422483a83e2961952</element>
+            <position>21</position>
+            <sys_created_by>Bing.Liu@kiwibank.co.nz</sys_created_by>
+            <sys_created_on>2021-05-24 21:09:57</sys_created_on>
+            <sys_id>bdb55d8adbd0341422483a83e29619fc</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Form 2" display_value="Form 2" name="x_kiwib_bs11_asses_bs11_assessment" sys_domain="global" view="Default view">40cc9282db4f241422483a83e2961909</sys_ui_section>
+            <sys_updated_by>Bing.Liu@kiwibank.co.nz</sys_updated_by>
+            <sys_updated_on>2021-05-24 21:09:57</sys_updated_on>
+            <sys_user/>
+            <type>annotation</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>supplier_only_provide_bcp_dr</element>
+            <position>22</position>
+            <sys_created_by>Bing.Liu@kiwibank.co.nz</sys_created_by>
+            <sys_created_on>2021-05-24 21:09:57</sys_created_on>
+            <sys_id>35b55d8adbd0341422483a83e29619fd</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Form 2" display_value="Form 2" name="x_kiwib_bs11_asses_bs11_assessment" sys_domain="global" view="Default view">40cc9282db4f241422483a83e2961909</sys_ui_section>
+            <sys_updated_by>Bing.Liu@kiwibank.co.nz</sys_updated_by>
+            <sys_updated_on>2021-05-24 21:09:57</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>whose_business_continuity_arrangements</element>
+            <position>23</position>
+            <sys_created_by>Bing.Liu@kiwibank.co.nz</sys_created_by>
+            <sys_created_on>2021-05-24 21:09:57</sys_created_on>
+            <sys_id>b9b55d8adbd0341422483a83e29619fd</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Form 2" display_value="Form 2" name="x_kiwib_bs11_asses_bs11_assessment" sys_domain="global" view="Default view">40cc9282db4f241422483a83e2961909</sys_ui_section>
+            <sys_updated_by>Bing.Liu@kiwibank.co.nz</sys_updated_by>
+            <sys_updated_on>2021-05-24 21:09:57</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>iso_22301_bcp_certificate</element>
+            <position>24</position>
+            <sys_created_by>Bing.Liu@kiwibank.co.nz</sys_created_by>
+            <sys_created_on>2021-05-24 21:09:57</sys_created_on>
+            <sys_id>31b55d8adbd0341422483a83e29619fe</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Form 2" display_value="Form 2" name="x_kiwib_bs11_asses_bs11_assessment" sys_domain="global" view="Default view">40cc9282db4f241422483a83e2961909</sys_ui_section>
+            <sys_updated_by>Bing.Liu@kiwibank.co.nz</sys_updated_by>
+            <sys_updated_on>2021-05-24 21:09:57</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>69b55d8adbd0341422483a83e2961952</element>
+            <position>25</position>
+            <sys_created_by>Bing.Liu@kiwibank.co.nz</sys_created_by>
+            <sys_created_on>2021-05-24 21:09:57</sys_created_on>
+            <sys_id>b5b55d8adbd0341422483a83e29619fe</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Form 2" display_value="Form 2" name="x_kiwib_bs11_asses_bs11_assessment" sys_domain="global" view="Default view">40cc9282db4f241422483a83e2961909</sys_ui_section>
+            <sys_updated_by>Bing.Liu@kiwibank.co.nz</sys_updated_by>
+            <sys_updated_on>2021-05-24 21:09:57</sys_updated_on>
+            <sys_user/>
+            <type>annotation</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>relied_on_assessing_supplier_bcp</element>
+            <position>26</position>
+            <sys_created_by>Bing.Liu@kiwibank.co.nz</sys_created_by>
+            <sys_created_on>2021-05-24 21:09:57</sys_created_on>
+            <sys_id>3db55d8adbd0341422483a83e29619fe</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Form 2" display_value="Form 2" name="x_kiwib_bs11_asses_bs11_assessment" sys_domain="global" view="Default view">40cc9282db4f241422483a83e2961909</sys_ui_section>
+            <sys_updated_by>Bing.Liu@kiwibank.co.nz</sys_updated_by>
+            <sys_updated_on>2021-05-24 21:09:57</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>2db55d8adbd0341422483a83e2961952</element>
+            <position>27</position>
+            <sys_created_by>Bing.Liu@kiwibank.co.nz</sys_created_by>
+            <sys_created_on>2021-05-24 21:09:57</sys_created_on>
+            <sys_id>b1b55d8adbd0341422483a83e29619ff</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Form 2" display_value="Form 2" name="x_kiwib_bs11_asses_bs11_assessment" sys_domain="global" view="Default view">40cc9282db4f241422483a83e2961909</sys_ui_section>
+            <sys_updated_by>Bing.Liu@kiwibank.co.nz</sys_updated_by>
+            <sys_updated_on>2021-05-24 21:09:57</sys_updated_on>
+            <sys_user/>
+            <type>annotation</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>describe_supplier_bcp_function</element>
+            <position>28</position>
+            <sys_created_by>Bing.Liu@kiwibank.co.nz</sys_created_by>
+            <sys_created_on>2021-05-24 21:09:57</sys_created_on>
+            <sys_id>39b55d8adbd0341422483a83e29619ff</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Form 2" display_value="Form 2" name="x_kiwib_bs11_asses_bs11_assessment" sys_domain="global" view="Default view">40cc9282db4f241422483a83e2961909</sys_ui_section>
+            <sys_updated_by>Bing.Liu@kiwibank.co.nz</sys_updated_by>
+            <sys_updated_on>2021-05-24 21:09:57</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>edb55d8adbd0341422483a83e2961952</element>
+            <position>29</position>
+            <sys_created_by>Bing.Liu@kiwibank.co.nz</sys_created_by>
+            <sys_created_on>2021-05-24 21:09:57</sys_created_on>
+            <sys_id>bdb55d8adbd0341422483a83e29619ff</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Form 2" display_value="Form 2" name="x_kiwib_bs11_asses_bs11_assessment" sys_domain="global" view="Default view">40cc9282db4f241422483a83e2961909</sys_ui_section>
+            <sys_updated_by>Bing.Liu@kiwibank.co.nz</sys_updated_by>
+            <sys_updated_on>2021-05-24 21:09:57</sys_updated_on>
+            <sys_user/>
+            <type>annotation</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>describe_timeframes_for_supplier_bcp</element>
+            <position>30</position>
+            <sys_created_by>Bing.Liu@kiwibank.co.nz</sys_created_by>
+            <sys_created_on>2021-05-24 21:09:57</sys_created_on>
+            <sys_id>35b59d8adbd0341422483a83e2961900</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Form 2" display_value="Form 2" name="x_kiwib_bs11_asses_bs11_assessment" sys_domain="global" view="Default view">40cc9282db4f241422483a83e2961909</sys_ui_section>
+            <sys_updated_by>Bing.Liu@kiwibank.co.nz</sys_updated_by>
+            <sys_updated_on>2021-05-24 21:09:57</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>confirm_bcp_appropriate</element>
+            <position>31</position>
+            <sys_created_by>Bing.Liu@kiwibank.co.nz</sys_created_by>
+            <sys_created_on>2021-05-24 21:09:57</sys_created_on>
+            <sys_id>b9b59d8adbd0341422483a83e2961900</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Form 2" display_value="Form 2" name="x_kiwib_bs11_asses_bs11_assessment" sys_domain="global" view="Default view">40cc9282db4f241422483a83e2961909</sys_ui_section>
+            <sys_updated_by>Bing.Liu@kiwibank.co.nz</sys_updated_by>
+            <sys_updated_on>2021-05-24 21:09:57</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>a1b55d8adbd0341422483a83e2961953</element>
+            <position>32</position>
+            <sys_created_by>Bing.Liu@kiwibank.co.nz</sys_created_by>
+            <sys_created_on>2021-05-24 21:09:57</sys_created_on>
+            <sys_id>31b59d8adbd0341422483a83e2961901</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Form 2" display_value="Form 2" name="x_kiwib_bs11_asses_bs11_assessment" sys_domain="global" view="Default view">40cc9282db4f241422483a83e2961909</sys_ui_section>
+            <sys_updated_by>Bing.Liu@kiwibank.co.nz</sys_updated_by>
+            <sys_updated_on>2021-05-24 21:09:57</sys_updated_on>
+            <sys_user/>
+            <type>annotation</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>is_service_reliant</element>
+            <position>33</position>
+            <sys_created_by>Bing.Liu@kiwibank.co.nz</sys_created_by>
+            <sys_created_on>2021-05-24 21:09:57</sys_created_on>
+            <sys_id>b5b59d8adbd0341422483a83e2961901</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Form 2" display_value="Form 2" name="x_kiwib_bs11_asses_bs11_assessment" sys_domain="global" view="Default view">40cc9282db4f241422483a83e2961909</sys_ui_section>
+            <sys_updated_by>Bing.Liu@kiwibank.co.nz</sys_updated_by>
+            <sys_updated_on>2021-05-24 21:09:57</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>65b55d8adbd0341422483a83e2961953</element>
+            <position>34</position>
+            <sys_created_by>Bing.Liu@kiwibank.co.nz</sys_created_by>
+            <sys_created_on>2021-05-24 21:09:57</sys_created_on>
+            <sys_id>3db59d8adbd0341422483a83e2961901</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Form 2" display_value="Form 2" name="x_kiwib_bs11_asses_bs11_assessment" sys_domain="global" view="Default view">40cc9282db4f241422483a83e2961909</sys_ui_section>
+            <sys_updated_by>Bing.Liu@kiwibank.co.nz</sys_updated_by>
+            <sys_updated_on>2021-05-24 21:09:57</sys_updated_on>
+            <sys_user/>
+            <type>annotation</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>dr_categorisation_of_function</element>
+            <position>35</position>
+            <sys_created_by>Bing.Liu@kiwibank.co.nz</sys_created_by>
+            <sys_created_on>2021-05-24 21:09:57</sys_created_on>
+            <sys_id>b1b59d8adbd0341422483a83e2961902</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Form 2" display_value="Form 2" name="x_kiwib_bs11_asses_bs11_assessment" sys_domain="global" view="Default view">40cc9282db4f241422483a83e2961909</sys_ui_section>
+            <sys_updated_by>Bing.Liu@kiwibank.co.nz</sys_updated_by>
+            <sys_updated_on>2021-05-24 21:09:57</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>29b55d8adbd0341422483a83e2961953</element>
+            <position>36</position>
+            <sys_created_by>Bing.Liu@kiwibank.co.nz</sys_created_by>
+            <sys_created_on>2021-05-24 21:09:57</sys_created_on>
+            <sys_id>39b59d8adbd0341422483a83e2961902</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Form 2" display_value="Form 2" name="x_kiwib_bs11_asses_bs11_assessment" sys_domain="global" view="Default view">40cc9282db4f241422483a83e2961909</sys_ui_section>
+            <sys_updated_by>Bing.Liu@kiwibank.co.nz</sys_updated_by>
+            <sys_updated_on>2021-05-24 21:09:57</sys_updated_on>
+            <sys_user/>
+            <type>annotation</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>list_evidence_supplier_dr_capability</element>
+            <position>37</position>
+            <sys_created_by>Bing.Liu@kiwibank.co.nz</sys_created_by>
+            <sys_created_on>2021-05-24 21:09:57</sys_created_on>
+            <sys_id>bdb59d8adbd0341422483a83e2961902</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Form 2" display_value="Form 2" name="x_kiwib_bs11_asses_bs11_assessment" sys_domain="global" view="Default view">40cc9282db4f241422483a83e2961909</sys_ui_section>
+            <sys_updated_by>Bing.Liu@kiwibank.co.nz</sys_updated_by>
+            <sys_updated_on>2021-05-24 21:09:57</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>e9b55d8adbd0341422483a83e2961953</element>
+            <position>38</position>
+            <sys_created_by>Bing.Liu@kiwibank.co.nz</sys_created_by>
+            <sys_created_on>2021-05-24 21:09:57</sys_created_on>
+            <sys_id>35b59d8adbd0341422483a83e2961903</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Form 2" display_value="Form 2" name="x_kiwib_bs11_asses_bs11_assessment" sys_domain="global" view="Default view">40cc9282db4f241422483a83e2961909</sys_ui_section>
+            <sys_updated_by>Bing.Liu@kiwibank.co.nz</sys_updated_by>
+            <sys_updated_on>2021-05-24 21:09:57</sys_updated_on>
+            <sys_user/>
+            <type>annotation</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>describe_relevant_outcome_met</element>
+            <position>39</position>
+            <sys_created_by>Bing.Liu@kiwibank.co.nz</sys_created_by>
+            <sys_created_on>2021-05-24 21:09:57</sys_created_on>
+            <sys_id>b9b59d8adbd0341422483a83e2961903</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Form 2" display_value="Form 2" name="x_kiwib_bs11_asses_bs11_assessment" sys_domain="global" view="Default view">40cc9282db4f241422483a83e2961909</sys_ui_section>
+            <sys_updated_by>Bing.Liu@kiwibank.co.nz</sys_updated_by>
+            <sys_updated_on>2021-05-24 21:09:57</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>adb55d8adbd0341422483a83e2961953</element>
+            <position>40</position>
+            <sys_created_by>Bing.Liu@kiwibank.co.nz</sys_created_by>
+            <sys_created_on>2021-05-24 21:09:57</sys_created_on>
+            <sys_id>31b59d8adbd0341422483a83e2961904</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Form 2" display_value="Form 2" name="x_kiwib_bs11_asses_bs11_assessment" sys_domain="global" view="Default view">40cc9282db4f241422483a83e2961909</sys_ui_section>
+            <sys_updated_by>Bing.Liu@kiwibank.co.nz</sys_updated_by>
+            <sys_updated_on>2021-05-24 21:09:57</sys_updated_on>
+            <sys_user/>
+            <type>annotation</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>describe_supplier_dr_timeframes_met</element>
+            <position>41</position>
+            <sys_created_by>Bing.Liu@kiwibank.co.nz</sys_created_by>
+            <sys_created_on>2021-05-24 21:09:57</sys_created_on>
+            <sys_id>b5b59d8adbd0341422483a83e2961904</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Form 2" display_value="Form 2" name="x_kiwib_bs11_asses_bs11_assessment" sys_domain="global" view="Default view">40cc9282db4f241422483a83e2961909</sys_ui_section>
+            <sys_updated_by>Bing.Liu@kiwibank.co.nz</sys_updated_by>
+            <sys_updated_on>2021-05-24 21:09:57</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>confirm_dr_approperiate_adequate</element>
+            <position>42</position>
+            <sys_created_by>Bing.Liu@kiwibank.co.nz</sys_created_by>
+            <sys_created_on>2021-05-24 21:09:57</sys_created_on>
+            <sys_id>3db59d8adbd0341422483a83e2961904</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Form 2" display_value="Form 2" name="x_kiwib_bs11_asses_bs11_assessment" sys_domain="global" view="Default view">40cc9282db4f241422483a83e2961909</sys_ui_section>
+            <sys_updated_by>Bing.Liu@kiwibank.co.nz</sys_updated_by>
+            <sys_updated_on>2021-05-24 21:09:57</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>confirm_dr_adequate_for_continuation_of_services</element>
+            <position>43</position>
+            <sys_created_by>Bing.Liu@kiwibank.co.nz</sys_created_by>
+            <sys_created_on>2021-05-24 21:09:57</sys_created_on>
+            <sys_id>b1b59d8adbd0341422483a83e2961905</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Form 2" display_value="Form 2" name="x_kiwib_bs11_asses_bs11_assessment" sys_domain="global" view="Default view">40cc9282db4f241422483a83e2961909</sys_ui_section>
+            <sys_updated_by>Bing.Liu@kiwibank.co.nz</sys_updated_by>
+            <sys_updated_on>2021-05-24 21:09:57</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>61b55d8adbd0341422483a83e2961954</element>
+            <position>44</position>
+            <sys_created_by>Bing.Liu@kiwibank.co.nz</sys_created_by>
+            <sys_created_on>2021-05-24 21:09:57</sys_created_on>
+            <sys_id>39b59d8adbd0341422483a83e2961905</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Form 2" display_value="Form 2" name="x_kiwib_bs11_asses_bs11_assessment" sys_domain="global" view="Default view">40cc9282db4f241422483a83e2961909</sys_ui_section>
+            <sys_updated_by>Bing.Liu@kiwibank.co.nz</sys_updated_by>
+            <sys_updated_on>2021-05-24 21:09:57</sys_updated_on>
+            <sys_user/>
+            <type>annotation</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>25b55d8adbd0341422483a83e2961954</element>
+            <position>45</position>
+            <sys_created_by>Bing.Liu@kiwibank.co.nz</sys_created_by>
+            <sys_created_on>2021-05-24 21:09:57</sys_created_on>
+            <sys_id>bdb59d8adbd0341422483a83e2961905</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Form 2" display_value="Form 2" name="x_kiwib_bs11_asses_bs11_assessment" sys_domain="global" view="Default view">40cc9282db4f241422483a83e2961909</sys_ui_section>
+            <sys_updated_by>Bing.Liu@kiwibank.co.nz</sys_updated_by>
+            <sys_updated_on>2021-05-24 21:09:57</sys_updated_on>
+            <sys_user/>
+            <type>annotation</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>e5b55d8adbd0341422483a83e2961954</element>
+            <position>46</position>
+            <sys_created_by>Bing.Liu@kiwibank.co.nz</sys_created_by>
+            <sys_created_on>2021-05-24 21:09:57</sys_created_on>
+            <sys_id>35b59d8adbd0341422483a83e2961906</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Form 2" display_value="Form 2" name="x_kiwib_bs11_asses_bs11_assessment" sys_domain="global" view="Default view">40cc9282db4f241422483a83e2961909</sys_ui_section>
+            <sys_updated_by>Bing.Liu@kiwibank.co.nz</sys_updated_by>
+            <sys_updated_on>2021-05-24 21:09:57</sys_updated_on>
+            <sys_user/>
+            <type>annotation</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>is_this_startup_supplier</element>
+            <position>47</position>
+            <sys_created_by>Bing.Liu@kiwibank.co.nz</sys_created_by>
+            <sys_created_on>2021-05-24 21:09:57</sys_created_on>
+            <sys_id>b9b59d8adbd0341422483a83e2961906</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Form 2" display_value="Form 2" name="x_kiwib_bs11_asses_bs11_assessment" sys_domain="global" view="Default view">40cc9282db4f241422483a83e2961909</sys_ui_section>
+            <sys_updated_by>Bing.Liu@kiwibank.co.nz</sys_updated_by>
+            <sys_updated_on>2021-05-24 21:09:57</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>is_risk_acceptance_required</element>
+            <position>48</position>
+            <sys_created_by>Bing.Liu@kiwibank.co.nz</sys_created_by>
+            <sys_created_on>2021-05-24 21:09:57</sys_created_on>
+            <sys_id>31b59d8adbd0341422483a83e2961907</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Form 2" display_value="Form 2" name="x_kiwib_bs11_asses_bs11_assessment" sys_domain="global" view="Default view">40cc9282db4f241422483a83e2961909</sys_ui_section>
+            <sys_updated_by>Bing.Liu@kiwibank.co.nz</sys_updated_by>
+            <sys_updated_on>2021-05-24 21:09:57</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>a9b55d8adbd0341422483a83e2961954</element>
+            <position>49</position>
+            <sys_created_by>Bing.Liu@kiwibank.co.nz</sys_created_by>
+            <sys_created_on>2021-05-24 21:09:57</sys_created_on>
+            <sys_id>b5b59d8adbd0341422483a83e2961907</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Form 2" display_value="Form 2" name="x_kiwib_bs11_asses_bs11_assessment" sys_domain="global" view="Default view">40cc9282db4f241422483a83e2961909</sys_ui_section>
+            <sys_updated_by>Bing.Liu@kiwibank.co.nz</sys_updated_by>
+            <sys_updated_on>2021-05-24 21:09:57</sys_updated_on>
+            <sys_user/>
+            <type>annotation</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>6db55d8adbd0341422483a83e2961954</element>
+            <position>50</position>
+            <sys_created_by>Bing.Liu@kiwibank.co.nz</sys_created_by>
+            <sys_created_on>2021-05-24 21:09:57</sys_created_on>
+            <sys_id>3db59d8adbd0341422483a83e2961907</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Form 2" display_value="Form 2" name="x_kiwib_bs11_asses_bs11_assessment" sys_domain="global" view="Default view">40cc9282db4f241422483a83e2961909</sys_ui_section>
+            <sys_updated_by>Bing.Liu@kiwibank.co.nz</sys_updated_by>
+            <sys_updated_on>2021-05-24 21:09:57</sys_updated_on>
+            <sys_user/>
+            <type>annotation</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>21b55d8adbd0341422483a83e2961955</element>
+            <position>51</position>
+            <sys_created_by>Bing.Liu@kiwibank.co.nz</sys_created_by>
+            <sys_created_on>2021-05-24 21:09:57</sys_created_on>
+            <sys_id>b1b59d8adbd0341422483a83e2961908</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Form 2" display_value="Form 2" name="x_kiwib_bs11_asses_bs11_assessment" sys_domain="global" view="Default view">40cc9282db4f241422483a83e2961909</sys_ui_section>
+            <sys_updated_by>Bing.Liu@kiwibank.co.nz</sys_updated_by>
+            <sys_updated_on>2021-05-24 21:09:57</sys_updated_on>
+            <sys_user/>
+            <type>annotation</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>pcts_included</element>
+            <position>52</position>
+            <sys_created_by>Bing.Liu@kiwibank.co.nz</sys_created_by>
+            <sys_created_on>2021-05-24 21:09:57</sys_created_on>
+            <sys_id>39b59d8adbd0341422483a83e2961908</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Form 2" display_value="Form 2" name="x_kiwib_bs11_asses_bs11_assessment" sys_domain="global" view="Default view">40cc9282db4f241422483a83e2961909</sys_ui_section>
+            <sys_updated_by>Bing.Liu@kiwibank.co.nz</sys_updated_by>
+            <sys_updated_on>2021-05-24 21:09:57</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>pcts_included_directly_from_supplier</element>
+            <position>53</position>
+            <sys_created_by>Bing.Liu@kiwibank.co.nz</sys_created_by>
+            <sys_created_on>2021-05-24 21:09:57</sys_created_on>
+            <sys_id>bdb59d8adbd0341422483a83e2961908</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Form 2" display_value="Form 2" name="x_kiwib_bs11_asses_bs11_assessment" sys_domain="global" view="Default view">40cc9282db4f241422483a83e2961909</sys_ui_section>
+            <sys_updated_by>Bing.Liu@kiwibank.co.nz</sys_updated_by>
+            <sys_updated_on>2021-05-24 21:09:57</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>contract_contains_standard_pcts</element>
+            <position>54</position>
+            <sys_created_by>Bing.Liu@kiwibank.co.nz</sys_created_by>
+            <sys_created_on>2021-05-24 21:09:57</sys_created_on>
+            <sys_id>35b59d8adbd0341422483a83e2961909</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Form 2" display_value="Form 2" name="x_kiwib_bs11_asses_bs11_assessment" sys_domain="global" view="Default view">40cc9282db4f241422483a83e2961909</sys_ui_section>
+            <sys_updated_by>Bing.Liu@kiwibank.co.nz</sys_updated_by>
+            <sys_updated_on>2021-05-24 21:09:57</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>confirm_documented_internal_legal_view</element>
+            <position>55</position>
+            <sys_created_by>Bing.Liu@kiwibank.co.nz</sys_created_by>
+            <sys_created_on>2021-05-24 21:09:57</sys_created_on>
+            <sys_id>b9b59d8adbd0341422483a83e2961909</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Form 2" display_value="Form 2" name="x_kiwib_bs11_asses_bs11_assessment" sys_domain="global" view="Default view">40cc9282db4f241422483a83e2961909</sys_ui_section>
+            <sys_updated_by>Bing.Liu@kiwibank.co.nz</sys_updated_by>
+            <sys_updated_on>2021-05-24 21:09:57</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>confirm_documented_external_legal_view_meet_requirements</element>
+            <position>56</position>
+            <sys_created_by>Bing.Liu@kiwibank.co.nz</sys_created_by>
+            <sys_created_on>2021-05-24 21:09:57</sys_created_on>
+            <sys_id>31b59d8adbd0341422483a83e296190a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Form 2" display_value="Form 2" name="x_kiwib_bs11_asses_bs11_assessment" sys_domain="global" view="Default view">40cc9282db4f241422483a83e2961909</sys_ui_section>
+            <sys_updated_by>Bing.Liu@kiwibank.co.nz</sys_updated_by>
+            <sys_updated_on>2021-05-24 21:09:57</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>country_of_law_governs_pcts</element>
+            <position>57</position>
+            <sys_created_by>Bing.Liu@kiwibank.co.nz</sys_created_by>
+            <sys_created_on>2021-05-24 21:09:57</sys_created_on>
+            <sys_id>b5b59d8adbd0341422483a83e296190a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Form 2" display_value="Form 2" name="x_kiwib_bs11_asses_bs11_assessment" sys_domain="global" view="Default view">40cc9282db4f241422483a83e2961909</sys_ui_section>
+            <sys_updated_by>Bing.Liu@kiwibank.co.nz</sys_updated_by>
+            <sys_updated_on>2021-05-24 21:09:57</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>e1b55d8adbd0341422483a83e2961955</element>
+            <position>58</position>
+            <sys_created_by>Bing.Liu@kiwibank.co.nz</sys_created_by>
+            <sys_created_on>2021-05-24 21:09:57</sys_created_on>
+            <sys_id>f1b59d8adbd0341422483a83e2961917</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Form 2" display_value="Form 2" name="x_kiwib_bs11_asses_bs11_assessment" sys_domain="global" view="Default view">40cc9282db4f241422483a83e2961909</sys_ui_section>
+            <sys_updated_by>Bing.Liu@kiwibank.co.nz</sys_updated_by>
+            <sys_updated_on>2021-05-24 21:09:57</sys_updated_on>
+            <sys_user/>
+            <type>annotation</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>confirm_legal_view_meet_bs11_jurisdiction</element>
+            <position>59</position>
+            <sys_created_by>Bing.Liu@kiwibank.co.nz</sys_created_by>
+            <sys_created_on>2021-05-24 21:09:57</sys_created_on>
+            <sys_id>79b59d8adbd0341422483a83e2961917</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Form 2" display_value="Form 2" name="x_kiwib_bs11_asses_bs11_assessment" sys_domain="global" view="Default view">40cc9282db4f241422483a83e2961909</sys_ui_section>
+            <sys_updated_by>Bing.Liu@kiwibank.co.nz</sys_updated_by>
+            <sys_updated_on>2021-05-24 21:09:57</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>a5b55d8adbd0341422483a83e2961955</element>
+            <position>60</position>
+            <sys_created_by>Bing.Liu@kiwibank.co.nz</sys_created_by>
+            <sys_created_on>2021-05-24 21:09:57</sys_created_on>
+            <sys_id>fdb59d8adbd0341422483a83e2961917</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Form 2" display_value="Form 2" name="x_kiwib_bs11_asses_bs11_assessment" sys_domain="global" view="Default view">40cc9282db4f241422483a83e2961909</sys_ui_section>
+            <sys_updated_by>Bing.Liu@kiwibank.co.nz</sys_updated_by>
+            <sys_updated_on>2021-05-24 21:09:57</sys_updated_on>
+            <sys_user/>
+            <type>annotation</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>is_arrangement_with_related_party</element>
+            <position>61</position>
+            <sys_created_by>Bing.Liu@kiwibank.co.nz</sys_created_by>
+            <sys_created_on>2021-05-24 21:09:57</sys_created_on>
+            <sys_id>75b59d8adbd0341422483a83e2961918</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Form 2" display_value="Form 2" name="x_kiwib_bs11_asses_bs11_assessment" sys_domain="global" view="Default view">40cc9282db4f241422483a83e2961909</sys_ui_section>
+            <sys_updated_by>Bing.Liu@kiwibank.co.nz</sys_updated_by>
+            <sys_updated_on>2021-05-24 21:09:57</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>legal_name_of_the_related_party</element>
+            <position>62</position>
+            <sys_created_by>Bing.Liu@kiwibank.co.nz</sys_created_by>
+            <sys_created_on>2021-05-24 21:09:57</sys_created_on>
+            <sys_id>f9b59d8adbd0341422483a83e2961918</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Form 2" display_value="Form 2" name="x_kiwib_bs11_asses_bs11_assessment" sys_domain="global" view="Default view">40cc9282db4f241422483a83e2961909</sys_ui_section>
+            <sys_updated_by>Bing.Liu@kiwibank.co.nz</sys_updated_by>
+            <sys_updated_on>2021-05-24 21:09:57</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>describe_termination_outsourcing_arrangement</element>
+            <position>63</position>
+            <sys_created_by>Bing.Liu@kiwibank.co.nz</sys_created_by>
+            <sys_created_on>2021-05-24 21:09:57</sys_created_on>
+            <sys_id>71b59d8adbd0341422483a83e2961919</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Form 2" display_value="Form 2" name="x_kiwib_bs11_asses_bs11_assessment" sys_domain="global" view="Default view">40cc9282db4f241422483a83e2961909</sys_ui_section>
+            <sys_updated_by>Bing.Liu@kiwibank.co.nz</sys_updated_by>
+            <sys_updated_on>2021-05-24 21:09:57</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>69b55d8adbd0341422483a83e2961955</element>
+            <position>64</position>
+            <sys_created_by>Bing.Liu@kiwibank.co.nz</sys_created_by>
+            <sys_created_on>2021-05-24 21:09:57</sys_created_on>
+            <sys_id>f5b59d8adbd0341422483a83e2961919</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Form 2" display_value="Form 2" name="x_kiwib_bs11_asses_bs11_assessment" sys_domain="global" view="Default view">40cc9282db4f241422483a83e2961909</sys_ui_section>
+            <sys_updated_by>Bing.Liu@kiwibank.co.nz</sys_updated_by>
+            <sys_updated_on>2021-05-24 21:09:57</sys_updated_on>
+            <sys_user/>
+            <type>annotation</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>confirm_function_is_on_reapproved_list</element>
+            <position>65</position>
+            <sys_created_by>Bing.Liu@kiwibank.co.nz</sys_created_by>
+            <sys_created_on>2021-05-24 21:09:57</sys_created_on>
+            <sys_id>7db59d8adbd0341422483a83e2961919</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Form 2" display_value="Form 2" name="x_kiwib_bs11_asses_bs11_assessment" sys_domain="global" view="Default view">40cc9282db4f241422483a83e2961909</sys_ui_section>
+            <sys_updated_by>Bing.Liu@kiwibank.co.nz</sys_updated_by>
+            <sys_updated_on>2021-05-24 21:09:57</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>2db55d8adbd0341422483a83e2961955</element>
+            <position>66</position>
+            <sys_created_by>Bing.Liu@kiwibank.co.nz</sys_created_by>
+            <sys_created_on>2021-05-24 21:09:57</sys_created_on>
+            <sys_id>f1b59d8adbd0341422483a83e296191a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Form 2" display_value="Form 2" name="x_kiwib_bs11_asses_bs11_assessment" sys_domain="global" view="Default view">40cc9282db4f241422483a83e2961909</sys_ui_section>
+            <sys_updated_by>Bing.Liu@kiwibank.co.nz</sys_updated_by>
+            <sys_updated_on>2021-05-24 21:09:57</sys_updated_on>
+            <sys_user/>
+            <type>annotation</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>business_unit</element>
+            <position>67</position>
+            <sys_created_by>Bing.Liu@kiwibank.co.nz</sys_created_by>
+            <sys_created_on>2021-05-24 21:09:57</sys_created_on>
+            <sys_id>79b59d8adbd0341422483a83e296191a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Form 2" display_value="Form 2" name="x_kiwib_bs11_asses_bs11_assessment" sys_domain="global" view="Default view">40cc9282db4f241422483a83e2961909</sys_ui_section>
+            <sys_updated_by>Bing.Liu@kiwibank.co.nz</sys_updated_by>
+            <sys_updated_on>2021-05-24 21:09:57</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>operational_risk_compliance_specialist</element>
+            <position>68</position>
+            <sys_created_by>Bing.Liu@kiwibank.co.nz</sys_created_by>
+            <sys_created_on>2021-05-24 21:09:57</sys_created_on>
+            <sys_id>fdb59d8adbd0341422483a83e296191a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Form 2" display_value="Form 2" name="x_kiwib_bs11_asses_bs11_assessment" sys_domain="global" view="Default view">40cc9282db4f241422483a83e2961909</sys_ui_section>
+            <sys_updated_by>Bing.Liu@kiwibank.co.nz</sys_updated_by>
+            <sys_updated_on>2021-05-24 21:09:57</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>is_included_in_bu_bs11_implementation_plan</element>
+            <position>69</position>
+            <sys_created_by>Bing.Liu@kiwibank.co.nz</sys_created_by>
+            <sys_created_on>2021-05-24 21:09:57</sys_created_on>
+            <sys_id>75b59d8adbd0341422483a83e296191b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Form 2" display_value="Form 2" name="x_kiwib_bs11_asses_bs11_assessment" sys_domain="global" view="Default view">40cc9282db4f241422483a83e2961909</sys_ui_section>
+            <sys_updated_by>Bing.Liu@kiwibank.co.nz</sys_updated_by>
+            <sys_updated_on>2021-05-24 21:09:57</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>Form 2</caption>
+            <header>false</header>
+            <name>x_kiwib_bs11_asses_bs11_assessment</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>Bing.Liu@kiwibank.co.nz</sys_created_by>
+            <sys_created_on>2021-03-23 23:01:50</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>40cc9282db4f241422483a83e2961909</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_name>x_kiwib_bs11_asses_bs11_assessment</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="BS11 Assessment" source="x_kiwib_bs11_asses">af07b2731bfae890533e0dc8ec4bcbb7</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="BS11 Assessment">af07b2731bfae890533e0dc8ec4bcbb7</sys_scope>
+            <sys_update_name>sys_ui_section_40cc9282db4f241422483a83e2961909</sys_update_name>
+            <sys_updated_by>Bing.Liu@kiwibank.co.nz</sys_updated_by>
+            <sys_updated_on>2021-04-14 02:26:21</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

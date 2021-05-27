@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_process_flow">
+    <sys_process_flow action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <condition table="x_kiwib_bs11_asses_bs11_assessment">stage=6^outcome=2^EQ<item display_value="Business contact activities" endquery="false" field="stage" goto="false" newquery="false" operator="=" or="false" value="6"/>
+            <item display_value="Does not meet exempt category" endquery="false" field="outcome" goto="false" newquery="false" operator="=" or="false" value="2"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </condition>
+        <description/>
+        <label>Business contact activities</label>
+        <name>Business contact activities</name>
+        <order>60</order>
+        <sys_class_name>sys_process_flow</sys_class_name>
+        <sys_created_by>Bing.Liu@kiwibank.co.nz</sys_created_by>
+        <sys_created_on>2021-04-14 21:13:22</sys_created_on>
+        <sys_id>69e6df89db2fa05822483a83e29619a7</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Business contact activities</sys_name>
+        <sys_package display_value="BS11 Assessment" source="x_kiwib_bs11_asses">af07b2731bfae890533e0dc8ec4bcbb7</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="BS11 Assessment">af07b2731bfae890533e0dc8ec4bcbb7</sys_scope>
+        <sys_update_name>sys_process_flow_69e6df89db2fa05822483a83e29619a7</sys_update_name>
+        <sys_updated_by>Bing.Liu@kiwibank.co.nz</sys_updated_by>
+        <sys_updated_on>2021-04-15 03:39:35</sys_updated_on>
+        <table>x_kiwib_bs11_asses_bs11_assessment</table>
+    </sys_process_flow>
+</record_update>

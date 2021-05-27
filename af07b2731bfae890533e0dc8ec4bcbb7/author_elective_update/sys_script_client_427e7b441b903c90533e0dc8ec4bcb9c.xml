@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="DELETE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field>able_close_wind_down</field>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>(KB) Load field message annotation</name>
+        <order/>
+        <script><![CDATA[function onLoad() {
+   //Type appropriate comment here, and begin script below
+   g_form.showFieldMsg('white_list_reference_number', 'If Yes, provide the number of the item on the Exempt List or the Not Outsourcing list. If your arrangement is within Exempt List 8.1, go to Conclusion');
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>Bing.Liu@kiwibank.co.nz</sys_created_by>
+        <sys_created_on>2021-05-19 04:19:51</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>427e7b441b903c90533e0dc8ec4bcb9c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>(KB) Load field message annotation</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="BS11 Assessment" source="x_kiwib_bs11_asses">af07b2731bfae890533e0dc8ec4bcbb7</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="BS11 Assessment">af07b2731bfae890533e0dc8ec4bcbb7</sys_scope>
+        <sys_update_name>sys_script_client_427e7b441b903c90533e0dc8ec4bcb9c</sys_update_name>
+        <sys_updated_by>Bing.Liu@kiwibank.co.nz</sys_updated_by>
+        <sys_updated_on>2021-05-19 04:19:51</sys_updated_on>
+        <table>x_kiwib_bs11_asses_bs11_assessment</table>
+        <type>onLoad</type>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_script_client>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="BS11 Assessment">af07b2731bfae890533e0dc8ec4bcbb7</application>
+        <file_path/>
+        <instance_id>5eff1e92db012f4c0e785d00cf961905</instance_id>
+        <instance_name>kiwibankdev</instance_name>
+        <name>sys_script_client_427e7b441b903c90533e0dc8ec4bcb9c</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script_client"&gt;&lt;sys_script_client action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;applies_extended&gt;false&lt;/applies_extended&gt;&lt;condition/&gt;&lt;description/&gt;&lt;field&gt;able_close_wind_down&lt;/field&gt;&lt;global&gt;true&lt;/global&gt;&lt;isolate_script&gt;true&lt;/isolate_script&gt;&lt;messages/&gt;&lt;name&gt;(KB) Load field message annotation&lt;/name&gt;&lt;order/&gt;&lt;script&gt;&lt;![CDATA[function onLoad() {
+   //Type appropriate comment here, and begin script below
+   g_form.showFieldMsg('white_list_reference_number', 'If Yes, provide the number of the item on the Exempt List or the Not Outsourcing list. If your arrangement is within Exempt List 8.1, go to Conclusion');
+}]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_client&lt;/sys_class_name&gt;&lt;sys_created_by&gt;Bing.Liu@kiwibank.co.nz&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2021-05-19 04:19:51&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;427e7b441b903c90533e0dc8ec4bcb9c&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;(KB) Load field message annotation&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="BS11 Assessment" source="x_kiwib_bs11_asses"&gt;af07b2731bfae890533e0dc8ec4bcbb7&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="BS11 Assessment"&gt;af07b2731bfae890533e0dc8ec4bcbb7&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_client_427e7b441b903c90533e0dc8ec4bcb9c&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;Bing.Liu@kiwibank.co.nz&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2021-05-19 04:19:51&lt;/sys_updated_on&gt;&lt;table&gt;x_kiwib_bs11_asses_bs11_assessment&lt;/table&gt;&lt;type&gt;onLoad&lt;/type&gt;&lt;ui_type&gt;10&lt;/ui_type&gt;&lt;view/&gt;&lt;/sys_script_client&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>160022167</payload_hash>
+        <record_name>(KB) Load field message annotation</record_name>
+        <reverted_from/>
+        <source>2f07b2731bfae890533e0dc8ec4bcbba</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>Bing.Liu@kiwibank.co.nz</sys_created_by>
+        <sys_created_on>2021-05-19 04:19:51</sys_created_on>
+        <sys_id>e09ebf441b903c90533e0dc8ec4bcb2f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17982d9eee80000001</sys_recorded_at>
+        <sys_updated_by>Bing.Liu@kiwibank.co.nz</sys_updated_by>
+        <sys_updated_on>2021-05-19 04:19:51</sys_updated_on>
+        <type>Client Script</type>
+        <update_guid>a89ebf44ff903c9001b0301b2d6f3e2e</update_guid>
+        <update_guid_history>a89ebf44ff903c9001b0301b2d6f3e2e:160022167</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>Bing.Liu@kiwibank.co.nz</sys_created_by>
+        <sys_created_on>2021-05-19 04:23:53</sys_created_on>
+        <sys_db_object display_value="" name="sys_script_client">sys_script_client</sys_db_object>
+        <sys_id>241c96887e4748c287758fbd4a513c31</sys_id>
+        <sys_metadata>427e7b441b903c90533e0dc8ec4bcb9c</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>(KB) Load field message annotation</sys_name>
+        <sys_package display_value="BS11 Assessment" source="x_kiwib_bs11_asses">af07b2731bfae890533e0dc8ec4bcbb7</sys_package>
+        <sys_parent display_value="BS11 Assessment">9e28b6771bfae890533e0dc8ec4bcb84</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="BS11 Assessment">af07b2731bfae890533e0dc8ec4bcbb7</sys_scope>
+        <sys_scope_delete display_value="">0ee22e54a71348948a0c910e8eb2a990</sys_scope_delete>
+        <sys_update_name>sys_script_client_427e7b441b903c90533e0dc8ec4bcb9c</sys_update_name>
+        <sys_update_version display_value="sys_script_client_427e7b441b903c90533e0dc8ec4bcb9c">e09ebf441b903c90533e0dc8ec4bcb2f</sys_update_version>
+        <sys_updated_by>Bing.Liu@kiwibank.co.nz</sys_updated_by>
+        <sys_updated_on>2021-05-19 04:23:53</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

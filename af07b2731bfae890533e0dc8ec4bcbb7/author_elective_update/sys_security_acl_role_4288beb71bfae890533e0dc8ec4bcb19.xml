@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="DELETE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>Bing.Liu@kiwibank.co.nz</sys_created_by>
+        <sys_created_on>2021-03-17 01:16:52</sys_created_on>
+        <sys_id>4288beb71bfae890533e0dc8ec4bcb19</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x.kiwib.workspace.bs11_assessment.bs11_assessment</sys_name>
+        <sys_package display_value="BS11 Assessment" source="x_kiwib_bs11_asses">af07b2731bfae890533e0dc8ec4bcbb7</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="BS11 Assessment">af07b2731bfae890533e0dc8ec4bcbb7</sys_scope>
+        <sys_security_acl display_value="x.kiwib.workspace.bs11_assessment">bd887eb71bfae890533e0dc8ec4bcbd1</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_4288beb71bfae890533e0dc8ec4bcb19</sys_update_name>
+        <sys_updated_by>Bing.Liu@kiwibank.co.nz</sys_updated_by>
+        <sys_updated_on>2021-03-17 01:16:52</sys_updated_on>
+        <sys_user_role display_value="bs11_assessment" name="bs11_assessment">46887eb71bfae890533e0dc8ec4bcbe0</sys_user_role>
+        <transaction_id/>
+    </sys_security_acl_role>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="BS11 Assessment">af07b2731bfae890533e0dc8ec4bcbb7</application>
+        <file_path/>
+        <instance_id>5eff1e92db012f4c0e785d00cf961905</instance_id>
+        <instance_name>kiwibankdev</instance_name>
+        <name>sys_security_acl_role_4288beb71bfae890533e0dc8ec4bcb19</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role"><sys_security_acl_role action="INSERT_OR_UPDATE"><sys_class_name>sys_security_acl_role</sys_class_name><sys_created_by>Bing.Liu@kiwibank.co.nz</sys_created_by><sys_created_on>2021-03-17 01:16:52</sys_created_on><sys_id>4288beb71bfae890533e0dc8ec4bcb19</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x.kiwib.workspace.bs11_assessment.bs11_assessment</sys_name><sys_package display_value="BS11 Assessment" source="x_kiwib_bs11_asses">af07b2731bfae890533e0dc8ec4bcbb7</sys_package><sys_policy/><sys_scope display_value="BS11 Assessment">af07b2731bfae890533e0dc8ec4bcbb7</sys_scope><sys_security_acl display_value="x.kiwib.workspace.bs11_assessment">bd887eb71bfae890533e0dc8ec4bcbd1</sys_security_acl><sys_update_name>sys_security_acl_role_4288beb71bfae890533e0dc8ec4bcb19</sys_update_name><sys_updated_by>Bing.Liu@kiwibank.co.nz</sys_updated_by><sys_updated_on>2021-03-17 01:16:52</sys_updated_on><sys_user_role display_value="bs11_assessment" name="bs11_assessment">46887eb71bfae890533e0dc8ec4bcbe0</sys_user_role><transaction_id/></sys_security_acl_role></record_update>]]></payload>
+        <payload_hash>16190602</payload_hash>
+        <record_name>x.kiwib.workspace.bs11_assessment.bs11_assessment</record_name>
+        <reverted_from/>
+        <source>2f07b2731bfae890533e0dc8ec4bcbba</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>Bing.Liu@kiwibank.co.nz</sys_created_by>
+        <sys_created_on>2021-03-17 01:16:52</sys_created_on>
+        <sys_id>4a88beb71bfae890533e0dc8ec4bcb1e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1783dc1c55e0000001</sys_recorded_at>
+        <sys_updated_by>Bing.Liu@kiwibank.co.nz</sys_updated_by>
+        <sys_updated_on>2021-03-17 01:16:52</sys_updated_on>
+        <type>Access Roles</type>
+        <update_guid>4288beb788fae890751c7fef5335691e</update_guid>
+        <update_guid_history>4288beb788fae890751c7fef5335691e:16190602</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="x.kiwib.workspace.bs11_assessment.bs11_assessment">b1fd58871bd36418533e0dc8ec4bcbf4</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>Bing.Liu@kiwibank.co.nz</sys_created_by>
+        <sys_created_on>2021-04-08 02:37:31</sys_created_on>
+        <sys_db_object display_value="" name="sys_security_acl_role">sys_security_acl_role</sys_db_object>
+        <sys_id>0a559f489a07435d9eb672b92ca08571</sys_id>
+        <sys_metadata>4288beb71bfae890533e0dc8ec4bcb19</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x.kiwib.workspace.bs11_assessment.bs11_assessment</sys_name>
+        <sys_package display_value="BS11 Assessment" source="x_kiwib_bs11_asses">af07b2731bfae890533e0dc8ec4bcbb7</sys_package>
+        <sys_parent display_value="">bd887eb71bfae890533e0dc8ec4bcbd1</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="BS11 Assessment">af07b2731bfae890533e0dc8ec4bcbb7</sys_scope>
+        <sys_scope_delete display_value="">0ee22e54a71348948a0c910e8eb2a990</sys_scope_delete>
+        <sys_update_name>sys_security_acl_role_4288beb71bfae890533e0dc8ec4bcb19</sys_update_name>
+        <sys_update_version display_value="sys_security_acl_role_4288beb71bfae890533e0dc8ec4bcb19">4a88beb71bfae890533e0dc8ec4bcb1e</sys_update_version>
+        <sys_updated_by>Bing.Liu@kiwibank.co.nz</sys_updated_by>
+        <sys_updated_on>2021-04-08 02:37:31</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

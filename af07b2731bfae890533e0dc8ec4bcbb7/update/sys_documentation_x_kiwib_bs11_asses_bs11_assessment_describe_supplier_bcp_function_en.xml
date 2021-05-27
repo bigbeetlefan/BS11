@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="describe_supplier_bcp_function" label="Describe the supplier’s BCP relevant to the function or service, explaining why this is sufficient to maintain the service and meet the relevant Outcome." language="en" table="x_kiwib_bs11_asses_bs11_assessment">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>describe_supplier_bcp_function</element>
+            <help/>
+            <hint/>
+            <label>Describe the supplier’s BCP relevant to the function or service, explaining why this is sufficient to maintain the service and meet the relevant Outcome.</label>
+            <language>en</language>
+            <name>x_kiwib_bs11_asses_bs11_assessment</name>
+            <plural>Describe the supplier’s BCP relevant to the function or service, explaining why </plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>Bing.Liu@kiwibank.co.nz</sys_created_by>
+            <sys_created_on>2021-03-23 23:45:33</sys_created_on>
+            <sys_id>ecc6628edb8f241422483a83e29619c6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Describe the supplier’s BCP relevant to the function or service, explaining why this is sufficient to maintain the service and meet the relevant Outcome.</sys_name>
+            <sys_package display_value="BS11 Assessment" source="x_kiwib_bs11_asses">af07b2731bfae890533e0dc8ec4bcbb7</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="BS11 Assessment">af07b2731bfae890533e0dc8ec4bcbb7</sys_scope>
+            <sys_update_name>sys_documentation_x_kiwib_bs11_asses_bs11_assessment_describe_supplier_bcp_function_en</sys_update_name>
+            <sys_updated_by>Bing.Liu@kiwibank.co.nz</sys_updated_by>
+            <sys_updated_on>2021-03-23 23:45:33</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

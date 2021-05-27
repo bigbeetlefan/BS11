@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_scope_privilege">
+    <sys_scope_privilege action="INSERT_OR_UPDATE">
+        <operation>read</operation>
+        <source_scope display_value="BS11 Assessment">af07b2731bfae890533e0dc8ec4bcbb7</source_scope>
+        <status>allowed</status>
+        <sys_class_name>sys_scope_privilege</sys_class_name>
+        <sys_created_by>Bing.Liu@kiwibank.co.nz</sys_created_by>
+        <sys_created_on>2021-05-25 22:33:33</sys_created_on>
+        <sys_id>40727652db54381422483a83e29619f9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_kiwib_haumaru_case</sys_name>
+        <sys_package display_value="BS11 Assessment" source="x_kiwib_bs11_asses">af07b2731bfae890533e0dc8ec4bcbb7</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="BS11 Assessment">af07b2731bfae890533e0dc8ec4bcbb7</sys_scope>
+        <sys_update_name>sys_scope_privilege_40727652db54381422483a83e29619f9</sys_update_name>
+        <sys_updated_by>Bing.Liu@kiwibank.co.nz</sys_updated_by>
+        <sys_updated_on>2021-05-25 22:33:33</sys_updated_on>
+        <target_name>x_kiwib_haumaru_case</target_name>
+        <target_scope display_value="Pae Haumaru">001ccea01b89205038c9ffbbdc4bcb2c</target_scope>
+        <target_type>sys_db_object</target_type>
+    </sys_scope_privilege>
+</record_update>

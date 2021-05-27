@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action">
+    <sys_ui_policy_action action="INSERT_OR_UPDATE">
+        <cleared>false</cleared>
+        <disabled>ignore</disabled>
+        <field>confirm_documented_external_legal_view_meet_requirements</field>
+        <mandatory>true</mandatory>
+        <sys_class_name>sys_ui_policy_action</sys_class_name>
+        <sys_created_by>Bing.Liu@kiwibank.co.nz</sys_created_by>
+        <sys_created_on>2021-04-06 23:10:53</sys_created_on>
+        <sys_id>4c05a2a61b5b2018533e0dc8ec4bcba3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>confirm_documented_external_legal_view_meet_requirements</sys_name>
+        <sys_package display_value="BS11 Assessment" source="x_kiwib_bs11_asses">af07b2731bfae890533e0dc8ec4bcbb7</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="BS11 Assessment">af07b2731bfae890533e0dc8ec4bcbb7</sys_scope>
+        <sys_update_name>sys_ui_policy_action_4c05a2a61b5b2018533e0dc8ec4bcba3</sys_update_name>
+        <sys_updated_by>Bing.Liu@kiwibank.co.nz</sys_updated_by>
+        <sys_updated_on>2021-04-06 23:10:53</sys_updated_on>
+        <table>x_kiwib_bs11_asses_bs11_assessment</table>
+        <ui_policy display_value="(KB) External Legal View">87c4ae261b5b2018533e0dc8ec4bcb5d</ui_policy>
+        <visible>true</visible>
+    </sys_ui_policy_action>
+</record_update>

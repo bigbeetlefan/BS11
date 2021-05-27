@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="manage_wind_down" label="Reserve Bank guidance: For all [banking] products offered to customers that are " language="en" table="x_kiwib_bs11_asses_bs11_assessment">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>manage_wind_down</element>
+            <help/>
+            <hint/>
+            <label>Reserve Bank guidance: For all [banking] products offered to customers that are </label>
+            <language>en</language>
+            <name>x_kiwib_bs11_asses_bs11_assessment</name>
+            <plural>Reserve Bank guidance: For all [banking] products offered to customers that are </plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>Bing.Liu@kiwibank.co.nz</sys_created_by>
+            <sys_created_on>2021-03-19 01:30:47</sys_created_on>
+            <sys_id>45ee85e4db07a0d022483a83e29619c3</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_name>Reserve Bank guidance: For all [banking] products offered to customers that are </sys_name>
+            <sys_package display_value="BS11 Assessment" source="x_kiwib_bs11_asses">af07b2731bfae890533e0dc8ec4bcbb7</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="BS11 Assessment">af07b2731bfae890533e0dc8ec4bcbb7</sys_scope>
+            <sys_update_name>sys_documentation_x_kiwib_bs11_asses_bs11_assessment_manage_wind_down_en</sys_update_name>
+            <sys_updated_by>Bing.Liu@kiwibank.co.nz</sys_updated_by>
+            <sys_updated_on>2021-05-18 23:28:00</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

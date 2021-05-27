@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_form_sections form_id="e2fb4f331b366c90533e0dc8ec4bcb9d" sys_domain="global" table="x_kiwib_bs11_asses_bs11_assessment" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>Bing.Liu@kiwibank.co.nz</sys_created_by>
+            <sys_created_on>2021-04-14 21:00:04</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>76d31349db2fa05822483a83e296192e</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_kiwib_bs11_asses_bs11_assessment" name="x_kiwib_bs11_asses_bs11_assessment" sys_domain="global" view="Default view">e2fb4f331b366c90533e0dc8ec4bcb9d</sys_ui_form>
+            <sys_ui_section caption="NULL" display_value="" name="x_kiwib_bs11_asses_bs11_assessment" sys_domain="global" view="Default view">ead3df09db2fa05822483a83e296198c</sys_ui_section>
+            <sys_updated_by>Bing.Liu@kiwibank.co.nz</sys_updated_by>
+            <sys_updated_on>2021-04-14 21:00:04</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>1</position>
+            <sys_created_by>Bing.Liu@kiwibank.co.nz</sys_created_by>
+            <sys_created_on>2021-04-14 02:21:48</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>42e31b3cdb63205822483a83e296191c</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_kiwib_bs11_asses_bs11_assessment" name="x_kiwib_bs11_asses_bs11_assessment" sys_domain="global" view="Default view">e2fb4f331b366c90533e0dc8ec4bcb9d</sys_ui_form>
+            <sys_ui_section caption="Form 1" display_value="Form 1" name="x_kiwib_bs11_asses_bs11_assessment" sys_domain="global" view="Default view">7de3d73cdb63205822483a83e2961969</sys_ui_section>
+            <sys_updated_by>Bing.Liu@kiwibank.co.nz</sys_updated_by>
+            <sys_updated_on>2021-04-14 02:21:48</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>2</position>
+            <sys_created_by>Bing.Liu@kiwibank.co.nz</sys_created_by>
+            <sys_created_on>2021-03-23 23:01:50</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>80cc9282db4f241422483a83e2961973</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_kiwib_bs11_asses_bs11_assessment" name="x_kiwib_bs11_asses_bs11_assessment" sys_domain="global" view="Default view">e2fb4f331b366c90533e0dc8ec4bcb9d</sys_ui_form>
+            <sys_ui_section caption="Form 2" display_value="Form 2" name="x_kiwib_bs11_asses_bs11_assessment" sys_domain="global" view="Default view">40cc9282db4f241422483a83e2961909</sys_ui_section>
+            <sys_updated_by>Bing.Liu@kiwibank.co.nz</sys_updated_by>
+            <sys_updated_on>2021-04-14 02:23:21</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>3</position>
+            <sys_created_by>Bing.Liu@kiwibank.co.nz</sys_created_by>
+            <sys_created_on>2021-04-06 04:32:59</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>7935261e1b1b6cd4533e0dc8ec4bcb0b</sys_id>
+            <sys_mod_count>5</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_kiwib_bs11_asses_bs11_assessment" name="x_kiwib_bs11_asses_bs11_assessment" sys_domain="global" view="Default view">e2fb4f331b366c90533e0dc8ec4bcb9d</sys_ui_form>
+            <sys_ui_section caption="Work notes" display_value="Work notes" name="x_kiwib_bs11_asses_bs11_assessment" sys_domain="global" view="Default view">fd35e21e1b1b6cd4533e0dc8ec4bcb49</sys_ui_section>
+            <sys_updated_by>Bing.Liu@kiwibank.co.nz</sys_updated_by>
+            <sys_updated_on>2021-04-14 19:57:05</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>x_kiwib_bs11_asses_bs11_assessment</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>Bing.Liu@kiwibank.co.nz</sys_created_by>
+            <sys_created_on>2021-03-17 02:41:49</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>e2fb4f331b366c90533e0dc8ec4bcb9d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_kiwib_bs11_asses_bs11_assessment</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="BS11 Assessment" source="x_kiwib_bs11_asses">af07b2731bfae890533e0dc8ec4bcbb7</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="BS11 Assessment">af07b2731bfae890533e0dc8ec4bcbb7</sys_scope>
+            <sys_update_name>sys_ui_form_sections_e2fb4f331b366c90533e0dc8ec4bcb9d</sys_update_name>
+            <sys_updated_by>Bing.Liu@kiwibank.co.nz</sys_updated_by>
+            <sys_updated_on>2021-03-17 02:41:49</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+</record_update>

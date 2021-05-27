@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action">
+    <sys_ui_policy_action action="INSERT_OR_UPDATE">
+        <cleared>false</cleared>
+        <disabled>ignore</disabled>
+        <field>financial_positions_description</field>
+        <mandatory>true</mandatory>
+        <sys_class_name>sys_ui_policy_action</sys_class_name>
+        <sys_created_by>Bing.Liu@kiwibank.co.nz</sys_created_by>
+        <sys_created_on>2021-04-06 03:28:16</sys_created_on>
+        <sys_id>0e5696161b576cd4533e0dc8ec4bcb29</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>financial_positions_description</sys_name>
+        <sys_package display_value="BS11 Assessment" source="x_kiwib_bs11_asses">af07b2731bfae890533e0dc8ec4bcbb7</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="BS11 Assessment">af07b2731bfae890533e0dc8ec4bcbb7</sys_scope>
+        <sys_update_name>sys_ui_policy_action_0e5696161b576cd4533e0dc8ec4bcb29</sys_update_name>
+        <sys_updated_by>Bing.Liu@kiwibank.co.nz</sys_updated_by>
+        <sys_updated_on>2021-04-06 03:28:16</sys_updated_on>
+        <table>x_kiwib_bs11_asses_bs11_assessment</table>
+        <ui_policy display_value="(KB) Financial positions more info">b0361ad21b576cd4533e0dc8ec4bcb5b</ui_policy>
+        <visible>true</visible>
+    </sys_ui_policy_action>
+</record_update>

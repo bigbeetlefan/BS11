@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="INSERT_OR_UPDATE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>Bing.Liu@kiwibank.co.nz</sys_created_by>
+        <sys_created_on>2021-04-08 02:43:45</sys_created_on>
+        <sys_id>a15f180f1bd36418533e0dc8ec4bcb9d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>.x_kiwib_bs11_asses.bs11 assessment user</sys_name>
+        <sys_package display_value="BS11 Assessment" source="x_kiwib_bs11_asses">af07b2731bfae890533e0dc8ec4bcbb7</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="BS11 Assessment">af07b2731bfae890533e0dc8ec4bcbb7</sys_scope>
+        <sys_security_acl display_value="x_kiwib_bs11_asses_bs11_assessment">045fd48b1bd36418533e0dc8ec4bcb44</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_a15f180f1bd36418533e0dc8ec4bcb9d</sys_update_name>
+        <sys_updated_by>Bing.Liu@kiwibank.co.nz</sys_updated_by>
+        <sys_updated_on>2021-04-08 02:43:45</sys_updated_on>
+        <sys_user_role display_value="x_kiwib_bs11_asses.bs11 assessment user" name="x_kiwib_bs11_asses.bs11 assessment user">b327bab31bfae890533e0dc8ec4bcbe9</sys_user_role>
+        <transaction_id/>
+    </sys_security_acl_role>
+</record_update>

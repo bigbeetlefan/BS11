@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action">
+    <sys_ui_policy_action action="INSERT_OR_UPDATE">
+        <cleared>false</cleared>
+        <disabled>ignore</disabled>
+        <field>legal_name_of_the_related_party</field>
+        <mandatory>true</mandatory>
+        <sys_class_name>sys_ui_policy_action</sys_class_name>
+        <sys_created_by>Bing.Liu@kiwibank.co.nz</sys_created_by>
+        <sys_created_on>2021-04-06 23:16:23</sys_created_on>
+        <sys_id>984626aa1b5b2018533e0dc8ec4bcbfc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>legal_name_of_the_related_party</sys_name>
+        <sys_package display_value="BS11 Assessment" source="x_kiwib_bs11_asses">af07b2731bfae890533e0dc8ec4bcbb7</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="BS11 Assessment">af07b2731bfae890533e0dc8ec4bcbb7</sys_scope>
+        <sys_update_name>sys_ui_policy_action_984626aa1b5b2018533e0dc8ec4bcbfc</sys_update_name>
+        <sys_updated_by>Bing.Liu@kiwibank.co.nz</sys_updated_by>
+        <sys_updated_on>2021-04-06 23:16:23</sys_updated_on>
+        <table>x_kiwib_bs11_asses_bs11_assessment</table>
+        <ui_policy display_value="(KB) Is arrangements through related party">ca556a661b5b2018533e0dc8ec4bcbef</ui_policy>
+        <visible>true</visible>
+    </sys_ui_policy_action>
+</record_update>
