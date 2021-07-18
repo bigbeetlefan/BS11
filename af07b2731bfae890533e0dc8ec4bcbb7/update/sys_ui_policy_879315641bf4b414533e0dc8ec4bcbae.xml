@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_policy">
+    <sys_ui_policy action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <conditions table="x_kiwib_bs11_asses_bs11_assessment">exempt_list_reference_number=60170c971be874d0533e0dc8ec4bcb78^ORexempt_list_reference_number=28170c971be874d0533e0dc8ec4bcb78^ORexempt_list_reference_number=ec170c971be874d0533e0dc8ec4bcb78^ORexempt_list_reference_number=a4170c971be874d0533e0dc8ec4bcb79^EQ<item display_table="x_kiwib_bs11_asses_exemption" display_value="8.1a Licensed software licensed, meeting practical, terms and support restrictions" endquery="false" field="exempt_list_reference_number" goto="false" newquery="false" operator="=" or="false" value="60170c971be874d0533e0dc8ec4bcb78"/>
+            <item display_table="x_kiwib_bs11_asses_exemption" display_value="8.1b Routine Standard Support of software in 8.1a or of equipment, provided by the vendor or licensor" endquery="false" field="exempt_list_reference_number" goto="false" newquery="false" operator="=" or="true" value="28170c971be874d0533e0dc8ec4bcb78"/>
+            <item display_table="x_kiwib_bs11_asses_exemption" display_value="8.1c Arrangements for the purchase of 3rd party software from a software reseller, meeting restrictions" endquery="false" field="exempt_list_reference_number" goto="false" newquery="false" operator="=" or="true" value="ec170c971be874d0533e0dc8ec4bcb78"/>
+            <item display_table="x_kiwib_bs11_asses_exemption" display_value="8.1d Software subject to a licence approved by the Open Source Initiative" endquery="false" field="exempt_list_reference_number" goto="false" newquery="false" operator="=" or="true" value="a4170c971be874d0533e0dc8ec4bcb79"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </conditions>
+        <description/>
+        <global>true</global>
+        <inherit>false</inherit>
+        <isolate_script>true</isolate_script>
+        <model_id/>
+        <model_table/>
+        <on_load>true</on_load>
+        <order>100</order>
+        <reverse_if_false>true</reverse_if_false>
+        <run_scripts>false</run_scripts>
+        <script_false><![CDATA[function onCondition() {
+
+}]]></script_false>
+        <script_true><![CDATA[function onCondition() {
+
+}]]></script_true>
+        <set_values/>
+        <short_description>(KB) Direct relevant is not 8.1</short_description>
+        <sys_class_name>sys_ui_policy</sys_class_name>
+        <sys_created_by>Bing.Liu@kiwibank.co.nz</sys_created_by>
+        <sys_created_on>2021-06-14 01:42:50</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>879315641bf4b414533e0dc8ec4bcbae</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>(KB) Direct relevant is not 8.1</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="BS11 Assessment" source="x_kiwib_bs11_asses">af07b2731bfae890533e0dc8ec4bcbb7</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="BS11 Assessment">af07b2731bfae890533e0dc8ec4bcbb7</sys_scope>
+        <sys_update_name>sys_ui_policy_879315641bf4b414533e0dc8ec4bcbae</sys_update_name>
+        <sys_updated_by>Bing.Liu@kiwibank.co.nz</sys_updated_by>
+        <sys_updated_on>2021-06-14 01:42:50</sys_updated_on>
+        <table>x_kiwib_bs11_asses_bs11_assessment</table>
+        <ui_type>0</ui_type>
+        <view/>
+    </sys_ui_policy>
+</record_update>

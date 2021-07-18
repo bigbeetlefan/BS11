@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_policy">
     <sys_ui_policy action="INSERT_OR_UPDATE">
         <active>true</active>
-        <conditions table="x_kiwib_bs11_asses_bs11_assessment">exempt_list_reference_number=ace727041b9cf890533e0dc8ec4bcb65^EQ<item display_table="x_kiwib_bs11_asses_exemption" display_value="8.2" endquery="false" field="exempt_list_reference_number" goto="false" newquery="false" operator="=" or="false" value="ace727041b9cf890533e0dc8ec4bcb65"/>
+        <conditions table="x_kiwib_bs11_asses_bs11_assessment">exempt_list_reference_number=68170c971be874d0533e0dc8ec4bcb8e^ORexempt_list_reference_number=6c170c971be874d0533e0dc8ec4bcb79^EQ<item display_table="x_kiwib_bs11_asses_exemption" display_value="9.2 Support/maintenance of software related exclusively to BS11 exempt functions" endquery="false" field="exempt_list_reference_number" goto="false" newquery="false" operator="=" or="false" value="68170c971be874d0533e0dc8ec4bcb8e"/>
+            <item display_table="x_kiwib_bs11_asses_exemption" display_value="8.2 Software licensed directly to the bank, where it exclusively relates to BS11 exempt functions." endquery="false" field="exempt_list_reference_number" goto="false" newquery="false" operator="=" or="true" value="6c170c971be874d0533e0dc8ec4bcb79"/>
             <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
         </conditions>
         <description/>
@@ -30,7 +31,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>6b482f441b9cf890533e0dc8ec4bcb6c</sys_id>
-        <sys_mod_count>7</sys_mod_count>
+        <sys_mod_count>11</sys_mod_count>
         <sys_name>(KB) Exempt List 8.2 or 9.2</sys_name>
         <sys_overrides/>
         <sys_package display_value="BS11 Assessment" source="x_kiwib_bs11_asses">af07b2731bfae890533e0dc8ec4bcbb7</sys_package>
@@ -38,7 +39,7 @@
         <sys_scope display_value="BS11 Assessment">af07b2731bfae890533e0dc8ec4bcbb7</sys_scope>
         <sys_update_name>sys_ui_policy_6b482f441b9cf890533e0dc8ec4bcb6c</sys_update_name>
         <sys_updated_by>Bing.Liu@kiwibank.co.nz</sys_updated_by>
-        <sys_updated_on>2021-05-24 21:11:18</sys_updated_on>
+        <sys_updated_on>2021-06-10 02:08:08</sys_updated_on>
         <table>x_kiwib_bs11_asses_bs11_assessment</table>
         <ui_type>0</ui_type>
         <view/>

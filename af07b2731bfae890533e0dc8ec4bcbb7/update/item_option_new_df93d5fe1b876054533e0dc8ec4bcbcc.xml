@@ -24,6 +24,7 @@
         <help_tag>More information</help_tag>
         <help_text>Describe all elements of the functions or services.&#13;
 Please ensure there are no unexplained acronyms. </help_text>
+        <hidden>false</hidden>
         <include_none>false</include_none>
         <instructions/>
         <layout>normal</layout>
@@ -34,6 +35,7 @@ Please ensure there are no unexplained acronyms. </help_text>
         <lookup_unique>false</lookup_unique>
         <lookup_value/>
         <macro/>
+        <macroponent/>
         <mandatory>false</mandatory>
         <map_to_field>true</map_to_field>
         <mask_use_confirmation>false</mask_use_confirmation>
@@ -42,8 +44,11 @@ Please ensure there are no unexplained acronyms. </help_text>
         <order>45</order>
         <price_if_checked>0</price_if_checked>
         <pricing_implications>false</pricing_implications>
+        <published_ref/>
         <question_text>Application/Service Description/Function</question_text>
+        <read_only>false</read_only>
         <read_roles/>
+        <read_script/>
         <rec_lookup_price/>
         <rec_price_if_checked>0</rec_price_if_checked>
         <record/>
@@ -53,6 +58,7 @@ Please ensure there are no unexplained acronyms. </help_text>
         <reference_qual_condition/>
         <rich_text/>
         <roles_to_use_also_request_for/>
+        <save_script/>
         <scale_max>5</scale_max>
         <scale_min>0</scale_min>
         <show_help>true</show_help>
@@ -75,6 +81,7 @@ Please ensure there are no unexplained acronyms. </help_text>
         <tooltip/>
         <type>2</type>
         <ui_page/>
+        <unique>false</unique>
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <validate_regex/>

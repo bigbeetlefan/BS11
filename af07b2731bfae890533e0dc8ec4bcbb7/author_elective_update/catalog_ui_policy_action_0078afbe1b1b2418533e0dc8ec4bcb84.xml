@@ -51,7 +51,7 @@
         <update_guid_history>85d2899c26236818f12fbfb39838d2c6:-624607788,267823fe901b2418c3385bbfec925bc4:1689599380</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Other_operational_or_customer_impact">e09d051c1be3a458533e0dc8ec4bcbfb</sys_audit_delete>
+        <sys_audit_delete display_value="">e09d051c1be3a458533e0dc8ec4bcbfb</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>Bing.Liu@kiwibank.co.nz</sys_created_by>
         <sys_created_on>2021-04-12 03:17:54</sys_created_on>

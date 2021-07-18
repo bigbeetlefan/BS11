@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field>application_service_description_function</field>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>(KB) Field msg - App/Service/Function</name>
+        <order/>
+        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+//    if (isLoading) {
+//       return;
+//    }
+
+   //Type appropriate comment here, and begin script below
+   g_form.showFieldMsg('application_service_description_function', 'Describe all elements of the functions or services that will be supplied, focusing on any that relate to the Reserve Bank Outcomes. Make clear what we actually depend on the supplier for – eg is it people, processes, systems?  Please ensure there are no unexplained acronyms. (Example - the arrangement might include provision of an asset or software, but might also involve maintenance and management, and associated reporting or trouble shooting. It might be a key part of call centre infrastructure or be necessary to generate customer documents. It might be on our IT or hosted by the supplier.)', 'info');
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>Bing.Liu@kiwibank.co.nz</sys_created_by>
+        <sys_created_on>2021-07-05 03:27:21</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>314579d71b457c10533e0dc8ec4bcbe9</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>(KB) Field msg - App/Service/Function</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="BS11 Assessment" source="x_kiwib_bs11_asses">af07b2731bfae890533e0dc8ec4bcbb7</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="BS11 Assessment">af07b2731bfae890533e0dc8ec4bcbb7</sys_scope>
+        <sys_update_name>sys_script_client_314579d71b457c10533e0dc8ec4bcbe9</sys_update_name>
+        <sys_updated_by>Bing.Liu@kiwibank.co.nz</sys_updated_by>
+        <sys_updated_on>2021-07-05 03:39:20</sys_updated_on>
+        <table>x_kiwib_bs11_asses_bs11_assessment</table>
+        <type>onChange</type>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>

@@ -22,7 +22,7 @@
         <delete_roles/>
         <dependent/>
         <dependent_on_field/>
-        <display>true</display>
+        <display>false</display>
         <dynamic_creation>false</dynamic_creation>
         <dynamic_creation_script/>
         <dynamic_default_value/>
@@ -32,7 +32,7 @@
         <foreign_database/>
         <function_definition/>
         <function_field>false</function_field>
-        <internal_type display_value="Decimal">decimal</internal_type>
+        <internal_type display_value="String">string</internal_type>
         <mandatory>false</mandatory>
         <max_length>40</max_length>
         <name>x_kiwib_bs11_asses_exemption</name>
@@ -53,7 +53,7 @@
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>Bing.Liu@kiwibank.co.nz</sys_created_by>
         <sys_created_on>2021-05-17 21:10:57</sys_created_on>
-        <sys_id>7bc0913f1b44f490533e0dc8ec4bcb24</sys_id>
+        <sys_id>505d48041b643c10533e0dc8ec4bcbff</sys_id>
         <sys_mod_count>2</sys_mod_count>
         <sys_name>Exempt number</sys_name>
         <sys_package display_value="BS11 Assessment" source="x_kiwib_bs11_asses">af07b2731bfae890533e0dc8ec4bcbb7</sys_package>
@@ -61,7 +61,7 @@
         <sys_scope display_value="BS11 Assessment">af07b2731bfae890533e0dc8ec4bcbb7</sys_scope>
         <sys_update_name>sys_dictionary_x_kiwib_bs11_asses_exemption_exempt_number</sys_update_name>
         <sys_updated_by>Bing.Liu@kiwibank.co.nz</sys_updated_by>
-        <sys_updated_on>2021-05-19 03:50:49</sys_updated_on>
+        <sys_updated_on>2021-07-06 22:50:01</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>true</unique>

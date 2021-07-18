@@ -6,7 +6,7 @@
             <sys_class_name>sys_choice_set</sys_class_name>
             <sys_created_by>Bing.Liu@kiwibank.co.nz</sys_created_by>
             <sys_created_on>2021-03-24 00:37:07</sys_created_on>
-            <sys_id>7b82ba8edb03641422483a83e296197d</sys_id>
+            <sys_id>485d48041b643c10533e0dc8ec4bcb82</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_name>confirm_dr_approperiate_adequate</sys_name>
             <sys_package display_value="BS11 Assessment" source="x_kiwib_bs11_asses">af07b2731bfae890533e0dc8ec4bcbb7</sys_package>
@@ -21,57 +21,60 @@
             <element>confirm_dr_approperiate_adequate</element>
             <hint/>
             <inactive>false</inactive>
-            <label>Choice 1</label>
+            <label>Yes</label>
             <language>en</language>
             <name>x_kiwib_bs11_asses_bs11_assessment</name>
             <sequence>0</sequence>
+            <synonyms/>
             <sys_created_by>Bing.Liu@kiwibank.co.nz</sys_created_by>
             <sys_created_on>2021-03-24 00:37:07</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_id>3382ba8edb03641422483a83e296197d</sys_id>
-            <sys_mod_count>0</sys_mod_count>
+            <sys_mod_count>2</sys_mod_count>
             <sys_updated_by>Bing.Liu@kiwibank.co.nz</sys_updated_by>
-            <sys_updated_on>2021-03-24 00:37:07</sys_updated_on>
-            <value>Choice 1</value>
+            <sys_updated_on>2021-06-15 03:44:08</sys_updated_on>
+            <value>yes</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value/>
             <element>confirm_dr_approperiate_adequate</element>
             <hint/>
             <inactive>false</inactive>
-            <label>Choice 2</label>
+            <label>No</label>
             <language>en</language>
             <name>x_kiwib_bs11_asses_bs11_assessment</name>
             <sequence>1</sequence>
+            <synonyms/>
             <sys_created_by>Bing.Liu@kiwibank.co.nz</sys_created_by>
             <sys_created_on>2021-03-24 00:37:07</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_id>f782ba8edb03641422483a83e2961982</sys_id>
-            <sys_mod_count>0</sys_mod_count>
+            <sys_mod_count>2</sys_mod_count>
             <sys_updated_by>Bing.Liu@kiwibank.co.nz</sys_updated_by>
-            <sys_updated_on>2021-03-24 00:37:07</sys_updated_on>
-            <value>Choice 2</value>
+            <sys_updated_on>2021-06-15 03:44:05</sys_updated_on>
+            <value>no</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value/>
             <element>confirm_dr_approperiate_adequate</element>
             <hint/>
             <inactive>false</inactive>
-            <label>Choice 3</label>
+            <label>No - service must be implemented before DR can be assessed</label>
             <language>en</language>
             <name>x_kiwib_bs11_asses_bs11_assessment</name>
             <sequence>2</sequence>
+            <synonyms/>
             <sys_created_by>Bing.Liu@kiwibank.co.nz</sys_created_by>
             <sys_created_on>2021-03-24 00:37:07</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_id>b782ba8edb03641422483a83e2961987</sys_id>
-            <sys_mod_count>0</sys_mod_count>
+            <sys_mod_count>2</sys_mod_count>
             <sys_updated_by>Bing.Liu@kiwibank.co.nz</sys_updated_by>
-            <sys_updated_on>2021-03-24 00:37:07</sys_updated_on>
-            <value>Choice 3</value>
+            <sys_updated_on>2021-06-15 03:44:21</sys_updated_on>
+            <value>maybe</value>
         </sys_choice>
     </sys_choice>
 </record_update>

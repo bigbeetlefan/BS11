@@ -66,7 +66,7 @@
         <update_guid_history>2248ba772dfae890620da418ba30cfb0:-246698534</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Open - Unassigned">31733648db8b6c9022483a83e29619c4</sys_audit_delete>
+        <sys_audit_delete display_value="">31733648db8b6c9022483a83e29619c4</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>Bing.Liu@kiwibank.co.nz</sys_created_by>
         <sys_created_on>2021-03-17 19:33:13</sys_created_on>

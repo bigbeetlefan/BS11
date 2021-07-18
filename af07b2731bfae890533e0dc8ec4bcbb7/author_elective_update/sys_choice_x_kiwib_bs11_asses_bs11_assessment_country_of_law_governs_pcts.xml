@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="country_of_law_governs_pcts" table="x_kiwib_bs11_asses_bs11_assessment" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>country_of_law_governs_pcts</element>
+            <name>x_kiwib_bs11_asses_bs11_assessment</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>Bing.Liu@kiwibank.co.nz</sys_created_by>
+            <sys_created_on>2021-06-15 03:52:10</sys_created_on>
+            <sys_id>ea2b36301bb8b814533e0dc8ec4bcb15</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>country_of_law_governs_pcts</sys_name>
+            <sys_package display_value="BS11 Assessment" source="x_kiwib_bs11_asses">af07b2731bfae890533e0dc8ec4bcbb7</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="BS11 Assessment">af07b2731bfae890533e0dc8ec4bcbb7</sys_scope>
+            <sys_update_name>sys_choice_x_kiwib_bs11_asses_bs11_assessment_country_of_law_governs_pcts</sys_update_name>
+            <sys_updated_by>Bing.Liu@kiwibank.co.nz</sys_updated_by>
+            <sys_updated_on>2021-06-15 03:52:10</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>country_of_law_governs_pcts</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>New Zealand</label>
+            <language>en</language>
+            <name>x_kiwib_bs11_asses_bs11_assessment</name>
+            <sequence>1</sequence>
+            <synonyms/>
+            <sys_created_by>Bing.Liu@kiwibank.co.nz</sys_created_by>
+            <sys_created_on>2021-06-15 03:52:10</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>042b7efc1b78b814533e0dc8ec4bcb6d</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>Bing.Liu@kiwibank.co.nz</sys_updated_by>
+            <sys_updated_on>2021-06-15 03:52:26</sys_updated_on>
+            <value>nz</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>country_of_law_governs_pcts</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Other</label>
+            <language>en</language>
+            <name>x_kiwib_bs11_asses_bs11_assessment</name>
+            <sequence>2</sequence>
+            <synonyms/>
+            <sys_created_by>Bing.Liu@kiwibank.co.nz</sys_created_by>
+            <sys_created_on>2021-06-15 03:52:17</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>ea2bf2fc1b78b814533e0dc8ec4bcb2e</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>Bing.Liu@kiwibank.co.nz</sys_updated_by>
+            <sys_updated_on>2021-06-15 03:52:28</sys_updated_on>
+            <value>other</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_process_flow">
+    <sys_process_flow action="DELETE">
+        <active>false</active>
+        <condition table="x_kiwib_bs11_asses_bs11_assessment">stage=^EQ<item endquery="false" field="stage" goto="false" newquery="false" operator="=" or="false" value=""/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </condition>
+        <description/>
+        <label>Approval</label>
+        <name>Approval</name>
+        <order>90</order>
+        <sys_class_name>sys_process_flow</sys_class_name>
+        <sys_created_by>Bing.Liu@kiwibank.co.nz</sys_created_by>
+        <sys_created_on>2021-04-14 21:14:32</sys_created_on>
+        <sys_id>b227178ddb2fa05822483a83e2961901</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Approval</sys_name>
+        <sys_package display_value="BS11 Assessment" source="x_kiwib_bs11_asses">af07b2731bfae890533e0dc8ec4bcbb7</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="BS11 Assessment">af07b2731bfae890533e0dc8ec4bcbb7</sys_scope>
+        <sys_update_name>sys_process_flow_b227178ddb2fa05822483a83e2961901</sys_update_name>
+        <sys_updated_by>Bing.Liu@kiwibank.co.nz</sys_updated_by>
+        <sys_updated_on>2021-06-11 04:09:38</sys_updated_on>
+        <table>x_kiwib_bs11_asses_bs11_assessment</table>
+    </sys_process_flow>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="BS11 Assessment">af07b2731bfae890533e0dc8ec4bcbb7</application>
+        <file_path/>
+        <instance_id>5eff1e92db012f4c0e785d00cf961905</instance_id>
+        <instance_name>kiwibankdev</instance_name>
+        <name>sys_process_flow_b227178ddb2fa05822483a83e2961901</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_process_flow"><sys_process_flow action="INSERT_OR_UPDATE"><active>false</active><condition table="x_kiwib_bs11_asses_bs11_assessment">stage=^EQ<item endquery="false" field="stage" goto="false" newquery="false" operator="=" or="false" value=""/><item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/></condition><description/><label>Approval</label><name>Approval</name><order>90</order><sys_class_name>sys_process_flow</sys_class_name><sys_created_by>Bing.Liu@kiwibank.co.nz</sys_created_by><sys_created_on>2021-04-14 21:14:32</sys_created_on><sys_id>b227178ddb2fa05822483a83e2961901</sys_id><sys_mod_count>2</sys_mod_count><sys_name>Approval</sys_name><sys_package display_value="BS11 Assessment" source="x_kiwib_bs11_asses">af07b2731bfae890533e0dc8ec4bcbb7</sys_package><sys_policy/><sys_scope display_value="BS11 Assessment">af07b2731bfae890533e0dc8ec4bcbb7</sys_scope><sys_update_name>sys_process_flow_b227178ddb2fa05822483a83e2961901</sys_update_name><sys_updated_by>Bing.Liu@kiwibank.co.nz</sys_updated_by><sys_updated_on>2021-06-11 04:09:38</sys_updated_on><table>x_kiwib_bs11_asses_bs11_assessment</table></sys_process_flow></record_update>]]></payload>
+        <payload_hash>-881686910</payload_hash>
+        <record_name>Approval</record_name>
+        <reverted_from/>
+        <source>55f11c881ba43c10533e0dc8ec4bcb19</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>Bing.Liu@kiwibank.co.nz</sys_created_by>
+        <sys_created_on>2021-06-11 04:09:38</sys_created_on>
+        <sys_id>13c8526f1ba0b8d0533e0dc8ec4bcbf9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>179f942da590000001</sys_recorded_at>
+        <sys_updated_by>Bing.Liu@kiwibank.co.nz</sys_updated_by>
+        <sys_updated_on>2021-06-11 04:09:38</sys_updated_on>
+        <type>Flow Formatter</type>
+        <update_guid>1bc8526ffda0b8d0bff78602cd8c5cf8</update_guid>
+        <update_guid_history>1bc8526ffda0b8d0bff78602cd8c5cf8:-881686910,a07dc444ac643c10dc6eb10da219a22f:-1012966307</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>Bing.Liu@kiwibank.co.nz</sys_created_by>
+        <sys_created_on>2021-06-30 03:40:49</sys_created_on>
+        <sys_db_object display_value="" name="sys_process_flow">sys_process_flow</sys_db_object>
+        <sys_id>6743ffd89d9145bcaac2681752824b10</sys_id>
+        <sys_metadata>b227178ddb2fa05822483a83e2961901</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Approval</sys_name>
+        <sys_package display_value="BS11 Assessment" source="x_kiwib_bs11_asses">af07b2731bfae890533e0dc8ec4bcbb7</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="BS11 Assessment">af07b2731bfae890533e0dc8ec4bcbb7</sys_scope>
+        <sys_scope_delete display_value="">0ee22e54a71348948a0c910e8eb2a990</sys_scope_delete>
+        <sys_update_name>sys_process_flow_b227178ddb2fa05822483a83e2961901</sys_update_name>
+        <sys_update_version display_value="sys_process_flow_b227178ddb2fa05822483a83e2961901">13c8526f1ba0b8d0533e0dc8ec4bcbf9</sys_update_version>
+        <sys_updated_by>Bing.Liu@kiwibank.co.nz</sys_updated_by>
+        <sys_updated_on>2021-06-30 03:40:49</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

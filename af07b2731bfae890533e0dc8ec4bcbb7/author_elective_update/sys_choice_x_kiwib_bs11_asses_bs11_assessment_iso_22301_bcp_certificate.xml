@@ -6,7 +6,7 @@
             <sys_class_name>sys_choice_set</sys_class_name>
             <sys_created_by>Bing.Liu@kiwibank.co.nz</sys_created_by>
             <sys_created_on>2021-04-06 21:39:40</sys_created_on>
-            <sys_id>01305eaa1b572018533e0dc8ec4bcb6f</sys_id>
+            <sys_id>585d48041b643c10533e0dc8ec4bcbce</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_name>iso_22301_bcp_certificate</sys_name>
             <sys_package display_value="BS11 Assessment" source="x_kiwib_bs11_asses">af07b2731bfae890533e0dc8ec4bcbb7</sys_package>
@@ -25,6 +25,7 @@
             <language>en</language>
             <name>x_kiwib_bs11_asses_bs11_assessment</name>
             <sequence>0</sequence>
+            <synonyms/>
             <sys_created_by>Bing.Liu@kiwibank.co.nz</sys_created_by>
             <sys_created_on>2021-04-06 21:39:40</sys_created_on>
             <sys_domain>global</sys_domain>
@@ -44,6 +45,7 @@
             <language>en</language>
             <name>x_kiwib_bs11_asses_bs11_assessment</name>
             <sequence>1</sequence>
+            <synonyms/>
             <sys_created_by>Bing.Liu@kiwibank.co.nz</sys_created_by>
             <sys_created_on>2021-04-06 21:39:40</sys_created_on>
             <sys_domain>global</sys_domain>

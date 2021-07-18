@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field>function_service_falls_within_whitelist</field>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>(KB) Field msg - Svce fall excempt list</name>
+        <order/>
+        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+//    if (isLoading || newValue === '') {
+//       return;
+//    }
+
+   //Type appropriate comment here, and begin script below
+   g_form.showFieldMsg('function_service_falls_within_whitelist','Consider the List in the link above before selecting a drop down item. All of the function or service to be provided must fall within an item on the List, and meet all parts of the item definition. Use the List, as the drop downs do not include the full descriptions determined by the Reserve Bank.','info');
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>Bing.Liu@kiwibank.co.nz</sys_created_by>
+        <sys_created_on>2021-06-09 03:22:13</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>4dca3fba1b28b0d0533e0dc8ec4bcbb7</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>(KB) Field msg - Svce fall excempt list</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="BS11 Assessment" source="x_kiwib_bs11_asses">af07b2731bfae890533e0dc8ec4bcbb7</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="BS11 Assessment">af07b2731bfae890533e0dc8ec4bcbb7</sys_scope>
+        <sys_update_name>sys_script_client_4dca3fba1b28b0d0533e0dc8ec4bcbb7</sys_update_name>
+        <sys_updated_by>Bing.Liu@kiwibank.co.nz</sys_updated_by>
+        <sys_updated_on>2021-07-06 22:46:28</sys_updated_on>
+        <table>x_kiwib_bs11_asses_bs11_assessment</table>
+        <type>onChange</type>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>

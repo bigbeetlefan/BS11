@@ -6,7 +6,7 @@
             <sys_class_name>sys_choice_set</sys_class_name>
             <sys_created_by>Bing.Liu@kiwibank.co.nz</sys_created_by>
             <sys_created_on>2021-03-24 00:52:54</sys_created_on>
-            <sys_id>0f263ec6db43641422483a83e296193b</sys_id>
+            <sys_id>dc5d48041b643c10533e0dc8ec4bcbd1</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_name>is_risk_acceptance_required</sys_name>
             <sys_package display_value="BS11 Assessment" source="x_kiwib_bs11_asses">af07b2731bfae890533e0dc8ec4bcbb7</sys_package>
@@ -25,6 +25,7 @@
             <language>en</language>
             <name>x_kiwib_bs11_asses_bs11_assessment</name>
             <sequence>0</sequence>
+            <synonyms/>
             <sys_created_by>Bing.Liu@kiwibank.co.nz</sys_created_by>
             <sys_created_on>2021-03-24 00:52:54</sys_created_on>
             <sys_domain>global</sys_domain>
@@ -44,6 +45,7 @@
             <language>en</language>
             <name>x_kiwib_bs11_asses_bs11_assessment</name>
             <sequence>1</sequence>
+            <synonyms/>
             <sys_created_by>Bing.Liu@kiwibank.co.nz</sys_created_by>
             <sys_created_on>2021-03-24 00:52:54</sys_created_on>
             <sys_domain>global</sys_domain>

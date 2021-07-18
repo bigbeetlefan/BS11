@@ -24,6 +24,7 @@
         <help_tag>More information</help_tag>
         <help_text> If so, please provide the related party name.&#13;
 There are additional requirements for outsourcing to related parties, or to independent third parties through a related party.  Related parties are other entities in the Kiwi Group Holdings Limited group and its shareholders (e.g. NZ Post). (If in doubt, ask)</help_text>
+        <hidden>false</hidden>
         <include_none>false</include_none>
         <instructions/>
         <layout>normal</layout>
@@ -34,6 +35,7 @@ There are additional requirements for outsourcing to related parties, or to inde
         <lookup_unique>false</lookup_unique>
         <lookup_value/>
         <macro/>
+        <macroponent/>
         <mandatory>false</mandatory>
         <map_to_field>true</map_to_field>
         <mask_use_confirmation>false</mask_use_confirmation>
@@ -42,8 +44,11 @@ There are additional requirements for outsourcing to related parties, or to inde
         <order>155</order>
         <price_if_checked>0</price_if_checked>
         <pricing_implications>false</pricing_implications>
+        <published_ref/>
         <question_text>Are you likely to consider involving a related party in the outsourcing?</question_text>
+        <read_only>false</read_only>
         <read_roles/>
+        <read_script/>
         <rec_lookup_price/>
         <rec_price_if_checked>0</rec_price_if_checked>
         <record/>
@@ -53,6 +58,7 @@ There are additional requirements for outsourcing to related parties, or to inde
         <reference_qual_condition/>
         <rich_text/>
         <roles_to_use_also_request_for/>
+        <save_script/>
         <scale_max>5</scale_max>
         <scale_min>0</scale_min>
         <show_help>true</show_help>
@@ -75,6 +81,7 @@ There are additional requirements for outsourcing to related parties, or to inde
         <tooltip/>
         <type>6</type>
         <ui_page/>
+        <unique>false</unique>
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <validate_regex/>

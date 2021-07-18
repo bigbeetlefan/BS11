@@ -1,26 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
-    <sys_documentation element="describe_supplier_dr_timeframes_met" label="Describe the timeframes for the supplier’s DR, explaining why these are sufficient to meet Kiwibank requirements and the Reserve Bank time frames for the Outcomes." language="en" table="x_kiwib_bs11_asses_bs11_assessment">
+    <sys_documentation element="describe_supplier_dr_timeframes_met" label="Describe timeframes for the supplier's DR, explaining why these are sufficient" language="en" table="x_kiwib_bs11_asses_bs11_assessment">
         <sys_documentation action="INSERT_OR_UPDATE">
             <element>describe_supplier_dr_timeframes_met</element>
             <help/>
             <hint/>
-            <label>Describe the timeframes for the supplier’s DR, explaining why these are sufficient to meet Kiwibank requirements and the Reserve Bank time frames for the Outcomes.</label>
+            <label>Describe timeframes for the supplier's DR, explaining why these are sufficient</label>
             <language>en</language>
             <name>x_kiwib_bs11_asses_bs11_assessment</name>
-            <plural>Describe the timeframes for the supplier’s DR, explaining why these are sufficie</plural>
+            <plural>Describe timeframes for the supplier's DR, explaining why these are sufficient</plural>
             <sys_class_name>sys_documentation</sys_class_name>
             <sys_created_by>Bing.Liu@kiwibank.co.nz</sys_created_by>
             <sys_created_on>2021-03-24 00:37:04</sys_created_on>
-            <sys_id>83823a8edb03641422483a83e2961909</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_name>Describe the timeframes for the supplier’s DR, explaining why these are sufficient to meet Kiwibank requirements and the Reserve Bank time frames for the Outcomes.</sys_name>
+            <sys_id>ff4d48041b643c10533e0dc8ec4bcb08</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_name>Describe timeframes for the supplier's DR, explaining why these are sufficient</sys_name>
             <sys_package display_value="BS11 Assessment" source="x_kiwib_bs11_asses">af07b2731bfae890533e0dc8ec4bcbb7</sys_package>
             <sys_policy/>
             <sys_scope display_value="BS11 Assessment">af07b2731bfae890533e0dc8ec4bcbb7</sys_scope>
             <sys_update_name>sys_documentation_x_kiwib_bs11_asses_bs11_assessment_describe_supplier_dr_timeframes_met_en</sys_update_name>
             <sys_updated_by>Bing.Liu@kiwibank.co.nz</sys_updated_by>
-            <sys_updated_on>2021-03-24 00:37:04</sys_updated_on>
-            <url/>
+            <sys_updated_on>2021-07-15 02:23:48</sys_updated_on>
+            <url>http://ourspace/info/Shared%20Documents/BS11%20Form%202%20Appendix%201.pdf</url>
             <url_target/>
         </sys_documentation>
     </sys_documentation>

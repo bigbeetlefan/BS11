@@ -39,9 +39,12 @@
         <message/>
         <message_html><![CDATA[<p><span style="font-size: 12pt;">Kia ora ${requested_for.first_name},</span></p>
 <p><br /></p>
-<p><span style="font-size: 12pt;">Your BS11 Assessment has been opened. You will need to work with the Operational Risk and Compliance team to progress the Assessment.</span></p>
+<p><span style="font-size: 12pt;">Your BS11 Assessment for the service below has been opened.</span></p>
+<p><span style="font-size: 12pt;">Supplier name: ${supplier_name}<br /></span></p>
+<p><span style="font-size: 12pt;">Application / Service Name: ${application_service_name} </span></p>
 <p><br /></p>
-<p><span style="font-size: 12pt;"> You can access the reocrd her ${URI_REF}.</span></p>
+<p><span style="font-size: 12pt;">You will need to work with the Operational Risk and Compliance team to progress the Assessment.</span></p>
+<p><span style="font-size: 12pt;">You can update and access the record ${URI_REF}.</span></p>
 <p><br /></p>]]></message_html>
         <message_list/>
         <message_text/>
@@ -56,7 +59,7 @@
         <send_self>false</send_self>
         <sms_alternate/>
         <style/>
-        <subject>BS11 Assessment ${number} has been opened</subject>
+        <subject>BS11 Assessment ${number} has been opened - ${supplier_name}</subject>
         <subscribable>false</subscribable>
         <sys_class_name>sysevent_email_action</sys_class_name>
         <sys_created_by>Bing.Liu@kiwibank.co.nz</sys_created_by>
@@ -64,7 +67,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>b31474a9dbe7a45822483a83e29619f4</sys_id>
-        <sys_mod_count>5</sys_mod_count>
+        <sys_mod_count>6</sys_mod_count>
         <sys_name>(BS11) Assessmen Creation notification</sys_name>
         <sys_overrides/>
         <sys_package display_value="BS11 Assessment" source="x_kiwib_bs11_asses">af07b2731bfae890533e0dc8ec4bcbb7</sys_package>
@@ -72,7 +75,7 @@
         <sys_scope display_value="BS11 Assessment">af07b2731bfae890533e0dc8ec4bcbb7</sys_scope>
         <sys_update_name>sysevent_email_action_b31474a9dbe7a45822483a83e29619f4</sys_update_name>
         <sys_updated_by>Bing.Liu@kiwibank.co.nz</sys_updated_by>
-        <sys_updated_on>2021-04-16 01:23:48</sys_updated_on>
+        <sys_updated_on>2021-07-16 04:06:27</sys_updated_on>
         <sys_version>2</sys_version>
         <template display_value="(BS11) User Email Template">699f6ceddba7a45822483a83e29619d7</template>
         <type>email</type>

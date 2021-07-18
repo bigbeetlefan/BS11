@@ -6,7 +6,7 @@
             <sys_class_name>sys_choice_set</sys_class_name>
             <sys_created_by>Bing.Liu@kiwibank.co.nz</sys_created_by>
             <sys_created_on>2021-03-22 21:09:02</sys_created_on>
-            <sys_id>0e59f835db8b201422483a83e29619cd</sys_id>
+            <sys_id>945d48041b643c10533e0dc8ec4bcbe3</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_name>my_arrangement_is_outside_scope</sys_name>
             <sys_package display_value="BS11 Assessment" source="x_kiwib_bs11_asses">af07b2731bfae890533e0dc8ec4bcbb7</sys_package>
@@ -21,18 +21,19 @@
             <element>my_arrangement_is_outside_scope</element>
             <hint/>
             <inactive>false</inactive>
-            <label>On the Not Outsourcing List</label>
+            <label>Out of scope – On the Not Outsourcing List</label>
             <language>en</language>
             <name>x_kiwib_bs11_asses_bs11_assessment</name>
             <sequence>0</sequence>
+            <synonyms/>
             <sys_created_by>Bing.Liu@kiwibank.co.nz</sys_created_by>
             <sys_created_on>2021-03-22 21:09:02</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_id>c259f835db8b201422483a83e29619cd</sys_id>
-            <sys_mod_count>0</sys_mod_count>
+            <sys_mod_count>3</sys_mod_count>
             <sys_updated_by>Bing.Liu@kiwibank.co.nz</sys_updated_by>
-            <sys_updated_on>2021-03-22 21:09:02</sys_updated_on>
+            <sys_updated_on>2021-06-15 04:15:57</sys_updated_on>
             <value>1</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
@@ -40,18 +41,19 @@
             <element>my_arrangement_is_outside_scope</element>
             <hint/>
             <inactive>false</inactive>
-            <label>On the Exempt List AND not directly relevant to an Outcome/Exempt List 8.1</label>
+            <label>Out of scope – On the Exempt List and not directly relevant to an outcome</label>
             <language>en</language>
             <name>x_kiwib_bs11_asses_bs11_assessment</name>
             <sequence>1</sequence>
+            <synonyms/>
             <sys_created_by>Bing.Liu@kiwibank.co.nz</sys_created_by>
             <sys_created_on>2021-03-22 21:09:03</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_id>8a59f835db8b201422483a83e29619d2</sys_id>
-            <sys_mod_count>1</sys_mod_count>
+            <sys_mod_count>3</sys_mod_count>
             <sys_updated_by>Bing.Liu@kiwibank.co.nz</sys_updated_by>
-            <sys_updated_on>2021-05-19 01:55:24</sys_updated_on>
+            <sys_updated_on>2021-06-15 04:16:04</sys_updated_on>
             <value>2</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
@@ -59,19 +61,60 @@
             <element>my_arrangement_is_outside_scope</element>
             <hint/>
             <inactive>false</inactive>
-            <label>I have a specific interpretation from Compliance</label>
+            <label>Out of scope – On the Exempt List under 8.1</label>
             <language>en</language>
             <name>x_kiwib_bs11_asses_bs11_assessment</name>
             <sequence>2</sequence>
+            <synonyms/>
             <sys_created_by>Bing.Liu@kiwibank.co.nz</sys_created_by>
             <sys_created_on>2021-03-22 21:09:03</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_id>4a59f835db8b201422483a83e29619d7</sys_id>
-            <sys_mod_count>0</sys_mod_count>
+            <sys_mod_count>2</sys_mod_count>
             <sys_updated_by>Bing.Liu@kiwibank.co.nz</sys_updated_by>
-            <sys_updated_on>2021-03-22 21:09:03</sys_updated_on>
+            <sys_updated_on>2021-06-15 04:16:10</sys_updated_on>
             <value>3</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>my_arrangement_is_outside_scope</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Out of scope – Specific interpretation from Compliance</label>
+            <language>en</language>
+            <name>x_kiwib_bs11_asses_bs11_assessment</name>
+            <sequence>4</sequence>
+            <synonyms/>
+            <sys_created_by>Bing.Liu@kiwibank.co.nz</sys_created_by>
+            <sys_created_on>2021-06-14 01:51:16</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>717515681bf4b414533e0dc8ec4bcb85</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>Bing.Liu@kiwibank.co.nz</sys_updated_by>
+            <sys_updated_on>2021-06-15 04:16:19</sys_updated_on>
+            <value>4</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>my_arrangement_is_outside_scope</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>In scope - none of the above apply, Form 2 needed</label>
+            <language>en</language>
+            <name>x_kiwib_bs11_asses_bs11_assessment</name>
+            <sequence>5</sequence>
+            <synonyms/>
+            <sys_created_by>Bing.Liu@kiwibank.co.nz</sys_created_by>
+            <sys_created_on>2021-06-15 04:16:27</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>33808ff01bf8b814533e0dc8ec4bcb06</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>Bing.Liu@kiwibank.co.nz</sys_updated_by>
+            <sys_updated_on>2021-06-15 04:16:33</sys_updated_on>
+            <value>5</value>
         </sys_choice>
     </sys_choice>
 </record_update>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <active>true</active>
+        <api_name>x_kiwib_bs11_asses.bs11Util</api_name>
+        <caller_access/>
+        <client_callable>false</client_callable>
+        <description/>
+        <name>bs11Util</name>
+        <script><![CDATA[var bs11Util = Class.create();
+bs11Util.prototype = {
+    initialize: function() {
+    },
+
+	memberSysIds: function(group_name){
+		var userSysIdsAry = [];
+		var usrGroup = new GlideRecord('sys_user_grmember');
+		usrGroup.addQuery('group.name', group_name);
+		usrGroup.query();
+		while(usrGroup.next()){
+			userSysIdsAry.push(usrGroup.user.toString());
+		}
+		return userSysIdsAry.toString();
+	},
+	
+    type: 'bs11Util'
+};]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>Bing.Liu@kiwibank.co.nz</sys_created_by>
+        <sys_created_on>2021-07-12 03:40:45</sys_created_on>
+        <sys_id>c252b1eddb9d701022483a83e29619aa</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>bs11Util</sys_name>
+        <sys_package display_value="BS11 Assessment" source="x_kiwib_bs11_asses">af07b2731bfae890533e0dc8ec4bcbb7</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="BS11 Assessment">af07b2731bfae890533e0dc8ec4bcbb7</sys_scope>
+        <sys_update_name>sys_script_include_c252b1eddb9d701022483a83e29619aa</sys_update_name>
+        <sys_updated_by>Bing.Liu@kiwibank.co.nz</sys_updated_by>
+        <sys_updated_on>2021-07-12 03:40:45</sys_updated_on>
+    </sys_script_include>
+</record_update>

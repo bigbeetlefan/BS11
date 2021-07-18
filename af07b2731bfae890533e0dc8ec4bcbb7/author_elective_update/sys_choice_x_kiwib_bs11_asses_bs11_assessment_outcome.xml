@@ -6,7 +6,7 @@
             <sys_class_name>sys_choice_set</sys_class_name>
             <sys_created_by>Bing.Liu@kiwibank.co.nz</sys_created_by>
             <sys_created_on>2021-03-17 02:24:13</sys_created_on>
-            <sys_id>e8f70bbf1bbe2c90533e0dc8ec4bcbc6</sys_id>
+            <sys_id>105d48041b643c10533e0dc8ec4bcbe6</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_name>outcome</sys_name>
             <sys_package display_value="BS11 Assessment" source="x_kiwib_bs11_asses">af07b2731bfae890533e0dc8ec4bcbb7</sys_package>
@@ -21,18 +21,19 @@
             <element>outcome</element>
             <hint/>
             <inactive>false</inactive>
-            <label>Meets exempt category</label>
+            <label>In scope of BS11</label>
             <language>en</language>
             <name>x_kiwib_bs11_asses_bs11_assessment</name>
             <sequence>0</sequence>
+            <synonyms/>
             <sys_created_by>Bing.Liu@kiwibank.co.nz</sys_created_by>
             <sys_created_on>2021-03-17 02:24:13</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_id>a0f70bbf1bbe2c90533e0dc8ec4bcbc6</sys_id>
-            <sys_mod_count>0</sys_mod_count>
+            <sys_mod_count>2</sys_mod_count>
             <sys_updated_by>Bing.Liu@kiwibank.co.nz</sys_updated_by>
-            <sys_updated_on>2021-03-17 02:24:13</sys_updated_on>
+            <sys_updated_on>2021-07-12 23:06:11</sys_updated_on>
             <value>1</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
@@ -40,18 +41,19 @@
             <element>outcome</element>
             <hint/>
             <inactive>false</inactive>
-            <label>Does not meet exempt category</label>
+            <label>Out of scope of BS11</label>
             <language>en</language>
             <name>x_kiwib_bs11_asses_bs11_assessment</name>
             <sequence>1</sequence>
+            <synonyms/>
             <sys_created_by>Bing.Liu@kiwibank.co.nz</sys_created_by>
             <sys_created_on>2021-03-17 02:24:13</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_id>2cf70bbf1bbe2c90533e0dc8ec4bcbcb</sys_id>
-            <sys_mod_count>0</sys_mod_count>
+            <sys_mod_count>2</sys_mod_count>
             <sys_updated_by>Bing.Liu@kiwibank.co.nz</sys_updated_by>
-            <sys_updated_on>2021-03-17 02:24:13</sys_updated_on>
+            <sys_updated_on>2021-07-12 23:06:19</sys_updated_on>
             <value>2</value>
         </sys_choice>
     </sys_choice>

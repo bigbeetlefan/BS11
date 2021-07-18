@@ -12,7 +12,7 @@
         <column_label>Stage</column_label>
         <comments/>
         <create_roles/>
-        <default_value>1</default_value>
+        <default_value>0</default_value>
         <defaultsort/>
         <delete_roles/>
         <dependent/>
@@ -48,15 +48,15 @@
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>Bing.Liu@kiwibank.co.nz</sys_created_by>
         <sys_created_on>2021-04-07 00:50:57</sys_created_on>
-        <sys_id>03fb3ee61b5f2018533e0dc8ec4bcb65</sys_id>
-        <sys_mod_count>5</sys_mod_count>
+        <sys_id>fb4d48041b643c10533e0dc8ec4bcb45</sys_id>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name>Stage</sys_name>
         <sys_package display_value="BS11 Assessment" source="x_kiwib_bs11_asses">af07b2731bfae890533e0dc8ec4bcbb7</sys_package>
         <sys_policy/>
         <sys_scope display_value="BS11 Assessment">af07b2731bfae890533e0dc8ec4bcbb7</sys_scope>
         <sys_update_name>sys_dictionary_x_kiwib_bs11_asses_bs11_assessment_stage</sys_update_name>
         <sys_updated_by>Bing.Liu@kiwibank.co.nz</sys_updated_by>
-        <sys_updated_on>2021-04-08 01:12:17</sys_updated_on>
+        <sys_updated_on>2021-06-11 03:47:14</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>

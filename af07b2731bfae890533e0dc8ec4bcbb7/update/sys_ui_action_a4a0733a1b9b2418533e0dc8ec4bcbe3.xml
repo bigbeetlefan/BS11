@@ -7,7 +7,7 @@
 
 }]]></client_script_v2>
         <comments/>
-        <condition>current.state != '3' &amp;&amp; current.state != '-5';</condition>
+        <condition>current.state != '3' &amp;&amp; current.state != '-5' &amp;&amp; current.stage &lt;= '7';</condition>
         <form_action>true</form_action>
         <form_button>true</form_button>
         <form_button_v2>false</form_button_v2>
@@ -44,7 +44,7 @@ action.setRedirectURL(current);]]></script>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>a4a0733a1b9b2418533e0dc8ec4bcbe3</sys_id>
-        <sys_mod_count>18</sys_mod_count>
+        <sys_mod_count>19</sys_mod_count>
         <sys_name>Next Stage</sys_name>
         <sys_overrides/>
         <sys_package display_value="BS11 Assessment" source="x_kiwib_bs11_asses">af07b2731bfae890533e0dc8ec4bcbb7</sys_package>
@@ -52,7 +52,7 @@ action.setRedirectURL(current);]]></script>
         <sys_scope display_value="BS11 Assessment">af07b2731bfae890533e0dc8ec4bcbb7</sys_scope>
         <sys_update_name>sys_ui_action_a4a0733a1b9b2418533e0dc8ec4bcbe3</sys_update_name>
         <sys_updated_by>Bing.Liu@kiwibank.co.nz</sys_updated_by>
-        <sys_updated_on>2021-04-14 21:20:05</sys_updated_on>
+        <sys_updated_on>2021-07-12 23:53:30</sys_updated_on>
         <table>x_kiwib_bs11_asses_bs11_assessment</table>
         <ui11_compatible>true</ui11_compatible>
         <ui16_compatible>false</ui16_compatible>

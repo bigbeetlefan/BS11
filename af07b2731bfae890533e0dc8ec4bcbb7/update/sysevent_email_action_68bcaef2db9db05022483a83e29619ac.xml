@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sysevent_email_action">
+    <sysevent_email_action action="INSERT_OR_UPDATE">
+        <action_insert>true</action_insert>
+        <action_update>false</action_update>
+        <active>true</active>
+        <advanced_condition/>
+        <affected_field_on_event/>
+        <category display_value="BS11 Assessment" name="BS11 Assessment">a912b0a5dbe7a45822483a83e296195c</category>
+        <collection>sysapproval_approver</collection>
+        <condition table="sysapproval_approver">state=requested^source_table=x_kiwib_bs11_asses_bs11_assessment^sysapproval.ref_x_kiwib_bs11_asses_bs11_assessment.stage=2^sysapproval.ref_x_kiwib_bs11_asses_bs11_assessment.outcome=2^EQ<item display_value="Requested" endquery="false" field="state" goto="false" newquery="false" operator="=" or="false" value="requested"/>
+            <item endquery="false" field="source_table" goto="false" newquery="false" operator="=" or="false" value="x_kiwib_bs11_asses_bs11_assessment"/>
+            <item display_value="2" endquery="false" field="sysapproval.ref_x_kiwib_bs11_asses_bs11_assessment.stage" goto="false" newquery="false" operator="=" or="false" value="2"/>
+            <item display_value="2" endquery="false" field="sysapproval.ref_x_kiwib_bs11_asses_bs11_assessment.outcome" goto="false" newquery="false" operator="=" or="false" value="2"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </condition>
+        <content_type>text/html</content_type>
+        <default_interval/>
+        <description>when approval generated in form 1 out of scope</description>
+        <digest_from/>
+        <digest_html/>
+        <digest_reply_to/>
+        <digest_separator_html><![CDATA[<p><br /></p>
+<hr />
+<p><br /></p>]]></digest_separator_html>
+        <digest_separator_text><![CDATA[\n--------------------------------------------------------------------------------\n]]></digest_separator_text>
+        <digest_subject/>
+        <digest_template/>
+        <digest_text/>
+        <digestable>false</digestable>
+        <event_name>alert_priority.calc_priority_grouping</event_name>
+        <event_parm_1>false</event_parm_1>
+        <event_parm_2>false</event_parm_2>
+        <exclude_delegates>false</exclude_delegates>
+        <force_delivery>false</force_delivery>
+        <from/>
+        <generation_type>engine</generation_type>
+        <importance/>
+        <include_attachments>false</include_attachments>
+        <item>event.parm1</item>
+        <item_table/>
+        <mandatory>false</mandatory>
+        <message/>
+        <message_html><![CDATA[<p><span style="font-size: 12pt;">Kia ora ${approver},</span></p>
+<p><br /></p>
+<p><span style="font-size: 12pt;">Thank you for completing Form 1, for the service below: </span></p>
+<p><span style="font-size: 12pt;">BS11 Assessment ${URI_REF}<br /></span></p>
+<p><br /></p>
+<p><span style="font-size: 12pt;">The information collected indicates that the service meets the criteria to be out of scope for BS11. If you choose to approve the assessment, your approval confirms the items set out below for your role for this service.</span></p>
+<p><span style="font-size: 12pt;">Once approved, the Business Contact and Operational Risk and Compliance team member will ensure that the assessment conclusion is entered into the BS11 Sharepoint within 15 days of approval. </span></p>
+<p><br /></p>
+<p><strong><span style="font-size: 12pt;">BU Contact or BU Owner</span></strong></p>
+<p><span style="font-size: 12pt;">The Business Contact and Owner are responsible for the risks associated with the services they outsource, including compliance with the BS11 Outsourcing Policy as required by Kiwibank&rsquo;s conditions of registration as a bank.</span></p>
+<p><br /></p>
+<p><strong><span style="font-size: 12pt;">If you are the BU Contact approval confirms:</span></strong></p>
+<p><span style="font-size: 12pt;">1. The information in the BS11 Assessment is correct and clearly describes the service.</span></p>
+<p><span style="font-size: 12pt;">2. I have consulted my Operational Risk and Compliance team as necessary, in reaching the conclusion that the service is out of scope for BS11.</span></p>
+<p><br /></p>
+<p><strong><span style="font-size: 12pt;">If you are the BU Owner, approval confirms:</span></strong></p>
+<p><span style="font-size: 12pt;">1. I have reviewed the BS11 Assessment in ServiceNow and discussed the arrangement as necessary.</span></p>
+<p><span style="font-size: 12pt;">2. The Assessment shows that the function or service is not within the scope of BS11, and this assessment seems reasonable.</span></p>
+<p><br /></p>
+<p><strong><span style="font-size: 12pt;">If you are the Operational Risk and Compliance team member</span></strong></p>
+<p><strong><span style="font-size: 12pt;">The Operational Risk and Compliance team advise the Business Contact and Owner. Your approval confirms: </span></strong></p>
+<p><span style="font-size: 12pt;">1. I have reviewed the BS11 Assessment in ServiceNow, and discussed the arrangement as necessary.</span></p>
+<p><span style="font-size: 12pt;">2. The information shows that the function or service appears on the Exempt List or Not Outsourcing list and is not directly relevant to an Outcome.</span></p>
+<p><span style="font-size: 12pt;">3. The Assessment seems reasonable and is clearly describes the service so that it can be understood by anyone. </span></p>
+<p><span style="font-size: 12pt;">4. I will ensure that the the assessment conclusion is entered into the BS11 Sharepoint within 15 days of approval. </span></p>
+<p><br /></p>]]></message_html>
+        <message_list/>
+        <message_text/>
+        <name>(BS11) Approval - Form 1 Out Scope</name>
+        <omit_watermark>true</omit_watermark>
+        <order>100</order>
+        <push_message_only>false</push_message_only>
+        <recipient_fields>approver</recipient_fields>
+        <recipient_groups/>
+        <recipient_users/>
+        <reply_to/>
+        <send_self>true</send_self>
+        <sms_alternate/>
+        <style/>
+        <subject>BS11 Assessment ${sysapproval} is pending your approval</subject>
+        <subscribable>false</subscribable>
+        <sys_class_name>sysevent_email_action</sys_class_name>
+        <sys_created_by>Bing.Liu@kiwibank.co.nz</sys_created_by>
+        <sys_created_on>2021-07-16 04:28:12</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>68bcaef2db9db05022483a83e29619ac</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>(BS11) Approval - Form 1 Out Scope</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="BS11 Assessment" source="x_kiwib_bs11_asses">af07b2731bfae890533e0dc8ec4bcbb7</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="BS11 Assessment">af07b2731bfae890533e0dc8ec4bcbb7</sys_scope>
+        <sys_update_name>sysevent_email_action_68bcaef2db9db05022483a83e29619ac</sys_update_name>
+        <sys_updated_by>Bing.Liu@kiwibank.co.nz</sys_updated_by>
+        <sys_updated_on>2021-07-16 04:35:25</sys_updated_on>
+        <sys_version>2</sys_version>
+        <template display_value="(BS11) User Email Template">699f6ceddba7a45822483a83e29619d7</template>
+        <type>email</type>
+        <weight>0</weight>
+    </sysevent_email_action>
+</record_update>

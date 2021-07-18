@@ -14,7 +14,7 @@
         <choice>1</choice>
         <choice_field/>
         <choice_table/>
-        <column_label>Reserve Bank guidance: For all [banking] products offered to customers that are </column_label>
+        <column_label>Managed wind down required? </column_label>
         <comments/>
         <create_roles/>
         <default_value/>
@@ -53,15 +53,15 @@
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>Bing.Liu@kiwibank.co.nz</sys_created_by>
         <sys_created_on>2021-03-19 01:30:47</sys_created_on>
-        <sys_id>69ae0964db07a0d022483a83e29619e6</sys_id>
-        <sys_mod_count>2</sys_mod_count>
-        <sys_name>Reserve Bank guidance: For all [banking] products offered to customers that are </sys_name>
+        <sys_id>334d48041b643c10533e0dc8ec4bcb32</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Managed wind down required? </sys_name>
         <sys_package display_value="BS11 Assessment" source="x_kiwib_bs11_asses">af07b2731bfae890533e0dc8ec4bcbb7</sys_package>
         <sys_policy/>
         <sys_scope display_value="BS11 Assessment">af07b2731bfae890533e0dc8ec4bcbb7</sys_scope>
         <sys_update_name>sys_dictionary_x_kiwib_bs11_asses_bs11_assessment_manage_wind_down</sys_update_name>
         <sys_updated_by>Bing.Liu@kiwibank.co.nz</sys_updated_by>
-        <sys_updated_on>2021-05-18 23:28:00</sys_updated_on>
+        <sys_updated_on>2021-06-15 20:57:24</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>

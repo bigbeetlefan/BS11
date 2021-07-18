@@ -41,7 +41,7 @@
         <update_guid_history>2ff85b9eb3836c1419d9788ab40b80d1:1367454763</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Customer Service.BS11 Assessment">424993521bc36c14533e0dc8ec4bcbb2</sys_audit_delete>
+        <sys_audit_delete display_value="">424993521bc36c14533e0dc8ec4bcbb2</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>Bing.Liu@kiwibank.co.nz</sys_created_by>
         <sys_created_on>2021-03-24 22:04:46</sys_created_on>

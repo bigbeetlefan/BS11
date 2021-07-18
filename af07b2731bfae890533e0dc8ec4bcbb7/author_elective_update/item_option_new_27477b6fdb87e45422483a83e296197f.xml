@@ -149,7 +149,7 @@
         <update_guid_history>a747bbebb0c7e45468f5f695ed73585d:-1752941865</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Address for Service">33d9ebf21b5b2418533e0dc8ec4bcba5</sys_audit_delete>
+        <sys_audit_delete display_value="">33d9ebf21b5b2418533e0dc8ec4bcba5</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>Bing.Liu@kiwibank.co.nz</sys_created_by>
         <sys_created_on>2021-04-07 22:49:55</sys_created_on>

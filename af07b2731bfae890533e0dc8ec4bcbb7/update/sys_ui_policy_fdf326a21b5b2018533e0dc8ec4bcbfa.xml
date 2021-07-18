@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_policy">
     <sys_ui_policy action="INSERT_OR_UPDATE">
         <active>true</active>
-        <conditions table="x_kiwib_bs11_asses_bs11_assessment">contract_contains_standard_pcts=amended^EQ<item display_value="Amended" endquery="false" field="contract_contains_standard_pcts" goto="false" newquery="false" operator="=" or="false" value="amended"/>
+        <conditions table="x_kiwib_bs11_asses_bs11_assessment">contract_contains_standard_pcts=no^EQ<item display_value="No" endquery="false" field="contract_contains_standard_pcts" goto="false" newquery="false" operator="=" or="false" value="no"/>
             <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
         </conditions>
         <description/>
@@ -28,7 +28,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>fdf326a21b5b2018533e0dc8ec4bcbfa</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name>(KB) Standard PCTs</sys_name>
         <sys_overrides/>
         <sys_package display_value="BS11 Assessment" source="x_kiwib_bs11_asses">af07b2731bfae890533e0dc8ec4bcbb7</sys_package>
@@ -36,7 +36,7 @@
         <sys_scope display_value="BS11 Assessment">af07b2731bfae890533e0dc8ec4bcbb7</sys_scope>
         <sys_update_name>sys_ui_policy_fdf326a21b5b2018533e0dc8ec4bcbfa</sys_update_name>
         <sys_updated_by>Bing.Liu@kiwibank.co.nz</sys_updated_by>
-        <sys_updated_on>2021-04-06 23:06:00</sys_updated_on>
+        <sys_updated_on>2021-06-15 03:50:18</sys_updated_on>
         <table>x_kiwib_bs11_asses_bs11_assessment</table>
         <ui_type>0</ui_type>
         <view/>

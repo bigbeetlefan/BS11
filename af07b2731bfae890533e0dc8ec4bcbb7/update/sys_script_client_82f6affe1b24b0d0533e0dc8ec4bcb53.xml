@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field>systems_and_financial_data</field>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>(KB) Field msg - Sys and finan data</name>
+        <order/>
+        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+//    if (isLoading || newValue === '') {
+//       return;
+//    }
+
+   //Type appropriate comment here, and begin script below
+   g_form.showFieldMsg('systems_and_financial_data', '3. Make available the systems and financial data necessary for a statutory manager or the Reserve Bank to have available a range of options for managing Kiwibank, in the unlikely event that it failed. This relates to any data which a Statutory Manager might need IN ADDITION to that already covered in 1, 2 or 4.','info');
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>Bing.Liu@kiwibank.co.nz</sys_created_by>
+        <sys_created_on>2021-06-09 01:55:43</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>82f6affe1b24b0d0533e0dc8ec4bcb53</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>(KB) Field msg - Sys and finan data</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="BS11 Assessment" source="x_kiwib_bs11_asses">af07b2731bfae890533e0dc8ec4bcbb7</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="BS11 Assessment">af07b2731bfae890533e0dc8ec4bcbb7</sys_scope>
+        <sys_update_name>sys_script_client_82f6affe1b24b0d0533e0dc8ec4bcb53</sys_update_name>
+        <sys_updated_by>Bing.Liu@kiwibank.co.nz</sys_updated_by>
+        <sys_updated_on>2021-06-09 02:10:44</sys_updated_on>
+        <table>x_kiwib_bs11_asses_bs11_assessment</table>
+        <type>onChange</type>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>

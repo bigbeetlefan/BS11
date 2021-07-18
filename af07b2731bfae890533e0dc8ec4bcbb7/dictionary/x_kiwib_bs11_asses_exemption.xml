@@ -1,15 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element label="Exemption" max_length="40" name="x_kiwib_bs11_asses_exemption" sizeclass="1" type="collection">
+    <element label="Exemption" max_length="40" name="x_kiwib_bs11_asses_exemption" sizeclass="104" type="collection">
         <element default="true" label="Active" max_length="40" name="active" type="boolean"/>
         <element choice="1" label="Category" max_length="40" name="category" type="choice">
-            <choice/>
+            <choice>
+                <element inactive_on_update="false" label="Contractual arrangements" sequence="0" value="1"/>
+                <element inactive_on_update="false" label="Data &amp; documents – supply, management, analysis" sequence="0" value="2"/>
+                <element inactive_on_update="false" label="Financial markets activities" sequence="0" value="3"/>
+                <element inactive_on_update="false" label="Financial markets infrastructure" sequence="0" value="4"/>
+                <element inactive_on_update="false" label="Global reporting, AML, other similar monitoring" sequence="0" value="5"/>
+                <element inactive_on_update="false" label="Human resources" sequence="0" value="6"/>
+                <element inactive_on_update="false" label="IT – Hardware, other services &amp; support" sequence="0" value="7"/>
+                <element inactive_on_update="false" label="IT – software packages" sequence="0" value="8"/>
+                <element inactive_on_update="false" label="Multi-participant card scheme providers" sequence="0" value="9"/>
+                <element inactive_on_update="false" label="Nostro account" sequence="0" value="10"/>
+                <element inactive_on_update="false" label="Ongoing client/customer activity and recoveries" sequence="0" value="11"/>
+                <element inactive_on_update="false" label="Production of physical items" sequence="0" value="12"/>
+                <element inactive_on_update="false" label="Professional Bodies or Associations" sequence="0" value="13"/>
+                <element inactive_on_update="false" label="Provision of services" sequence="0" value="14"/>
+                <element inactive_on_update="false" label="Sales &amp; product origination" sequence="0" value="15"/>
+                <element inactive_on_update="false" label="Services to a third party" sequence="0" value="16"/>
+                <element inactive_on_update="false" label="Specialist services, consultancy and advice" sequence="0" value="17"/>
+            </choice>
         </element>
         <element choice="1" label="Classification" max_length="40" name="classification" type="choice">
-            <choice/>
+            <choice>
+                <element inactive_on_update="false" label="Exempt" sequence="0" value="Exempt"/>
+                <element inactive_on_update="false" label="Not Outsourcing" sequence="0" value="Not Outsourcing"/>
+            </choice>
         </element>
-        <element label="Description" max_length="1000" name="description" type="string"/>
-        <element display="true" label="Exempt number" max_length="40" name="exempt_number" type="decimal" unique="true"/>
+        <element display="true" label="Description" max_length="1000" name="description" type="string"/>
+        <element label="Exempt number" max_length="40" name="exempt_number" type="string" unique="true"/>
         <index name="index">
+            <element name="exempt_number"/>
+        </index>
+        <index name="index2">
             <element name="exempt_number"/>
         </index>
     </element>

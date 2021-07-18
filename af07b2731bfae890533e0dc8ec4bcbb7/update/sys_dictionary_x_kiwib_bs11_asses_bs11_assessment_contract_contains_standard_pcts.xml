@@ -9,7 +9,7 @@
         <choice>1</choice>
         <choice_field/>
         <choice_table/>
-        <column_label>Does the contract contains Kiwibank’s Standard PCTs (from Legal), or have these </column_label>
+        <column_label>Does the contract contain Kiwibank's standard PCTs from Legal</column_label>
         <comments/>
         <create_roles/>
         <default_value/>
@@ -48,15 +48,15 @@
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>Bing.Liu@kiwibank.co.nz</sys_created_by>
         <sys_created_on>2021-03-24 01:06:48</sys_created_on>
-        <sys_id>aa59f282db83641422483a83e296190c</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_name>Does the contract contains Kiwibank’s Standard PCTs (from Legal), or have these been amended?</sys_name>
+        <sys_id>7b4d08041b643c10533e0dc8ec4bcbfb</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Does the contract contain Kiwibank's standard PCTs from Legal</sys_name>
         <sys_package display_value="BS11 Assessment" source="x_kiwib_bs11_asses">af07b2731bfae890533e0dc8ec4bcbb7</sys_package>
         <sys_policy/>
         <sys_scope display_value="BS11 Assessment">af07b2731bfae890533e0dc8ec4bcbb7</sys_scope>
         <sys_update_name>sys_dictionary_x_kiwib_bs11_asses_bs11_assessment_contract_contains_standard_pcts</sys_update_name>
         <sys_updated_by>Bing.Liu@kiwibank.co.nz</sys_updated_by>
-        <sys_updated_on>2021-03-24 01:06:48</sys_updated_on>
+        <sys_updated_on>2021-06-15 03:47:21</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>

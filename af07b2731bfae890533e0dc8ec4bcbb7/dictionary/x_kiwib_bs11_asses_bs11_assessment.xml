@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element audit="true" extends="task" label="BS11 Assessment" max_length="40" name="x_kiwib_bs11_asses_bs11_assessment" sizeclass="1" text_index="true" type="collection">
+    <element audit="true" extends="task" label="BS11 Assessment" max_length="40" name="x_kiwib_bs11_asses_bs11_assessment" sizeclass="39" text_index="true" type="collection">
         <element attributes="edge_encryption_enabled=true" choice="1" label="Able to close out and manage wind down?" max_length="40" name="able_close_wind_down" type="string">
             <choice>
                 <element inactive_on_update="false" label="Yes" sequence="0" value="yes"/>
@@ -7,16 +7,16 @@
                 <element inactive_on_update="false" label="N/A" sequence="2" value="n/a"/>
             </choice>
         </element>
+        <element label="Account activity reporting for the accounts, services, and products required in " max_length="40" name="account_activity_reporting" type="boolean"/>
         <element attributes="edge_encryption_enabled=true" label="Application/Service Description/Function" max_length="1000" name="application_service_description_function" type="string"/>
         <element label="Application/Service Name" mandatory="true" max_length="1000" name="application_service_name" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Apply to Reserve Bank for exemption/addition" max_length="1000" name="apply_to_reserve_bank_for_exemption_addition" type="string"/>
-        <element choice="1" label="Basic banking" mandatory="true" max_length="40" name="basic_banking" type="choice">
-            <choice>
-                <element inactive_on_update="false" label="Yes" sequence="1" value="1"/>
-                <element inactive_on_update="false" label="No" sequence="2" value="0"/>
-            </choice>
-        </element>
-        <element attributes="edge_encryption_enabled=true" label="Basic banking description" max_length="1000" name="basic_banking_description" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Basic banking services - Activity reporting" max_length="1000" name="basic_banking_account_activity" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Basic banking impact statement" max_length="1000" name="basic_banking_description" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Basic banking services - NZ$ credit for customers" max_length="1000" name="basic_banking_nz_dollar_credit" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Basic banking services - NZ$ savings and deposits" max_length="1000" name="basic_banking_nz_dollar_savings" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Basic banking services - NZ$ transational account and ATMs" max_length="1000" name="basic_banking_nz_dollar_trans" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Basic banking services - Payment, clearing and settlement" max_length="1000" name="basic_banking_payment_clearing" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="BS11 Compliance need" max_length="1000" name="bs11_compliance_need" type="string"/>
         <element attributes="edge_encryption_enabled=true" choice="1" label="BS11 outside/within scope" mandatory="true" max_length="40" name="bs11_outside_within_scope" type="string">
             <choice>
@@ -25,15 +25,29 @@
             </choice>
         </element>
         <element attributes="encode_utf8=false" label="Business contact" max_length="32" name="business_contact" reference="sys_user" type="reference"/>
-        <element attributes="encode_utf8=false" label="Business owner" max_length="32" name="business_owner" reference="sys_user" type="reference"/>
+        <element attributes="encode_utf8=false" label="Business owner" max_length="32" name="business_owner" reference="sys_user" reference_qual="u_teamSTARTSWITHExecutive Committee^ORmanager.u_teamSTARTSWITHExecutive Committee^EQ" reference_qual_condition="u_teamSTARTSWITHExecutive Committee^ORmanager.u_teamSTARTSWITHExecutive Committee^EQ" type="reference"/>
         <element attributes="encode_utf8=false" label="Business Unit" max_length="32" name="business_unit" reference="business_unit" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Compliance Team agreement to treat as out of scope?" max_length="40" name="compliance_team_agreement" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Yes" sequence="0" value="1"/>
+                <element inactive_on_update="false" label="No" sequence="1" value="2"/>
+            </choice>
+        </element>
         <element attributes="edge_encryption_enabled=true" choice="1" label="I confirm that the BCP is appropriate and adequate for the purposes of ensuring " max_length="40" name="confirm_bcp_appropriate" type="string">
             <choice>
                 <element inactive_on_update="false" label="Yes" sequence="0" value="yes"/>
                 <element inactive_on_update="false" label="No" sequence="1" value="no"/>
+                <element inactive_on_update="false" label="No - service must be implemented before BCP can be tested" sequence="2" value="maybe"/>
             </choice>
         </element>
-        <element attributes="edge_encryption_enabled=true" choice="1" label="I confirm that I have a documented external legal view that the amendments meet " max_length="40" name="confirm_documented_external_legal_view_meet_requirements" type="string">
+        <element attributes="edge_encryption_enabled=true" choice="1" label="I confirm that the BCP is appropriate and adequate for the purposes of ensuring " max_length="1000" name="confirm_bcp_appropriate_adequate" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Yes" sequence="1" value="1"/>
+                <element inactive_on_update="false" label="No" sequence="2" value="0"/>
+                <element inactive_on_update="false" label="No - service must be implemented before BCP can be assessed" sequence="3" value="2"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="I confirm that I have a documented external legal view that the amendments meet" max_length="40" name="confirm_documented_external_legal_view_meet_requirements" type="string">
             <choice>
                 <element inactive_on_update="false" label="Yes" sequence="0" value="yes"/>
                 <element inactive_on_update="false" label="No" sequence="1" value="no"/>
@@ -49,26 +63,34 @@
             <choice>
                 <element inactive_on_update="false" label="Yes" sequence="0" value="yes"/>
                 <element inactive_on_update="false" label="No" sequence="1" value="no"/>
+                <element inactive_on_update="false" label="No - service must be implemented before DR can be tested" sequence="2" value="maybe"/>
             </choice>
         </element>
         <element attributes="edge_encryption_enabled=true" choice="1" label="I confirm that the DR is appropriate and adequate for the purposes of ensuring t" max_length="40" name="confirm_dr_approperiate_adequate" type="string">
             <choice>
-                <element inactive_on_update="false" label="Choice 1" sequence="0" value="Choice 1"/>
-                <element inactive_on_update="false" label="Choice 2" sequence="1" value="Choice 2"/>
-                <element inactive_on_update="false" label="Choice 3" sequence="2" value="Choice 3"/>
+                <element inactive_on_update="false" label="Yes" sequence="0" value="yes"/>
+                <element inactive_on_update="false" label="No" sequence="1" value="no"/>
+                <element inactive_on_update="false" label="No - service must be implemented before DR can be assessed" sequence="2" value="maybe"/>
             </choice>
         </element>
-        <element attributes="edge_encryption_enabled=true" label="Confirm that non-objection has been received from the Reserve Bank, or that non-" max_length="255" name="confirm_function_is_on_reapproved_list" type="string"/>
-        <element attributes="edge_encryption_enabled=true" choice="1" label="If contract is not governed by NZ law, can you confirm that you have a documente" max_length="40" name="confirm_legal_view_meet_bs11_jurisdiction" type="string">
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Confirm that non-objection has been received from the Reserve Bank" max_length="255" name="confirm_function_is_on_reapproved_list" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Yes" sequence="1" value="yes"/>
+                <element inactive_on_update="false" label="Not required, function/service is on the Pre-Approved List" sequence="2" value="no"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="I have an external legal view that the PCTs achieve the requirements" max_length="40" name="confirm_legal_view_meet_bs11_jurisdiction" type="string">
             <choice>
                 <element inactive_on_update="false" label="Yes" sequence="0" value="yes"/>
                 <element inactive_on_update="false" label="No" sequence="1" value="no"/>
             </choice>
         </element>
-        <element attributes="edge_encryption_enabled=true" choice="1" label="Does the contract contains Kiwibank’s Standard PCTs (from Legal), or have these " max_length="40" name="contract_contains_standard_pcts" type="string">
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Does the contract contain Kiwibank's standard PCTs from Legal" max_length="40" name="contract_contains_standard_pcts" type="string">
             <choice>
-                <element inactive_on_update="false" label="Standard" sequence="0" value="standard"/>
-                <element inactive_on_update="false" label="Amended" sequence="1" value="amended"/>
+                <element inactive="true" inactive_on_update="true" label="Standard" sequence="0" value="standard"/>
+                <element inactive_on_update="false" label="Yes" sequence="0" value="yes"/>
+                <element inactive="true" inactive_on_update="true" label="Amended" sequence="1" value="amended"/>
+                <element inactive_on_update="false" label="No" sequence="1" value="no"/>
             </choice>
         </element>
         <element attributes="edge_encryption_enabled=true" label="Contract No. (where applicable)" max_length="255" name="contract_number" type="string"/>
@@ -79,7 +101,12 @@
                 <element inactive_on_update="false" label="Renewal" sequence="2" value="renewal"/>
             </choice>
         </element>
-        <element attributes="encode_utf8=false" label="Which country/state’s law governs the contract and PCTs?" max_length="32" name="country_of_law_governs_pcts" reference="core_country" type="reference"/>
+        <element attributes="encode_utf8=false" choice="1" label="Which country/state’s law governs the contract and PCTs?" max_length="32" name="country_of_law_governs_pcts" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="New Zealand" sequence="1" value="nz"/>
+                <element inactive_on_update="false" label="Other" sequence="2" value="other"/>
+            </choice>
+        </element>
         <element attributes="edge_encryption_enabled=true" choice="1" label="Currency of contract" max_length="40" name="currency_of_contract" type="string">
             <choice>
                 <element inactive_on_update="false" label="NZD" sequence="0" value="nzd"/>
@@ -98,11 +125,13 @@
         </element>
         <element attributes="edge_encryption_enabled=true" label="Daily settlement impact statement" max_length="1000" name="daily_settlement_description" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Date last updated" max_length="40" name="date_last_updated" type="glide_date"/>
+        <element attributes="edge_encryption_enabled=true" label="Please enter date non-objection received OR pre-approval list number" max_length="255" name="date_nonobjection_received" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Describe the supplier’s DR relevant to the function or service, explaining why t" max_length="1000" name="describe_relevant_outcome_met" type="string"/>
-        <element attributes="edge_encryption_enabled=true" label="Describe the supplier’s BCP relevant to the function or service, explaining why " max_length="1000" name="describe_supplier_bcp_function" type="string"/>
-        <element attributes="edge_encryption_enabled=true" label="Describe the timeframes for the supplier’s DR, explaining why these are sufficie" max_length="1000" name="describe_supplier_dr_timeframes_met" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Describe the supplier’s BCP relevant to the function or service, explaining why" max_length="1000" name="describe_supplier_bcp_function" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Describe timeframes for the supplier's DR, explaining why these are sufficient" max_length="1000" name="describe_supplier_dr_timeframes_met" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Describe arrangements in place for the termination of the outsourcing arrangemen" max_length="1000" name="describe_termination_outsourcing_arrangement" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Describe the timeframes for the supplier’s BCP, explaining why these are suffici" max_length="1000" name="describe_timeframes_for_supplier_bcp" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Detailed service description" max_length="1000" name="detailed_service_description" type="string"/>
         <element attributes="edge_encryption_enabled=true" choice="1" label="Directly relevant to a BS11 Outcome" max_length="40" name="directly_relevant_bs11_outcome" type="string">
             <choice>
                 <element inactive_on_update="false" label="Yes" sequence="0" value="1"/>
@@ -126,13 +155,20 @@
             </choice>
         </element>
         <element attributes="edge_encryption_enabled=true" label="Formula or basis of estimate" max_length="255" name="formula_basis_of_estimate" type="string"/>
-        <element attributes="edge_encryption_enabled=true" choice="1" label="Function/service falls within Exempt list" mandatory="true" max_length="40" name="function_service_falls_within_whitelist" type="string">
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Function/Service falls within Exempt/Not Outsourcing list" mandatory="true" max_length="40" name="function_service_falls_within_whitelist" type="string">
             <choice>
                 <element inactive_on_update="false" label="Yes" sequence="0" value="yes"/>
                 <element inactive_on_update="false" label="No" sequence="1" value="no"/>
             </choice>
         </element>
-        <element attributes="edge_encryption_enabled=true" label="Are you likely to consider involving a related party in the outsourcing? If so, " max_length="255" name="involving_related_party_in_outsourcing" type="string"/>
+        <element label="Have a material negative impact on a significant number of third parties that re" max_length="40" name="have_a_material_negative_impact" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Related Party of Kiwibank involved? " max_length="255" name="involving_related_party_in_outsourcing" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Yes - Kiwi Insurance Limited" sequence="1" value="yes"/>
+                <element inactive_on_update="false" label="Yes - Other Related Party" sequence="2" value="maybe"/>
+                <element inactive_on_update="false" label="No" sequence="3" value="no"/>
+            </choice>
+        </element>
         <element attributes="edge_encryption_enabled=true" choice="1" label="Has the supplier provided an ISO 22301 BCP certificate, that is up to date and r" max_length="40" name="iso_22301_bcp_certificate" type="string">
             <choice>
                 <element inactive_on_update="false" label="Yes" sequence="0" value="yes"/>
@@ -151,7 +187,7 @@
                 <element inactive_on_update="false" label="No" sequence="1" value="no"/>
             </choice>
         </element>
-        <element attributes="edge_encryption_enabled=true" choice="1" label="Is Risk Acceptance required? Discuss with your Business Owner and consult your O" max_length="40" name="is_risk_acceptance_required" type="string">
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Is Risk Acceptance Required" max_length="40" name="is_risk_acceptance_required" type="string">
             <choice>
                 <element inactive_on_update="false" label="Yes" sequence="0" value="yes"/>
                 <element inactive_on_update="false" label="No" sequence="1" value="no"/>
@@ -163,46 +199,48 @@
                 <element inactive_on_update="false" label="No" sequence="1" value="no"/>
             </choice>
         </element>
-        <element attributes="edge_encryption_enabled=true" choice="1" label="Is this a start-up supplier or new service where the service must be implemented" max_length="40" name="is_this_startup_supplier" type="string">
-            <choice>
-                <element inactive_on_update="false" label="Yes" sequence="0" value="yes"/>
-                <element inactive_on_update="false" label="No" sequence="1" value="no"/>
-            </choice>
-        </element>
         <element attributes="edge_encryption_enabled=true" label="Kiwibuy ID" mandatory="true" max_length="255" name="kiwibuy_id" type="string"/>
+        <element label="Lead to contagion effects, including significant adverse effects on market confi" max_length="40" name="lead_to_contagion_effects" type="boolean"/>
         <element attributes="edge_encryption_enabled=true" label="Give the legal name of the related party" max_length="255" name="legal_name_of_the_related_party" type="string"/>
-        <element attributes="edge_encryption_enabled=true" label="List the evidence that you have relied on in assessing the supplier’s DR capabil" max_length="1000" name="list_evidence_supplier_dr_capability" type="string"/>
-        <element choice="1" label="Reserve Bank guidance: For all [banking] products offered to customers that are " mandatory="true" max_length="40" name="manage_wind_down" type="choice">
+        <element attributes="edge_encryption_enabled=true" label="List and attach the evidence that you have relied on in assessing the supplier’s" max_length="1000" name="list_evidence_supplier_dr_capability" type="string"/>
+        <element choice="1" label="Managed wind down required? " mandatory="true" max_length="40" name="manage_wind_down" type="choice">
             <choice>
                 <element inactive_on_update="false" label="N/A" sequence="0" value="na"/>
                 <element inactive_on_update="false" label="Yes" sequence="1" value="yes"/>
                 <element inactive_on_update="false" label="No" sequence="2" value="no"/>
             </choice>
         </element>
-        <element attributes="edge_encryption_enabled=true" choice="1" label="My arrangement is outside the scope of BS11 because" max_length="40" name="my_arrangement_is_outside_scope" type="string">
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Based on above, this arrangement is" mandatory="true" max_length="40" name="my_arrangement_is_outside_scope" type="string">
             <choice>
-                <element inactive_on_update="false" label="On the Not Outsourcing List" sequence="0" value="1"/>
-                <element inactive_on_update="false" label="On the Exempt List AND not directly relevant to an Outcome/Exempt List 8.1" sequence="1" value="2"/>
-                <element inactive_on_update="false" label="I have a specific interpretation from Compliance" sequence="2" value="3"/>
+                <element inactive_on_update="false" label="Out of scope – On the Not Outsourcing List" sequence="0" value="1"/>
+                <element inactive_on_update="false" label="Out of scope – On the Exempt List and not directly relevant to an outcome" sequence="1" value="2"/>
+                <element inactive_on_update="false" label="Out of scope – On the Exempt List under 8.1" sequence="2" value="3"/>
+                <element inactive_on_update="false" label="Out of scope – Specific interpretation from Compliance" sequence="4" value="4"/>
+                <element inactive_on_update="false" label="In scope - none of the above apply, Form 2 needed" sequence="5" value="5"/>
             </choice>
         </element>
         <element attributes="edge_encryption_enabled=true" label="Does the function and/or service fall within the Pre-Approved List created by th" max_length="255" name="number_on_preapproval_list" type="string"/>
-        <element attributes="omit_sys_original=true,serializer=com.glide.currency2.Currency2XMLSerializer" label="Ongoing expenses" max_length="32" name="ongoing_expenses" type="currency2"/>
+        <element label="NZ dollar credit services to customers, including credit cards, overdraft and re" max_length="40" name="nz_dollar_credit" type="boolean"/>
+        <element label="NZ dollar savings accounts and deposits accounts, including term deposit account" max_length="40" name="nz_dollar_savings" type="boolean"/>
+        <element label="NZ dollar transactional or similar accounts, used by individuals and businesses " max_length="40" name="nz_dollar_transactional" type="boolean"/>
+        <element attributes="omit_sys_original=true,serializer=com.glide.currency2.Currency2XMLSerializer" label="Ongoing expenses (NZD)" max_length="32" name="ongoing_expenses" type="currency"/>
         <element attributes="encode_utf8=false" label="Operational Risk and Compliance Specialist" max_length="32" name="operational_risk_compliance_specialist" reference="sys_user" type="reference"/>
-        <element attributes="encode_utf8=false" label="OP Risk person" max_length="32" name="op_risk_person" reference="sys_user" type="reference"/>
-        <element attributes="edge_encryption_enabled=true" label="Other operational or customer impact statement" max_length="1000" name="other_operational_description" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Operations and customer impact" max_length="1000" name="operations_and_customer_impact" type="string"/>
+        <element attributes="encode_utf8=false" label="OP Risk person" max_length="32" name="op_risk_person" reference="sys_user" reference_qual="javascript: 'sys_idIN'+ new x_kiwib_bs11_asses.bs11Util().memberSysIds('Operational Risk and Compliance');" type="reference" use_reference_qualifier="advanced"/>
+        <element attributes="edge_encryption_enabled=true" label="Other operational or customer impact" max_length="1000" name="other_operational_description" type="string"/>
         <element choice="1" label="Other operational or customer impact" mandatory="true" max_length="40" name="other_operational_or_customer_impact" type="choice">
             <choice>
                 <element inactive_on_update="false" label="Yes" sequence="1" value="1"/>
                 <element inactive_on_update="false" label="No" sequence="2" value="0"/>
             </choice>
         </element>
-        <element attributes="edge_encryption_enabled=true" choice="1" label="Assessment outcome" max_length="40" name="outcome" type="choice">
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Assessment outcome" max_length="40" name="outcome" read_only="true" type="choice">
             <choice>
-                <element inactive_on_update="false" label="Meets exempt category" sequence="0" value="1"/>
-                <element inactive_on_update="false" label="Does not meet exempt category" sequence="1" value="2"/>
+                <element inactive_on_update="false" label="In scope of BS11" sequence="0" value="1"/>
+                <element inactive_on_update="false" label="Out of scope of BS11" sequence="1" value="2"/>
             </choice>
         </element>
+        <element label="Payment clearing and settlement services, including credit card merchant acquiri" max_length="40" name="payment_clearing_settlement" type="boolean"/>
         <element attributes="edge_encryption_enabled=true" choice="1" label="Payment Card Industry Data Security Standard (PCI DSS) provisions" max_length="40" name="pcidss_provisions" type="string">
             <choice>
                 <element inactive_on_update="false" label="Yes" sequence="0" value="yes"/>
@@ -211,22 +249,20 @@
         </element>
         <element attributes="edge_encryption_enabled=true" label="PCTs are included in the outsourcing arrangement to ensure continuing access, on" max_length="1000" name="pcts_included" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="PCTs are included in the outsourcing arrangement to give the Reserve Bank the ab" max_length="1000" name="pcts_included_directly_from_supplier" type="string"/>
-        <element attributes="edge_encryption_enabled=true" label="List the evidence that you have relied on in assessing the supplier’s BCP capabi" max_length="1000" name="relied_on_assessing_supplier_bcp" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Please specify the country/states" max_length="250" name="pct_specific_country" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="List and attach the evidence that you have relied on in assessing the supplier’s" max_length="1000" name="relied_on_assessing_supplier_bcp" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Renewal date" max_length="40" name="renewal_date" type="glide_date"/>
-        <element label="Requester" max_length="32" name="requested_for" reference="sys_user" reference_qual="active=true^EQ" reference_qual_condition="active=true^EQ" type="reference"/>
-        <element attributes="edge_encryption_enabled=true" choice="3" default="1" label="Stage" max_length="40" name="stage" read_only="true" type="choice">
+        <element default="javascript:gs.getUserID();" dynamic_default_value="2fd8e97bef3221002841f7f775c0fbc1" label="Requester" max_length="32" name="requested_for" reference="sys_user" reference_qual="active=true^EQ" reference_qual_condition="active=true^EQ" type="reference" use_dynamic_default="true"/>
+        <element attributes="edge_encryption_enabled=true" choice="3" default="0" label="Stage" max_length="40" name="stage" read_only="true" type="choice">
             <choice>
-                <element inactive_on_update="false" label="Assessment submitted" sequence="1" value="1"/>
-                <element inactive_on_update="false" label="Op risk review/assess and update" sequence="2" value="2"/>
-                <element inactive_on_update="false" label="Approval" sequence="3" value="3"/>
-                <element inactive_on_update="false" label="Op risk extract/upload to compendium" sequence="4" value="4"/>
-                <element inactive_on_update="false" label="Op risk - Introductions session" sequence="5" value="5"/>
-                <element inactive_on_update="false" label="Business contact activities" sequence="6" value="6"/>
-                <element inactive_on_update="false" label="DR/BCP Assessment" sequence="7" value="7"/>
-                <element inactive_on_update="false" label="Finalise DR/BCP" sequence="8" value="8"/>
-                <element inactive_on_update="false" label="Form2 Approval" sequence="9" value="9"/>
-                <element inactive_on_update="false" label="Op risk upload/extract to compendium" sequence="10" value="10"/>
-                <element inactive_on_update="false" label="Completed" sequence="11" value="11"/>
+                <element inactive_on_update="false" label="Draft" sequence="5" value="0"/>
+                <element inactive_on_update="false" label="Form 1 Op Risk Review" sequence="20" value="1"/>
+                <element inactive_on_update="false" label="Form 1 Approval" sequence="30" value="2"/>
+                <element inactive_on_update="false" label="Form 2 Draft" sequence="40" value="3"/>
+                <element inactive_on_update="false" label="Form 2 Op Risk Review" sequence="50" value="4"/>
+                <element inactive_on_update="false" label="Form 2 Approval" sequence="60" value="5"/>
+                <element inactive_on_update="false" label="Upload" sequence="70" value="6"/>
+                <element inactive_on_update="false" label="Completed" sequence="110" value="7"/>
             </choice>
         </element>
         <element attributes="encode_utf8=false" label="Supplier" max_length="32" name="supplier" type="string"/>
@@ -248,10 +284,10 @@
             </choice>
         </element>
         <element attributes="edge_encryption_enabled=true" label="Systems and financial data impact statement" max_length="1000" name="systems_financial_data_description" type="string"/>
-        <element label="Total contract value" max_length="32" name="total_contract_value" type="currency2"/>
+        <element label="Total contract value" max_length="32" name="total_contract_value" type="currency"/>
         <element attributes="omit_sys_original=true" label="Upfront costs (if applicable)" max_length="20" name="upfront_cost" type="currency"/>
-        <element attributes="omit_sys_original=true,serializer=com.glide.currency2.Currency2XMLSerializer" label="Upfront costs (if applicable)" max_length="32" name="upfront_costs" type="currency2"/>
-        <element attributes="edge_encryption_enabled=true" label="Exempt List 8.2 or 9.2 related function reference" max_length="255" name="white_list_related_function_reference" type="string"/>
+        <element attributes="omit_sys_original=true,serializer=com.glide.currency2.Currency2XMLSerializer" label="Upfront costs (if applicable) (NZD)" max_length="32" name="upfront_costs" type="currency"/>
+        <element attributes="edge_encryption_enabled=true" label="Exempt List 8.2 or 9.2 related function reference" max_length="255" name="white_list_related_function_reference" reference="x_kiwib_bs11_asses_exemption" reference_qual="sys_id!=6c170c971be874d0533e0dc8ec4bcb79^sys_id!=68170c971be874d0533e0dc8ec4bcb8e^EQ" reference_qual_condition="sys_id!=6c170c971be874d0533e0dc8ec4bcb79^sys_id!=68170c971be874d0533e0dc8ec4bcb8e^EQ" type="reference"/>
         <element attributes="edge_encryption_enabled=true" choice="1" label="Whose Business Continuity arrangements will this service rely on?" max_length="40" name="whose_business_continuity_arrangements" type="string">
             <choice>
                 <element inactive_on_update="false" label="Supplier" sequence="0" value="supplier"/>

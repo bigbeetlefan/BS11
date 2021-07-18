@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field>operations_and_customer_impact</field>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>(KB) Field msg - Op and cust impact</name>
+        <order/>
+        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+//    if (isLoading) {
+//       return;
+//    }
+
+   //Type appropriate comment here, and begin script below
+   g_form.showFieldMsg('operations_and_customer_impact', 'What would be the impact on Kiwibank\'s operations and customers in the event the supplier is unable to deliver the required service/system, either temporarily or longer term? ', 'info', false);
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>Bing.Liu@kiwibank.co.nz</sys_created_by>
+        <sys_created_on>2021-07-05 21:30:37</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>023d6d271b817050533e0dc8ec4bcba5</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>(KB) Field msg - Op and cust impact</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="BS11 Assessment" source="x_kiwib_bs11_asses">af07b2731bfae890533e0dc8ec4bcbb7</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="BS11 Assessment">af07b2731bfae890533e0dc8ec4bcbb7</sys_scope>
+        <sys_update_name>sys_script_client_023d6d271b817050533e0dc8ec4bcba5</sys_update_name>
+        <sys_updated_by>Bing.Liu@kiwibank.co.nz</sys_updated_by>
+        <sys_updated_on>2021-07-05 21:32:17</sys_updated_on>
+        <table>x_kiwib_bs11_asses_bs11_assessment</table>
+        <type>onChange</type>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>

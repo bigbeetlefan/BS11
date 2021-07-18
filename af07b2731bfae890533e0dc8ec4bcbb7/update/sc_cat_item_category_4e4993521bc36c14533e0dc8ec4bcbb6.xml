@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_category">
     <sc_cat_item_category action="INSERT_OR_UPDATE">
         <sc_cat_item display_value="BS11 Assessment">a84bcbd61b036c14533e0dc8ec4bcb52</sc_cat_item>
-        <sc_category display_value="Governance Risk and Compliance">847f8d38874033003058d1a936cb0bc8</sc_category>
+        <sc_category display_value="Governance, Risk, and Compliance">847f8d38874033003058d1a936cb0bc8</sc_category>
         <sys_class_name>sc_cat_item_category</sys_class_name>
         <sys_created_by>Bing.Liu@kiwibank.co.nz</sys_created_by>
         <sys_created_on>2021-03-24 22:04:46</sys_created_on>

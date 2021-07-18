@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="confirm_bcp_appropriate_adequate" table="x_kiwib_bs11_asses_bs11_assessment" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>confirm_bcp_appropriate_adequate</element>
+            <name>x_kiwib_bs11_asses_bs11_assessment</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>Bing.Liu@kiwibank.co.nz</sys_created_by>
+            <sys_created_on>2021-07-08 02:12:23</sys_created_on>
+            <sys_id>cde04d501b95f850533e0dc8ec4bcb4d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>confirm_bcp_appropriate_adequate</sys_name>
+            <sys_package display_value="BS11 Assessment" source="x_kiwib_bs11_asses">af07b2731bfae890533e0dc8ec4bcbb7</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="BS11 Assessment">af07b2731bfae890533e0dc8ec4bcbb7</sys_scope>
+            <sys_update_name>sys_choice_x_kiwib_bs11_asses_bs11_assessment_confirm_bcp_appropriate_adequate</sys_update_name>
+            <sys_updated_by>Bing.Liu@kiwibank.co.nz</sys_updated_by>
+            <sys_updated_on>2021-07-08 02:12:23</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>confirm_bcp_appropriate_adequate</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Yes</label>
+            <language>en</language>
+            <name>x_kiwib_bs11_asses_bs11_assessment</name>
+            <sequence>1</sequence>
+            <synonyms/>
+            <sys_created_by>Bing.Liu@kiwibank.co.nz</sys_created_by>
+            <sys_created_on>2021-07-08 02:12:23</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>99d049dc1b55f850533e0dc8ec4bcb47</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>Bing.Liu@kiwibank.co.nz</sys_updated_by>
+            <sys_updated_on>2021-07-08 02:13:30</sys_updated_on>
+            <value>1</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>confirm_bcp_appropriate_adequate</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>No</label>
+            <language>en</language>
+            <name>x_kiwib_bs11_asses_bs11_assessment</name>
+            <sequence>2</sequence>
+            <synonyms/>
+            <sys_created_by>Bing.Liu@kiwibank.co.nz</sys_created_by>
+            <sys_created_on>2021-07-08 02:12:30</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>cde00d5c1b55f850533e0dc8ec4bcbcf</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>Bing.Liu@kiwibank.co.nz</sys_updated_by>
+            <sys_updated_on>2021-07-08 02:13:32</sys_updated_on>
+            <value>0</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>confirm_bcp_appropriate_adequate</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>No - service must be implemented before BCP can be assessed</label>
+            <language>en</language>
+            <name>x_kiwib_bs11_asses_bs11_assessment</name>
+            <sequence>3</sequence>
+            <synonyms/>
+            <sys_created_by>Bing.Liu@kiwibank.co.nz</sys_created_by>
+            <sys_created_on>2021-07-08 02:14:01</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>33114d901b95f850533e0dc8ec4bcbfd</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>Bing.Liu@kiwibank.co.nz</sys_updated_by>
+            <sys_updated_on>2021-07-08 02:14:51</sys_updated_on>
+            <value>2</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

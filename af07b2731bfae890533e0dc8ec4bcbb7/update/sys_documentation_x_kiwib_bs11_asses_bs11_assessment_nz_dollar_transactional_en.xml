@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="nz_dollar_transactional" label="NZ dollar transactional or similar accounts, used by individuals and businesses for their transactional needs, including Automatic Teller Machine (ATM) services" language="en" table="x_kiwib_bs11_asses_bs11_assessment">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>nz_dollar_transactional</element>
+            <help/>
+            <hint/>
+            <label>NZ dollar transactional or similar accounts, used by individuals and businesses for their transactional needs, including Automatic Teller Machine (ATM) services</label>
+            <language>en</language>
+            <name>x_kiwib_bs11_asses_bs11_assessment</name>
+            <plural>NZ dollar transactional or similar accounts, used by individuals and businesses </plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>Bing.Liu@kiwibank.co.nz</sys_created_by>
+            <sys_created_on>2021-07-05 21:04:12</sys_created_on>
+            <sys_id>be27a1231b417050533e0dc8ec4bcb05</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>NZ dollar transactional or similar accounts, used by individuals and businesses for their transactional needs, including Automatic Teller Machine (ATM) services</sys_name>
+            <sys_package display_value="BS11 Assessment" source="x_kiwib_bs11_asses">af07b2731bfae890533e0dc8ec4bcbb7</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="BS11 Assessment">af07b2731bfae890533e0dc8ec4bcbb7</sys_scope>
+            <sys_update_name>sys_documentation_x_kiwib_bs11_asses_bs11_assessment_nz_dollar_transactional_en</sys_update_name>
+            <sys_updated_by>Bing.Liu@kiwibank.co.nz</sys_updated_by>
+            <sys_updated_on>2021-07-05 21:04:12</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

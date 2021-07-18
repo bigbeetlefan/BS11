@@ -6,10 +6,10 @@
         <attributes>edge_encryption_enabled=true</attributes>
         <audit>false</audit>
         <calculation/>
-        <choice>0</choice>
+        <choice>1</choice>
         <choice_field/>
         <choice_table/>
-        <column_label>Are you likely to consider involving a related party in the outsourcing? If so, </column_label>
+        <column_label>Related Party of Kiwibank involved? </column_label>
         <comments/>
         <create_roles/>
         <default_value/>
@@ -27,7 +27,7 @@
         <foreign_database/>
         <function_definition/>
         <function_field>false</function_field>
-        <internal_type display_value="String">string</internal_type>
+        <internal_type display_value="Choice">choice</internal_type>
         <mandatory>false</mandatory>
         <max_length>255</max_length>
         <name>x_kiwib_bs11_asses_bs11_assessment</name>
@@ -48,15 +48,15 @@
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>Bing.Liu@kiwibank.co.nz</sys_created_by>
         <sys_created_on>2021-03-22 21:11:57</sys_created_on>
-        <sys_id>a40a34b5db8b201422483a83e2961966</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_name>Are you likely to consider involving a related party in the outsourcing? If so, please provide the related party name</sys_name>
+        <sys_id>bf4d48041b643c10533e0dc8ec4bcb24</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Related Party of Kiwibank involved? </sys_name>
         <sys_package display_value="BS11 Assessment" source="x_kiwib_bs11_asses">af07b2731bfae890533e0dc8ec4bcbb7</sys_package>
         <sys_policy/>
         <sys_scope display_value="BS11 Assessment">af07b2731bfae890533e0dc8ec4bcbb7</sys_scope>
         <sys_update_name>sys_dictionary_x_kiwib_bs11_asses_bs11_assessment_involving_related_party_in_outsourcing</sys_update_name>
         <sys_updated_by>Bing.Liu@kiwibank.co.nz</sys_updated_by>
-        <sys_updated_on>2021-03-22 21:11:57</sys_updated_on>
+        <sys_updated_on>2021-06-15 21:04:13</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>

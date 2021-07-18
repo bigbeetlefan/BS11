@@ -9,7 +9,7 @@
         <choice>1</choice>
         <choice_field/>
         <choice_table/>
-        <column_label>My arrangement is outside the scope of BS11 because</column_label>
+        <column_label>Based on above, this arrangement is</column_label>
         <comments/>
         <create_roles/>
         <default_value/>
@@ -28,7 +28,7 @@
         <function_definition/>
         <function_field>false</function_field>
         <internal_type display_value="String">string</internal_type>
-        <mandatory>false</mandatory>
+        <mandatory>true</mandatory>
         <max_length>40</max_length>
         <name>x_kiwib_bs11_asses_bs11_assessment</name>
         <next_element/>
@@ -48,15 +48,15 @@
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>Bing.Liu@kiwibank.co.nz</sys_created_by>
         <sys_created_on>2021-03-22 21:09:01</sys_created_on>
-        <sys_id>f159b835db8b201422483a83e29619d6</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_name>My arrangement is outside the scope of BS11 because</sys_name>
+        <sys_id>774d48041b643c10533e0dc8ec4bcb33</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Based on above, this arrangement is</sys_name>
         <sys_package display_value="BS11 Assessment" source="x_kiwib_bs11_asses">af07b2731bfae890533e0dc8ec4bcbb7</sys_package>
         <sys_policy/>
         <sys_scope display_value="BS11 Assessment">af07b2731bfae890533e0dc8ec4bcbb7</sys_scope>
         <sys_update_name>sys_dictionary_x_kiwib_bs11_asses_bs11_assessment_my_arrangement_is_outside_scope</sys_update_name>
         <sys_updated_by>Bing.Liu@kiwibank.co.nz</sys_updated_by>
-        <sys_updated_on>2021-03-22 21:09:01</sys_updated_on>
+        <sys_updated_on>2021-06-15 04:15:36</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>

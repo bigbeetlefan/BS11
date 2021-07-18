@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action">
+    <sys_ui_policy_action action="DELETE">
+        <cleared>true</cleared>
+        <disabled>ignore</disabled>
+        <field>describe_supplier_bcp_function</field>
+        <mandatory>false</mandatory>
+        <sys_class_name>sys_ui_policy_action</sys_class_name>
+        <sys_created_by>Bing.Liu@kiwibank.co.nz</sys_created_by>
+        <sys_created_on>2021-04-06 21:46:01</sys_created_on>
+        <sys_id>3f7152ae1b572018533e0dc8ec4bcb06</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>describe_supplier_bcp_function</sys_name>
+        <sys_package display_value="BS11 Assessment" source="x_kiwib_bs11_asses">af07b2731bfae890533e0dc8ec4bcbb7</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="BS11 Assessment">af07b2731bfae890533e0dc8ec4bcbb7</sys_scope>
+        <sys_update_name>sys_ui_policy_action_3f7152ae1b572018533e0dc8ec4bcb06</sys_update_name>
+        <sys_updated_by>Bing.Liu@kiwibank.co.nz</sys_updated_by>
+        <sys_updated_on>2021-06-14 22:17:22</sys_updated_on>
+        <table>x_kiwib_bs11_asses_bs11_assessment</table>
+        <ui_policy display_value="(KB) Business continuity planning - Yes">2dc842661b172018533e0dc8ec4bcba4</ui_policy>
+        <visible>false</visible>
+    </sys_ui_policy_action>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="BS11 Assessment">af07b2731bfae890533e0dc8ec4bcbb7</application>
+        <file_path/>
+        <instance_id>5eff1e92db012f4c0e785d00cf961905</instance_id>
+        <instance_name>kiwibankdev</instance_name>
+        <name>sys_ui_policy_action_3f7152ae1b572018533e0dc8ec4bcb06</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action"><sys_ui_policy_action action="INSERT_OR_UPDATE"><cleared>true</cleared><disabled>ignore</disabled><field>describe_supplier_bcp_function</field><mandatory>false</mandatory><sys_class_name>sys_ui_policy_action</sys_class_name><sys_created_by>Bing.Liu@kiwibank.co.nz</sys_created_by><sys_created_on>2021-04-06 21:46:01</sys_created_on><sys_id>3f7152ae1b572018533e0dc8ec4bcb06</sys_id><sys_mod_count>5</sys_mod_count><sys_name>describe_supplier_bcp_function</sys_name><sys_package display_value="BS11 Assessment" source="x_kiwib_bs11_asses">af07b2731bfae890533e0dc8ec4bcbb7</sys_package><sys_policy/><sys_scope display_value="BS11 Assessment">af07b2731bfae890533e0dc8ec4bcbb7</sys_scope><sys_update_name>sys_ui_policy_action_3f7152ae1b572018533e0dc8ec4bcb06</sys_update_name><sys_updated_by>Bing.Liu@kiwibank.co.nz</sys_updated_by><sys_updated_on>2021-06-14 22:17:22</sys_updated_on><table>x_kiwib_bs11_asses_bs11_assessment</table><ui_policy display_value="(KB) Business continuity planning - Yes">2dc842661b172018533e0dc8ec4bcba4</ui_policy><visible>false</visible></sys_ui_policy_action></record_update>]]></payload>
+        <payload_hash>1201998722</payload_hash>
+        <record_name>describe_supplier_bcp_function</record_name>
+        <reverted_from/>
+        <source>55f11c881ba43c10533e0dc8ec4bcb19</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>Bing.Liu@kiwibank.co.nz</sys_created_by>
+        <sys_created_on>2021-06-14 22:17:22</sys_created_on>
+        <sys_id>ce8eedb81bf87814533e0dc8ec4bcb09</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17a0c99c7b10000001</sys_recorded_at>
+        <sys_updated_by>Bing.Liu@kiwibank.co.nz</sys_updated_by>
+        <sys_updated_on>2021-06-14 22:17:22</sys_updated_on>
+        <type>UI Policy Action</type>
+        <update_guid>468eedb839f87814a1f693a8a34cee09</update_guid>
+        <update_guid_history>468eedb839f87814a1f693a8a34cee09:1201998722,867ea5b8ccf878148cdfcab6a2edc2c9:420165875,5b6ee9b889f87814ad5c125194456960:-1052619170,557d2df411f87814b6d3ff2a7007ce2a:1945450971,bddc61b42af87814ff3887b0fe4e42ed:1729366444,dd7d0844de643c1019af2a5708468634:-1151437045</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>Bing.Liu@kiwibank.co.nz</sys_created_by>
+        <sys_created_on>2021-06-15 03:27:28</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_policy_action">sys_ui_policy_action</sys_db_object>
+        <sys_id>657da573df8c44ea90a5f82b6ab75581</sys_id>
+        <sys_metadata>3f7152ae1b572018533e0dc8ec4bcb06</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>describe_supplier_bcp_function</sys_name>
+        <sys_package display_value="BS11 Assessment" source="x_kiwib_bs11_asses">af07b2731bfae890533e0dc8ec4bcbb7</sys_package>
+        <sys_parent display_value="(KB) Business continuity planning - Yes">2dc842661b172018533e0dc8ec4bcba4</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="BS11 Assessment">af07b2731bfae890533e0dc8ec4bcbb7</sys_scope>
+        <sys_scope_delete display_value="">0ee22e54a71348948a0c910e8eb2a990</sys_scope_delete>
+        <sys_update_name>sys_ui_policy_action_3f7152ae1b572018533e0dc8ec4bcb06</sys_update_name>
+        <sys_update_version display_value="sys_ui_policy_action_3f7152ae1b572018533e0dc8ec4bcb06">ce8eedb81bf87814533e0dc8ec4bcb09</sys_update_version>
+        <sys_updated_by>Bing.Liu@kiwibank.co.nz</sys_updated_by>
+        <sys_updated_on>2021-06-15 03:27:28</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

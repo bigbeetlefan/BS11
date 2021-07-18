@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action">
+    <sys_ui_policy_action action="INSERT_OR_UPDATE">
+        <cleared>true</cleared>
+        <disabled>ignore</disabled>
+        <field>relied_on_assessing_supplier_bcp</field>
+        <mandatory>true</mandatory>
+        <sys_class_name>sys_ui_policy_action</sys_class_name>
+        <sys_created_by>Bing.Liu@kiwibank.co.nz</sys_created_by>
+        <sys_created_on>2021-06-14 02:20:04</sys_created_on>
+        <sys_id>e75c15ac1b38b414533e0dc8ec4bcbee</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>relied_on_assessing_supplier_bcp</sys_name>
+        <sys_package display_value="BS11 Assessment" source="x_kiwib_bs11_asses">af07b2731bfae890533e0dc8ec4bcbb7</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="BS11 Assessment">af07b2731bfae890533e0dc8ec4bcbb7</sys_scope>
+        <sys_update_name>sys_ui_policy_action_e75c15ac1b38b414533e0dc8ec4bcbee</sys_update_name>
+        <sys_updated_by>Bing.Liu@kiwibank.co.nz</sys_updated_by>
+        <sys_updated_on>2021-06-15 03:23:38</sys_updated_on>
+        <table>x_kiwib_bs11_asses_bs11_assessment</table>
+        <ui_policy display_value="(KB) Whose BCP assrangment reply on">802c996c1b38b414533e0dc8ec4bcb1b</ui_policy>
+        <visible>true</visible>
+    </sys_ui_policy_action>
+</record_update>
